@@ -12,6 +12,9 @@ python-dotenv==1.2.1
 werkzeug==3.1.5
 gunicorn==25.1.0
 
+# ML
+scikit-learn==1.8.0
+
 # AI chat
 anthropic==0.84.0
 

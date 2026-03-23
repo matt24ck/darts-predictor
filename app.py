@@ -260,6 +260,7 @@ def chat_api():
         players_list=players_list,
         db=db,
         store=store,
+        model_180s=models.get("180s"),
     )
 
     # Save user message
@@ -699,6 +700,131 @@ def admin_predict_match():
     scheduler._generate_predictions(summary)
     scheduler._auto_place_bets(summary)
     return jsonify(summary)
+
+
+@app.route('/api/admin/ingest-results', methods=['POST'])
+@login_required
+def admin_ingest_results():
+    """
+    Fetch results for pending matches from Statorium API and settle bets.
+
+    Lightweight ingest — only fetches individual match details for matches
+    we're already tracking, not the full pipeline.
+    """
+    from src.ingest.api_client import StatoriumClient
+    from src.ingest.parsers import MatchParser
+
+    statorium_key = os.environ.get("STATORIUM_API_KEY", "")
+    if not statorium_key:
+        return jsonify({"error": "STATORIUM_API_KEY not configured"}), 400
+
+    pending = db.get_upcoming_matches(status="scheduled")
+    today = date.today().isoformat()
+    # Only try to settle matches from before today
+    past = [m for m in pending if m["match_date"] < today]
+
+    if not past:
+        return jsonify({"status": "ok", "message": "No past matches to settle", "settled": 0})
+
+    client = StatoriumClient(api_key=statorium_key)
+    parser = MatchParser()
+    settled_count = 0
+    errors = []
+
+    try:
+        for match in past:
+            # Try to find the match in Statorium by searching parquet data first
+            # (cheaper than API calls)
+            home_id = match["home_player_id"]
+            away_id = match["away_player_id"]
+            match_date = match["match_date"]
+
+            # Check parquet store for result
+            matches_df = store.get_matches()
+            result_found = False
+
+            if not matches_df.empty:
+                # Try home/away as listed
+                result_df = matches_df[
+                    (matches_df["home_player_id"] == home_id) &
+                    (matches_df["away_player_id"] == away_id)
+                ]
+                if "match_date" in result_df.columns:
+                    result_df = result_df[
+                        result_df["match_date"].astype(str).str[:10] == match_date
+                    ]
+
+                if result_df.empty:
+                    # Try reversed
+                    result_df = matches_df[
+                        (matches_df["home_player_id"] == away_id) &
+                        (matches_df["away_player_id"] == home_id)
+                    ]
+                    if "match_date" in result_df.columns:
+                        result_df = result_df[
+                            result_df["match_date"].astype(str).str[:10] == match_date
+                        ]
+                    if not result_df.empty:
+                        row = result_df.iloc[0]
+                        is_set = bool(row.get("is_set_format", False))
+                        home_won = (row["away_sets"] > row["home_sets"]) if is_set else (row["away_legs"] > row["home_legs"])
+                        tracker.settle_match(match["id"], home_won)
+                        settled_count += 1
+                        result_found = True
+                else:
+                    row = result_df.iloc[0]
+                    is_set = bool(row.get("is_set_format", False))
+                    home_won = (row["home_sets"] > row["away_sets"]) if is_set else (row["home_legs"] > row["away_legs"])
+                    tracker.settle_match(match["id"], home_won)
+                    settled_count += 1
+                    result_found = True
+
+            if result_found:
+                continue
+
+            # Not in parquet — try Statorium API directly
+            # We need the Statorium match_id. Check external_match_id or search.
+            ext_id = match.get("external_match_id")
+            if not ext_id:
+                continue
+
+            try:
+                match_data = client.get_match(int(ext_id))
+                raw = match_data.get("match", match_data)
+
+                # Check if match is finished (has scores)
+                home_p = raw.get("homeParticipant", {})
+                away_p = raw.get("awayParticipant", {})
+                home_sets = int(home_p.get("sets", 0) or 0)
+                away_sets = int(away_p.get("sets", 0) or 0)
+                home_legs = int(home_p.get("legs", 0) or 0)
+                away_legs = int(away_p.get("legs", 0) or 0)
+
+                if home_sets == 0 and away_sets == 0 and home_legs == 0 and away_legs == 0:
+                    continue  # Match not yet played
+
+                is_set = home_sets > 0 or away_sets > 0
+                home_won = (home_sets > away_sets) if is_set else (home_legs > away_legs)
+
+                h_score = str(home_sets if is_set else home_legs)
+                a_score = str(away_sets if is_set else away_legs)
+
+                tracker.settle_match(match["id"], home_won, h_score, a_score)
+                settled_count += 1
+
+            except Exception as e:
+                errors.append(f"Match {match['id']}: {str(e)}")
+                logger.warning(f"Failed to fetch result for match {match['id']}: {e}")
+
+    finally:
+        client.close()
+
+    return jsonify({
+        "status": "ok",
+        "checked": len(past),
+        "settled": settled_count,
+        "errors": errors,
+    })
 
 
 # =========================================================================

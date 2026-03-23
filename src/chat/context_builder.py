@@ -1,7 +1,7 @@
 """
 Builds structured context for the Claude Haiku system prompt.
 
-Injects current ratings, track record, and upcoming match data
+Injects current ratings, 180s stats, track record, and upcoming match data
 so the model can answer questions about players, value, and performance.
 """
 
@@ -14,24 +14,32 @@ def build_chat_context(
     players_list: List[Dict],
     db,
     store=None,
+    model_180s=None,
 ) -> str:
     """
-    Build a ~2000-token system prompt with live data context.
+    Build system prompt with live data context.
 
     Args:
         glicko_model: Loaded Glicko2System (or None)
         players_list: List of {player_id, name} dicts
         db: SqliteStore instance
         store: ParquetStore instance (optional, for match history)
+        model_180s: Loaded VisitLevel180sModel (or None)
 
     Returns:
         System prompt string
     """
     sections = [SYSTEM_PREAMBLE]
 
+    name_lookup = {p["player_id"]: p["name"] for p in players_list}
+
     # Top player ratings
     if glicko_model and hasattr(glicko_model, "ratings"):
-        sections.append(_build_ratings_section(glicko_model, players_list))
+        sections.append(_build_ratings_section(glicko_model, name_lookup))
+
+    # 180s stats
+    if model_180s and hasattr(model_180s, "player_stats"):
+        sections.append(_build_180s_section(model_180s, name_lookup))
 
     # Track record summary
     if db:
@@ -44,41 +52,76 @@ def build_chat_context(
     return "\n\n".join(sections)
 
 
-SYSTEM_PREAMBLE = """You are a data lookup tool for a darts betting platform. You are NOT an analyst \
-and must NOT provide your own opinions, insights, predictions, or advice.
+SYSTEM_PREAMBLE = """You are a helpful assistant for a darts betting platform. You have access to \
+live data from a Glicko-2 rating system, a visit-level 180s prediction model, and a betting track record.
 
-STRICT RULES:
-- ONLY report data that is explicitly provided below. Never infer, speculate, or extrapolate.
-- If the user asks for something not in the data, say "I don't have that data."
-- Do NOT say "I think", "I recommend", "you should", or offer any subjective assessment.
-- Do NOT interpret what the numbers mean or whether a bet is good or bad.
-- Do NOT provide betting advice, strategy tips, or risk commentary.
-- Present numbers exactly as given. Do not round, adjust, or editorialize.
-- Keep responses short and factual. Use tables or bullet points.
+Your role:
+- Answer questions about player ratings, 180s rates, match predictions, and the model's track record.
+- Present data clearly using tables or bullet points when appropriate.
+- You may explain what the data means (e.g. "a higher rating means a stronger player") but do not \
+give personal betting advice or tell users what to bet on.
+- If asked about a player or stat not in the data below, say you don't have that information.
+- Be concise.
 
-You have access to the following data sections below:
-- Player Glicko-2 ratings (higher = stronger, RD = uncertainty, TV bonus = televised event adjustment)
-- Model betting track record (wins, losses, P&L from automated bets)
-- Today's match predictions with bookmaker odds and calculated edges"""
+Key concepts:
+- Glicko-2 ratings: higher = stronger. RD (rating deviation) = uncertainty. TV bonus = adjustment for televised events.
+- 180s rate: probability of throwing a 180 per 3-dart visit. Population average is ~4.7%.
+- Edge: model probability minus bookmaker implied probability. Positive edge = potential value.
+- Kelly criterion: the model uses quarter-Kelly (25%) with a 3% minimum edge threshold for auto-bets."""
 
 
-def _build_ratings_section(glicko_model, players_list: List[Dict]) -> str:
-    """Build top 25 player ratings section."""
-    name_lookup = {p["player_id"]: p["name"] for p in players_list}
-
+def _build_ratings_section(glicko_model, name_lookup: Dict[int, str]) -> str:
+    """Build top 30 player ratings section."""
     rated = []
     for pid, rating in glicko_model.ratings.items():
         name = name_lookup.get(pid, f"Player {pid}")
-        rated.append((name, rating.rating, rating.rd, getattr(rating, "tv_bonus", 0)))
+        rated.append((name, pid, rating.rating, rating.rd, getattr(rating, "tv_bonus", 0)))
 
-    # Sort by rating descending
+    rated.sort(key=lambda x: x[2], reverse=True)
+    top = rated[:30]
+
+    lines = ["CURRENT TOP 30 PLAYER RATINGS (Glicko-2):"]
+    lines.append("Rank | Player | Rating | RD | TV Bonus")
+    for i, (name, pid, rating, rd, tv) in enumerate(top, 1):
+        tv_str = f"+{tv:.0f}" if tv > 5 else "-"
+        lines.append(f"{i:2d}. {name}: {rating:.0f} (RD {rd:.0f}, TV {tv_str})")
+
+    return "\n".join(lines)
+
+
+def _build_180s_section(model_180s, name_lookup: Dict[int, str]) -> str:
+    """Build top 30 players by 180s rate."""
+    stats = model_180s.player_stats
+    if not stats:
+        return ""
+
+    rated = []
+    for pid, pstats in stats.items():
+        pid = int(pid) if isinstance(pid, str) else pid
+        name = name_lookup.get(pid, f"Player {pid}")
+        shrunk_rate = getattr(pstats, "shrunk_rate", 0) if not isinstance(pstats, dict) else pstats.get("shrunk_rate", 0)
+        total_visits = getattr(pstats, "total_visits", 0) if not isinstance(pstats, dict) else pstats.get("total_visits", 0)
+        total_180s = getattr(pstats, "total_180s", 0) if not isinstance(pstats, dict) else pstats.get("total_180s", 0)
+        rated.append((name, shrunk_rate, total_visits, total_180s))
+
     rated.sort(key=lambda x: x[1], reverse=True)
-    top = rated[:25]
+    top = rated[:30]
 
-    lines = ["CURRENT TOP 25 PLAYER RATINGS (Glicko-2):"]
-    for i, (name, rating, rd, tv) in enumerate(top, 1):
-        tv_str = f", TV bonus +{tv:.0f}" if tv > 5 else ""
-        lines.append(f"{i:2d}. {name}: {rating:.0f} (RD {rd:.0f}{tv_str})")
+    pop_rate = getattr(model_180s, "population_rate", 0.047)
+
+    lines = [
+        f"180s MODEL — TOP 30 PLAYERS BY 180 RATE (population average: {pop_rate*100:.1f}%):",
+        "Player | 180 Rate (per visit) | Total Visits | Total 180s",
+    ]
+    for name, rate, visits, count in top:
+        lines.append(f"  {name}: {rate*100:.2f}% ({visits} visits, {count} 180s)")
+
+    # Overdispersion info
+    od = getattr(model_180s, "overdispersion", None)
+    od_by_fmt = getattr(model_180s, "overdispersion_by_format", {})
+    if od or od_by_fmt:
+        lines.append(f"\nOverdispersion: leg format={od_by_fmt.get('leg', od)}, set format={od_by_fmt.get('set', od)}")
+        lines.append("(Overdispersion > 1 means more variance than Poisson — the model uses Negative Binomial)")
 
     return "\n".join(lines)
 
@@ -119,7 +162,7 @@ def _build_upcoming_section(db) -> str:
     matches = db.get_matches_for_date(today)
 
     if not matches:
-        return "UPCOMING MATCHES:\nNo matches scheduled for today."
+        return "TODAY'S MATCHES:\nNo matches scheduled for today."
 
     lines = [f"TODAY'S MATCHES ({today}):"]
 
@@ -142,6 +185,13 @@ def _build_upcoming_section(db) -> str:
                         f" | Best odds: {odds_data['best_odds']:.2f} ({odds_data.get('bookmaker', '')})"
                         f" | Edge: {edge*100:+.1f}%"
                     )
+            elif p["prediction_type"] == "total_180s_expected":
+                ev = p.get("model_expected_value")
+                if ev:
+                    ci = ""
+                    if p.get("confidence_lower") and p.get("confidence_upper"):
+                        ci = f" (95% CI: {p['confidence_lower']:.1f} - {p['confidence_upper']:.1f})"
+                    line += f"\n  Expected 180s: {ev:.1f}{ci}"
 
         # Add auto-bet info
         for b in m.get("auto_bets", []):

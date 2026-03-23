@@ -1,0 +1,141 @@
+{
+  "n_configs_tested": 2006,
+  "best_overall": {
+    "params": {
+      "initial_rd": 350.0,
+      "rd_decay_per_day": 0.4,
+      "margin_weight": 0.5,
+      "rating_period_days": 5,
+      "recency_half_life_days": 180.0,
+      "use_margin_scoring": true,
+      "use_rating_periods": true,
+      "use_recency_weighting": true,
+      "use_surface_ratings": true
+    },
+    "accuracy": 0.6185567010309279,
+    "brier_score": 0.2273576160779533,
+    "log_loss": 0.6457926204943052,
+    "calibration_error": 0.026370432641128164,
+    "composite_score": 0.7396597466272928
+  },
+  "best_by_accuracy": {
+    "params": {
+      "initial_rd": 250.0,
+      "rd_decay_per_day": 0.4,
+      "margin_weight": 0.5,
+      "rating_period_days": 5,
+      "recency_half_life_days": 365.0,
+      "use_margin_scoring": true,
+      "use_rating_periods": true,
+      "use_recency_weighting": true,
+      "use_surface_ratings": true
+    },
+    "accuracy": 0.6288659793814433
+  },
+  "best_by_calibration": {
+    "params": {
+      "initial_rd": 350.0,
+      "rd_decay_per_day": 0.4,
+      "margin_weight": 0.5,
+      "rating_period_days": 5,
+      "recency_half_life_days": 180.0,
+      "use_margin_scoring": true,
+      "use_rating_periods": true,
+      "use_recency_weighting": true,
+      "use_surface_ratings": true
+    },
+    "calibration_error": 0.026370432641128164
+  },
+  "top_5": [
+    {
+      "rank": 1,
+      "params": {
+        "initial_rd": 350.0,
+        "rd_decay_per_day": 0.4,
+        "margin_weight": 0.5,
+        "rating_period_days": 5,
+        "recency_half_life_days": 180.0,
+        "use_margin_scoring": true,
+        "use_rating_periods": true,
+        "use_recency_weighting": true,
+        "use_surface_ratings": true
+      },
+      "accuracy": 0.6185567010309279,
+      "brier_score": 0.2273576160779533,
+      "calibration_error": 0.026370432641128164,
+      "composite_score": 0.7396597466272928
+    },
+    {
+      "rank": 2,
+      "params": {
+        "initial_rd": 350.0,
+        "rd_decay_per_day": 0.4,
+        "margin_weight": 0.5,
+        "rating_period_days": 7,
+        "recency_half_life_days": 180.0,
+        "use_margin_scoring": true,
+        "use_rating_periods": true,
+        "use_recency_weighting": true,
+        "use_surface_ratings": true
+      },
+      "accuracy": 0.6185567010309279,
+      "brier_score": 0.2273576160779533,
+      "calibration_error": 0.026370432641128164,
+      "composite_score": 0.7396597466272928
+    },
+    {
+      "rank": 3,
+      "params": {
+        "initial_rd": 350.0,
+        "rd_decay_per_day": 0.4,
+        "margin_weight": 0.5,
+        "rating_period_days": 10,
+        "recency_half_life_days": 180.0,
+        "use_margin_scoring": true,
+        "use_rating_periods": true,
+        "use_recency_weighting": true,
+        "use_surface_ratings": true
+      },
+      "accuracy": 0.6185567010309279,
+      "brier_score": 0.2273576160779533,
+      "calibration_error": 0.026370432641128164,
+      "composite_score": 0.7396597466272928
+    },
+    {
+      "rank": 4,
+      "params": {
+        "initial_rd": 350.0,
+        "rd_decay_per_day": 0.4,
+        "margin_weight": 0.5,
+        "rating_period_days": 14,
+        "recency_half_life_days": 180.0,
+        "use_margin_scoring": true,
+        "use_rating_periods": true,
+        "use_recency_weighting": true,
+        "use_surface_ratings": true
+      },
+      "accuracy": 0.6185567010309279,
+      "brier_score": 0.2273576160779533,
+      "calibration_error": 0.026370432641128164,
+      "composite_score": 0.7396597466272928
+    },
+    {
+      "rank": 5,
+      "params": {
+        "initial_rd": 300.0,
+        "rd_decay_per_day": 0.2,
+        "margin_weight": 0.5,
+        "rating_period_days": 5,
+        "recency_half_life_days": 180.0,
+        "use_margin_scoring": true,
+        "use_rating_periods": true,
+        "use_recency_weighting": true,
+        "use_surface_ratings": true
+      },
+      "accuracy": 0.6215022091310751,
+      "brier_score": 0.22699741959538716,
+      "calibration_error": 0.0288905154216866,
+      "composite_score": 0.737165884641284
+    }
+  ]
+}

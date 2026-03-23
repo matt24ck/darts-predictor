@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darts Match Predictor</title>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Darts Match Predictor</h1>
+            <p class="subtitle">Match outcome and 180s distribution analysis</p>
+        </header>
+
+        <div class="main-content">
+            <!-- Tab Bar -->
+            <div class="tab-bar">
+                <button class="tab-btn active" data-tab="standard">Standard</button>
+                <button class="tab-btn modus-tab" data-tab="modus">MODUS</button>
+            </div>
+
+            <!-- Standard Tab -->
+            <div class="tab-panel active" id="tab-standard">
+                <div class="card">
+                    <h2>Match Setup</h2>
+
+                    <div class="form-group">
+                        <label for="home-player">Home Player</label>
+                        <select id="home-player" class="form-control">
+                            <option value="">Select player...</option>
+                            {% for player in players %}
+                            <option value="{{ player.player_id }}">{{ player.name }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="away-player">Away Player</label>
+                        <select id="away-player" class="form-control">
+                            <option value="">Select player...</option>
+                            {% for player in players %}
+                            <option value="{{ player.player_id }}">{{ player.name }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="format-section">
+                        <h3>Match Format</h3>
+
+                        <div class="form-group">
+                            <label>
+                                <input type="checkbox" id="is-set-format">
+                                Set Format
+                            </label>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="best-of-sets">Best of Sets</label>
+                                <input type="number" id="best-of-sets" class="form-control" value="7" min="0" max="25">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="best-of-legs">Best of Legs</label>
+                                <input type="number" id="best-of-legs" class="form-control" value="5" min="1" max="25">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="league-ids">Leagues</label>
+                            <select id="league-ids" class="form-control" multiple="multiple">
+                                {% for league in leagues %}
+                                {% if league.league_id != 38 %}
+                                <option value="{{ league.league_id }}">{{ league.name }}</option>
+                                {% endif %}
+                                {% endfor %}
+                            </select>
+                            <small class="form-hint">
+                                Hold Ctrl (Cmd on Mac) to select multiple leagues
+                            </small>
+                        </div>
+                    </div>
+
+                    <button id="predict-btn" class="btn btn-primary">Predict Match</button>
+                </div>
+            </div>
+
+            <!-- MODUS Tab -->
+            <div class="tab-panel" id="tab-modus">
+                <div class="card">
+                    <h2>Match Setup <span class="model-badge modus">MODUS Model</span></h2>
+
+                    <div class="form-group">
+                        <label for="modus-home-player">Home Player</label>
+                        <select id="modus-home-player" class="form-control">
+                            <option value="">Select player...</option>
+                            {% for player in players %}
+                            <option value="{{ player.player_id }}">{{ player.name }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="modus-away-player">Away Player</label>
+                        <select id="modus-away-player" class="form-control">
+                            <option value="">Select player...</option>
+                            {% for player in players %}
+                            <option value="{{ player.player_id }}">{{ player.name }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="format-section">
+                        <h3>Match Format</h3>
+
+                        <div class="form-group">
+                            <label for="modus-best-of-legs">Best of Legs</label>
+                            <input type="number" id="modus-best-of-legs" class="form-control" value="7" min="1" max="25">
+                        </div>
+
+                        <div class="form-group">
+                            <div class="modus-league-label">League: MODUS</div>
+                            <div class="modus-note">
+                                Uses a dedicated model trained exclusively on MODUS data with its own population prior and overdispersion estimates.
+                            </div>
+                        </div>
+                    </div>
+
+                    <button id="modus-predict-btn" class="btn btn-primary">Predict Match</button>
+                </div>
+            </div>
+
+            <!-- Results Section (shared) -->
+            <div id="results" class="results-section" style="display: none;">
+                <!-- Match Header -->
+                <div class="card standalone match-header">
+                    <h2 id="match-title"></h2>
+                    <p id="match-format"></p>
+                </div>
+
+                <!-- Win Probabilities -->
+                <div class="card standalone">
+                    <h2>Win Probabilities</h2>
+                    <div id="win-probabilities"></div>
+                </div>
+
+                <!-- Ratings -->
+                <div class="card standalone">
+                    <h2>Player Ratings</h2>
+                    <div id="ratings"></div>
+                </div>
+
+                <!-- 180s Prediction -->
+                <div class="card standalone" id="180s-section" style="display: none;">
+                    <h2>180s Prediction <span class="model-badge" id="180s-model-badge"></span></h2>
+
+                    <div class="expected-180s">
+                        <div class="stat-box">
+                            <span class="stat-label" id="home-player-label">Home</span>
+                            <span class="stat-value" id="expected-home-180s">-</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-label" id="away-player-label">Away</span>
+                            <span class="stat-value" id="expected-away-180s">-</span>
+                        </div>
+                        <div class="stat-box total">
+                            <span class="stat-label">Total</span>
+                            <span class="stat-value" id="expected-total-180s">-</span>
+                        </div>
+                    </div>
+
+                    <div class="target-section">
+                        <h3>Target 180 Count</h3>
+                        <div class="form-row">
+                            <input type="number" id="target-180s" class="form-control" value="10" min="0" max="50">
+                            <button id="calculate-prob-btn" class="btn btn-secondary">Calculate Probability</button>
+                        </div>
+                        <div id="target-probability" class="probability-result"></div>
+                    </div>
+
+                    <div class="matrix-section">
+                        <h3>180s Probability Matrix</h3>
+                        <div class="matrix-controls">
+                            <label for="max-180s">Show up to:</label>
+                            <input type="number" id="max-180s" class="form-control-small" value="20" min="5" max="50">
+                            <button id="show-matrix-btn" class="btn btn-secondary">Show Matrix</button>
+                        </div>
+                        <div id="180s-matrix"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Loading Spinner -->
+            <div id="loading" class="loading" style="display: none;">
+                <div class="spinner"></div>
+                <p>Calculating predictions...</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>Powered by Glicko-2 and Visit-Level 180s Models | Data updated: 2026-01-24</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

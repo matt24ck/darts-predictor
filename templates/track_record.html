@@ -1,0 +1,223 @@
+{% extends "base.html" %}
+{% block title %}Track Record - Darts Value Betting{% endblock %}
+
+{% block extra_head %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+{% endblock %}
+
+{% block content %}
+<h1 class="text-white mb-4"><i class="bi bi-graph-up"></i> Track Record</h1>
+
+<!-- Stats Cards -->
+<div class="row mb-4">
+    <div class="col-md-2 col-4 mb-3">
+        <div class="card standalone text-center p-3">
+            <small class="text-muted">Bets</small>
+            <div class="fw-bold fs-4">{{ stats.total_bets }}</div>
+        </div>
+    </div>
+    <div class="col-md-2 col-4 mb-3">
+        <div class="card standalone text-center p-3">
+            <small class="text-muted">Wins</small>
+            <div class="fw-bold fs-4 text-success">{{ stats.wins }}</div>
+        </div>
+    </div>
+    <div class="col-md-2 col-4 mb-3">
+        <div class="card standalone text-center p-3">
+            <small class="text-muted">Losses</small>
+            <div class="fw-bold fs-4 text-danger">{{ stats.losses }}</div>
+        </div>
+    </div>
+    <div class="col-md-2 col-4 mb-3">
+        <div class="card standalone text-center p-3">
+            <small class="text-muted">Win Rate</small>
+            <div class="fw-bold fs-4">{{ '%.1f' | format(stats.win_rate * 100) }}%</div>
+        </div>
+    </div>
+    <div class="col-md-2 col-4 mb-3">
+        <div class="card standalone text-center p-3">
+            <small class="text-muted">ROI</small>
+            <div class="fw-bold fs-4 {% if stats.roi > 0 %}text-success{% elif stats.roi < 0 %}text-danger{% endif %}">
+                {{ '%+.1f' | format(stats.roi) }}%
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2 col-4 mb-3">
+        <div class="card standalone text-center p-3">
+            <small class="text-muted">P&L</small>
+            <div class="fw-bold fs-4 {% if stats.total_pnl > 0 %}text-success{% elif stats.total_pnl < 0 %}text-danger{% endif %}">
+                {{ '%+.2f' | format(stats.total_pnl) }}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- P&L Chart -->
+<div class="card standalone mb-4">
+    <h2>Cumulative P&L</h2>
+    <canvas id="pnl-chart" height="80"></canvas>
+</div>
+
+<!-- Pending Bets (logged-in users only) -->
+{% if current_user.is_authenticated and pending_bets %}
+<div class="card standalone mb-4">
+    <h2><i class="bi bi-clock-history"></i> Pending Bets</h2>
+    <div class="table-responsive">
+        <table class="matrix-table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Match</th>
+                    <th>Market</th>
+                    <th>Odds</th>
+                    <th>Edge</th>
+                    <th>Stake</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for bet in pending_bets %}
+                <tr id="pending-{{ bet.id }}">
+                    <td>{{ bet.match_date }}</td>
+                    <td>{{ bet.home_player_name }} vs {{ bet.away_player_name }}</td>
+                    <td>{{ bet.market_description or bet.prediction_type }}</td>
+                    <td>{{ '%.2f' | format(bet.decimal_odds) }}</td>
+                    <td>{{ '%.1f' | format(bet.edge * 100) }}%</td>
+                    <td>{{ '%.2f' | format(bet.actual_stake or bet.recommended_stake) }}</td>
+                    <td>
+                        <button class="btn btn-sm btn-success settle-btn" data-bet-id="{{ bet.id }}" data-result="win">
+                            <i class="bi bi-check"></i> Win
+                        </button>
+                        <button class="btn btn-sm btn-danger settle-btn" data-bet-id="{{ bet.id }}" data-result="loss">
+                            <i class="bi bi-x"></i> Loss
+                        </button>
+                        <button class="btn btn-sm btn-secondary settle-btn" data-bet-id="{{ bet.id }}" data-result="void">
+                            Void
+                        </button>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endif %}
+
+<!-- Settled Bet History Table -->
+<div class="card standalone">
+    <h2>Bet History</h2>
+    {% if bets %}
+    <div class="table-responsive">
+        <table class="matrix-table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Match</th>
+                    <th>Market</th>
+                    <th>Odds</th>
+                    <th>Edge</th>
+                    <th>Stake</th>
+                    <th>Result</th>
+                    <th>P&L</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for bet in bets %}
+                <tr>
+                    <td>{{ bet.match_date }}</td>
+                    <td>{{ bet.home_player_name }} vs {{ bet.away_player_name }}</td>
+                    <td>{{ bet.market_description or bet.prediction_type }}</td>
+                    <td>{{ '%.2f' | format(bet.decimal_odds) }}</td>
+                    <td>{{ '%.1f' | format(bet.edge * 100) }}%</td>
+                    <td>{{ '%.2f' | format(bet.actual_stake or bet.recommended_stake) }}</td>
+                    <td>
+                        {% if bet.result == 'win' %}
+                        <span class="badge bg-success">Win</span>
+                        {% elif bet.result == 'loss' %}
+                        <span class="badge bg-danger">Loss</span>
+                        {% else %}
+                        <span class="badge bg-secondary">{{ bet.result }}</span>
+                        {% endif %}
+                    </td>
+                    <td class="{% if bet.pnl and bet.pnl > 0 %}text-success{% elif bet.pnl and bet.pnl < 0 %}text-danger{% endif %} fw-bold">
+                        {% if bet.pnl is not none %}{{ '%+.2f' | format(bet.pnl) }}{% else %}-{% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% else %}
+    <div class="text-center py-4" style="color: #607d8b;">
+        <i class="bi bi-clipboard-data" style="font-size: 2rem;"></i>
+        <p class="mt-2">No bets settled yet. Make a prediction and track your first bet!</p>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+    // Settle bet buttons
+    document.querySelectorAll('.settle-btn').forEach(btn => {
+        btn.addEventListener('click', async function() {
+            const betId = this.dataset.betId;
+            const result = this.dataset.result;
+            const row = document.getElementById('pending-' + betId);
+
+            this.disabled = true;
+            try {
+                const resp = await fetch('/api/bets/settle', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ bet_id: parseInt(betId), result: result }),
+                });
+                if (resp.ok) {
+                    row.style.opacity = '0.5';
+                    row.querySelector('td:last-child').innerHTML = `<span class="badge bg-${result === 'win' ? 'success' : result === 'loss' ? 'danger' : 'secondary'}">${result}</span>`;
+                    // Reload after brief delay to update stats
+                    setTimeout(() => location.reload(), 500);
+                }
+            } catch (err) {
+                this.disabled = false;
+                console.error(err);
+            }
+        });
+    });
+
+    const pnlData = {{ pnl_history | tojson }};
+    if (pnlData.length > 0) {
+        const ctx = document.getElementById('pnl-chart').getContext('2d');
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: pnlData.map(d => d.date ? d.date.split('T')[0] : ''),
+                datasets: [{
+                    label: 'Cumulative P&L',
+                    data: pnlData.map(d => d.cumulative_pnl),
+                    borderColor: pnlData[pnlData.length - 1].cumulative_pnl >= 0 ? '#27ae60' : '#e74c3c',
+                    backgroundColor: 'rgba(33, 150, 243, 0.1)',
+                    fill: true,
+                    tension: 0.3,
+                    pointRadius: 3,
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: { display: false },
+                },
+                scales: {
+                    y: {
+                        title: { display: true, text: 'P&L (units)' },
+                        grid: { color: 'rgba(0,0,0,0.05)' },
+                    },
+                    x: {
+                        grid: { display: false },
+                    }
+                }
+            }
+        });
+    }
+</script>
+{% endblock %}

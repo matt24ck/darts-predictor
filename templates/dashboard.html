@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+{% block title %}Dashboard - Darts Value Betting{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <h1 class="text-white mb-4">
+            <i class="bi bi-speedometer2"></i> Dashboard
+        </h1>
+    </div>
+</div>
+
+<div class="row">
+    <!-- Model Track Record -->
+    <div class="col-md-4 mb-4">
+        <div class="card standalone h-100">
+            <h2>Model Track Record</h2>
+            <div class="row text-center" id="track-stats">
+                <div class="col-6 mb-3">
+                    <div class="stat-label">Total Bets</div>
+                    <div class="stat-value" style="font-size: 1.5rem;">{{ stats.total_bets }}</div>
+                </div>
+                <div class="col-6 mb-3">
+                    <div class="stat-label">Win Rate</div>
+                    <div class="stat-value" style="font-size: 1.5rem;">{{ '%.1f' | format(stats.win_rate * 100) }}%</div>
+                </div>
+                <div class="col-6 mb-3">
+                    <div class="stat-label">ROI</div>
+                    <div class="stat-value {% if stats.roi > 0 %}text-success{% elif stats.roi < 0 %}text-danger{% endif %}"
+                         style="font-size: 1.5rem;">
+                        {{ '%+.1f' | format(stats.roi) }}%
+                    </div>
+                </div>
+                <div class="col-6 mb-3">
+                    <div class="stat-label">Total P&L</div>
+                    <div class="stat-value {% if stats.total_pnl > 0 %}text-success{% elif stats.total_pnl < 0 %}text-danger{% endif %}"
+                         style="font-size: 1.5rem;">
+                        {{ '%+.2f' | format(stats.total_pnl) }}
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex gap-2">
+                <a href="{{ url_for('tips_page') }}" class="btn btn-primary flex-fill">
+                    Today's Tips <i class="bi bi-arrow-right"></i>
+                </a>
+                <a href="{{ url_for('track_record') }}" class="btn btn-secondary flex-fill">
+                    Full Record <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Actions -->
+    <div class="col-md-8 mb-4">
+        <div class="card standalone h-100">
+            <h2>Upcoming Matches</h2>
+            <div id="upcoming-matches">
+                {% if upcoming %}
+                {% for match in upcoming %}
+                <div class="match-row p-3 mb-2 rounded" style="background: var(--light-bg);">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <strong>{{ match.home_player_name }}</strong> vs <strong>{{ match.away_player_name }}</strong>
+                            <br>
+                            <small class="text-muted">{{ match.league_name }} | {{ match.match_date }}</small>
+                        </div>
+                        <a href="{{ url_for('predict_page') }}?home={{ match.home_player_id }}&away={{ match.away_player_id }}&league={{ match.league_id }}"
+                           class="btn btn-sm btn-primary">
+                            Predict <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                {% endfor %}
+                {% else %}
+                <div class="text-center py-4" style="color: #607d8b;">
+                    <i class="bi bi-calendar-x" style="font-size: 2rem;"></i>
+                    <p class="mt-2">No upcoming matches scheduled.</p>
+                    <a href="{{ url_for('predict_page') }}" class="btn btn-primary btn-sm">
+                        Make a Custom Prediction
+                    </a>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

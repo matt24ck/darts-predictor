@@ -1,0 +1,416 @@
+{% extends "base.html" %}
+{% block title %}Predict Match - Darts Value Betting{% endblock %}
+
+{% block content %}
+<h1 class="text-white mb-4"><i class="bi bi-calculator"></i> Match Predictor</h1>
+
+<div class="main-content">
+    <!-- Tab Bar -->
+    <div class="tab-bar">
+        <button class="tab-btn active" data-tab="standard">Standard</button>
+        <button class="tab-btn modus-tab" data-tab="modus">MODUS</button>
+    </div>
+
+    <!-- Standard Tab -->
+    <div class="tab-panel active" id="tab-standard">
+        <div class="card">
+            <h2>Match Setup</h2>
+
+            <div class="form-group">
+                <label for="home-player">Home Player</label>
+                <select id="home-player" class="form-control">
+                    <option value="">Select player...</option>
+                    {% for player in players %}
+                    <option value="{{ player.player_id }}">{{ player.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="away-player">Away Player</label>
+                <select id="away-player" class="form-control">
+                    <option value="">Select player...</option>
+                    {% for player in players %}
+                    <option value="{{ player.player_id }}">{{ player.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="format-section">
+                <h3>Match Format</h3>
+
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="is-set-format">
+                        Set Format
+                    </label>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="best-of-sets">Best of Sets</label>
+                        <input type="number" id="best-of-sets" class="form-control" value="7" min="0" max="25">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="best-of-legs">Best of Legs</label>
+                        <input type="number" id="best-of-legs" class="form-control" value="5" min="1" max="25">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="league-ids">Leagues</label>
+                    <select id="league-ids" class="form-control" multiple="multiple">
+                        {% for league in leagues %}
+                        {% if league.league_id != 38 %}
+                        <option value="{{ league.league_id }}">{{ league.name }}</option>
+                        {% endif %}
+                        {% endfor %}
+                    </select>
+                    <small class="form-hint">
+                        Hold Ctrl (Cmd on Mac) to select multiple leagues
+                    </small>
+                </div>
+            </div>
+
+            <button id="predict-btn" class="btn btn-primary">Predict Match</button>
+        </div>
+    </div>
+
+    <!-- MODUS Tab -->
+    <div class="tab-panel" id="tab-modus">
+        <div class="card">
+            <h2>Match Setup <span class="model-badge modus">MODUS Model</span></h2>
+
+            <div class="form-group">
+                <label for="modus-home-player">Home Player</label>
+                <select id="modus-home-player" class="form-control">
+                    <option value="">Select player...</option>
+                    {% for player in players %}
+                    <option value="{{ player.player_id }}">{{ player.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="modus-away-player">Away Player</label>
+                <select id="modus-away-player" class="form-control">
+                    <option value="">Select player...</option>
+                    {% for player in players %}
+                    <option value="{{ player.player_id }}">{{ player.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <div class="format-section">
+                <h3>Match Format</h3>
+
+                <div class="form-group">
+                    <label for="modus-best-of-legs">Best of Legs</label>
+                    <input type="number" id="modus-best-of-legs" class="form-control" value="7" min="1" max="25">
+                </div>
+
+                <div class="form-group">
+                    <div class="modus-league-label">League: MODUS</div>
+                    <div class="modus-note">
+                        Uses a dedicated model trained exclusively on MODUS data with its own population prior and overdispersion estimates.
+                    </div>
+                </div>
+            </div>
+
+            <button id="modus-predict-btn" class="btn btn-primary">Predict Match</button>
+        </div>
+    </div>
+
+    <!-- Results Section (shared) -->
+    <div id="results" class="results-section" style="display: none;">
+        <!-- Match Header -->
+        <div class="card standalone match-header">
+            <h2 id="match-title"></h2>
+            <p id="match-format"></p>
+        </div>
+
+        <!-- Win Probabilities -->
+        <div class="card standalone">
+            <h2>Win Probabilities</h2>
+            <div id="win-probabilities"></div>
+        </div>
+
+        <!-- Ratings -->
+        <div class="card standalone">
+            <h2>Player Ratings</h2>
+            <div id="ratings"></div>
+        </div>
+
+        <!-- 180s Prediction -->
+        <div class="card standalone" id="180s-section" style="display: none;">
+            <h2>180s Prediction <span class="model-badge" id="180s-model-badge"></span></h2>
+
+            <div class="expected-180s">
+                <div class="stat-box">
+                    <span class="stat-label" id="home-player-label">Home</span>
+                    <span class="stat-value" id="expected-home-180s">-</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-label" id="away-player-label">Away</span>
+                    <span class="stat-value" id="expected-away-180s">-</span>
+                </div>
+                <div class="stat-box total">
+                    <span class="stat-label">Total</span>
+                    <span class="stat-value" id="expected-total-180s">-</span>
+                </div>
+            </div>
+
+            <div class="target-section">
+                <h3>Target 180 Count</h3>
+                <div class="form-row">
+                    <input type="number" id="target-180s" class="form-control" value="10" min="0" max="50">
+                    <button id="calculate-prob-btn" class="btn btn-secondary">Calculate Probability</button>
+                </div>
+                <div id="target-probability" class="probability-result"></div>
+            </div>
+
+            <div class="matrix-section">
+                <h3>180s Probability Matrix</h3>
+                <div class="matrix-controls">
+                    <label for="max-180s">Show up to:</label>
+                    <input type="number" id="max-180s" class="form-control-small" value="20" min="5" max="50">
+                    <button id="show-matrix-btn" class="btn btn-secondary">Show Matrix</button>
+                </div>
+                <div id="180s-matrix"></div>
+            </div>
+        </div>
+
+        <!-- Betting Value Panel -->
+        <div class="card standalone" id="betting-panel" style="display: none;">
+            <h2><i class="bi bi-cash-stack"></i> Betting Value</h2>
+            <p class="text-muted mb-3">Enter bookmaker odds to see where the value is.</p>
+
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <label class="form-label fw-bold">Home Win Odds</label>
+                    <input type="number" id="odds-home" class="form-control" step="0.01" min="1.01" placeholder="e.g. 1.55">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label class="form-label fw-bold">Away Win Odds</label>
+                    <input type="number" id="odds-away" class="form-control" step="0.01" min="1.01" placeholder="e.g. 2.50">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label class="form-label fw-bold">Match Date</label>
+                    <input type="date" id="match-date" class="form-control">
+                </div>
+            </div>
+            <button id="calc-value-btn" class="btn btn-primary mb-3">Calculate Value</button>
+
+            <div id="value-results" style="display: none;"></div>
+
+            <!-- Track bet confirmation (shown after value calc) -->
+            <div id="track-bet-section" style="display: none;">
+                <hr>
+                <div id="track-bet-feedback"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Spinner -->
+    <div id="loading" class="loading" style="display: none;">
+        <div class="spinner"></div>
+        <p>Calculating predictions...</p>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+<script>
+    const IS_AUTHENTICATED = {{ 'true' if current_user.is_authenticated else 'false' }};
+    const KELLY_FRACTION = {{ current_user.kelly_fraction if current_user.is_authenticated else 0.25 }};
+    const BANKROLL = {{ current_user.bankroll if current_user.is_authenticated else 100 }};
+
+    // Set match date to today by default
+    document.getElementById('match-date').valueAsDate = new Date();
+
+    function kellyStake(modelProb, odds, fraction) {
+        const implied = 1 / odds;
+        const edge = modelProb - implied;
+        if (edge < 0.03) return 0;
+        const b = odds - 1;
+        const fullKelly = (modelProb * b - (1 - modelProb)) / b;
+        return Math.max(0, fullKelly * fraction);
+    }
+
+    function buildValueCard(label, selection, modelProb, odds) {
+        const implied = 1 / odds;
+        const edge = modelProb - implied;
+        const kelly = kellyStake(modelProb, odds, KELLY_FRACTION);
+        const stakeUnits = kelly * BANKROLL;
+        const borderColor = edge > 0.03 ? '#27ae60' : edge > 0 ? '#f39c12' : '#e74c3c';
+
+        let trackBtn = '';
+        if (IS_AUTHENTICATED && kelly > 0) {
+            trackBtn = `
+                <div class="mt-2 pt-2 border-top">
+                    <div class="d-flex gap-2 align-items-center">
+                        <input type="number" class="form-control form-control-sm stake-override"
+                               data-selection="${selection}" data-odds="${odds}" data-model-prob="${modelProb}"
+                               data-edge="${edge}" data-recommended="${stakeUnits.toFixed(2)}"
+                               value="${stakeUnits.toFixed(2)}" min="0" step="0.01" style="width: 100px;"
+                               title="Actual stake (units)">
+                        <button class="btn btn-sm btn-success track-bet-btn" data-selection="${selection}">
+                            <i class="bi bi-bookmark-plus"></i> Track Bet
+                        </button>
+                    </div>
+                </div>`;
+        } else if (!IS_AUTHENTICATED && kelly > 0) {
+            trackBtn = `<div class="mt-2 pt-2 border-top text-muted">
+                <small><a href="/login">Login</a> to track this bet</small>
+            </div>`;
+        }
+
+        return `<div class="col-md-6 mb-3">
+            <div class="p-3 rounded" style="background: var(--light-bg); border-left: 4px solid ${borderColor};">
+                <div class="fw-bold mb-2">${label}</div>
+                <div class="d-flex justify-content-between mb-1">
+                    <span>Model:</span> <span class="fw-bold">${(modelProb * 100).toFixed(1)}%</span>
+                </div>
+                <div class="d-flex justify-content-between mb-1">
+                    <span>Implied:</span> <span>${(implied * 100).toFixed(1)}%</span>
+                </div>
+                <div class="d-flex justify-content-between mb-1">
+                    <span>Edge:</span>
+                    <span class="fw-bold ${edge > 0 ? 'text-success' : 'text-danger'}">${(edge * 100).toFixed(1)}%</span>
+                </div>
+                ${kelly > 0 ? `<div class="d-flex justify-content-between mb-1">
+                    <span>Kelly Stake:</span>
+                    <span class="fw-bold text-success">${(kelly * 100).toFixed(1)}% (${stakeUnits.toFixed(2)} units)</span>
+                </div>` : '<div class="text-muted"><small>No bet recommended (edge &lt; 3%)</small></div>'}
+                ${trackBtn}
+            </div>
+        </div>`;
+    }
+
+    // Calculate value
+    document.getElementById('calc-value-btn')?.addEventListener('click', function() {
+        const homeOdds = parseFloat(document.getElementById('odds-home').value);
+        const awayOdds = parseFloat(document.getElementById('odds-away').value);
+
+        if (!homeOdds || !awayOdds || homeOdds <= 1 || awayOdds <= 1) {
+            alert('Please enter valid decimal odds (must be > 1.00)');
+            return;
+        }
+
+        const pred = window._lastPrediction;
+        if (!pred?.win_probability) {
+            alert('Run a prediction first');
+            return;
+        }
+
+        const modelHome = pred.win_probability.home_win;
+        const modelAway = pred.win_probability.away_win;
+
+        let html = '<div class="row">';
+        html += buildValueCard(`${pred.home_player} Win`, 'home', modelHome, homeOdds);
+        html += buildValueCard(`${pred.away_player} Win`, 'away', modelAway, awayOdds);
+        html += '</div>';
+
+        document.getElementById('value-results').innerHTML = html;
+        document.getElementById('value-results').style.display = 'block';
+        document.getElementById('track-bet-section').style.display = 'block';
+        document.getElementById('track-bet-feedback').innerHTML = '';
+
+        // Attach track bet handlers
+        document.querySelectorAll('.track-bet-btn').forEach(btn => {
+            btn.addEventListener('click', trackBet);
+        });
+    });
+
+    // Track bet
+    async function trackBet(e) {
+        const btn = e.currentTarget;
+        const selection = btn.dataset.selection;
+        const card = btn.closest('.col-md-6');
+        const input = card.querySelector('.stake-override');
+
+        const pred = window._lastPrediction;
+        const ci = pred.win_probability.confidence_interval || {};
+
+        const payload = {
+            home_player_id: getActivePlayerId('home'),
+            away_player_id: getActivePlayerId('away'),
+            home_player_name: pred.home_player,
+            away_player_name: pred.away_player,
+            match_date: document.getElementById('match-date').value,
+            league_id: getActiveLeagueId(),
+            league_name: '',
+            best_of_sets: getActiveBestOfSets(),
+            best_of_legs: getActiveBestOfLegs(),
+            is_set_format: getActiveIsSetFormat(),
+            selection: selection,
+            model_probability: parseFloat(input.dataset.modelProb),
+            decimal_odds: parseFloat(input.dataset.odds),
+            confidence_interval: selection === 'home'
+                ? { lower: ci.home_lower, upper: ci.home_upper }
+                : { lower: ci.home_upper ? 1 - ci.home_upper : null, upper: ci.home_lower ? 1 - ci.home_lower : null },
+            actual_stake: parseFloat(input.value) || null,
+        };
+
+        btn.disabled = true;
+        btn.innerHTML = '<i class="bi bi-hourglass-split"></i> Tracking...';
+
+        try {
+            const resp = await fetch('/api/bets/track', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload),
+            });
+
+            const data = await resp.json();
+            if (resp.ok && data.status === 'tracked') {
+                btn.innerHTML = '<i class="bi bi-check-lg"></i> Tracked!';
+                btn.classList.replace('btn-success', 'btn-outline-success');
+                document.getElementById('track-bet-feedback').innerHTML = `
+                    <div class="alert alert-success mt-2">
+                        <i class="bi bi-check-circle"></i>
+                        Bet tracked: ${payload.model_probability > 0.5 && selection === 'home' || payload.model_probability <= 0.5 && selection === 'away' ? pred.home_player : pred.away_player} to win
+                        @ ${payload.decimal_odds} | Stake: ${data.stake_units} units | Edge: ${data.edge_pct}%
+                        <br><small><a href="/track-record">View track record</a></small>
+                    </div>`;
+            } else {
+                btn.innerHTML = '<i class="bi bi-x-lg"></i> Error';
+                btn.disabled = false;
+                document.getElementById('track-bet-feedback').innerHTML = `
+                    <div class="alert alert-danger mt-2">${data.message || 'Failed to track bet'}</div>`;
+            }
+        } catch (err) {
+            btn.innerHTML = '<i class="bi bi-x-lg"></i> Error';
+            btn.disabled = false;
+            console.error(err);
+        }
+    }
+
+    // Helpers to get active form values
+    function getActivePlayerId(side) {
+        if (activeTab === 'modus') {
+            return document.getElementById(`modus-${side}-player`).value;
+        }
+        return document.getElementById(`${side}-player`).value;
+    }
+    function getActiveLeagueId() {
+        if (activeTab === 'modus') return 38;
+        const ids = $('#league-ids').val();
+        return ids && ids.length > 0 ? parseInt(ids[0]) : 2;
+    }
+    function getActiveBestOfSets() {
+        if (activeTab === 'modus') return 0;
+        return parseInt(document.getElementById('best-of-sets').value);
+    }
+    function getActiveBestOfLegs() {
+        if (activeTab === 'modus') return parseInt(document.getElementById('modus-best-of-legs').value);
+        return parseInt(document.getElementById('best-of-legs').value);
+    }
+    function getActiveIsSetFormat() {
+        if (activeTab === 'modus') return false;
+        return document.getElementById('is-set-format').checked;
+    }
+</script>
+{% endblock %}

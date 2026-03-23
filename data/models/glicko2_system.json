@@ -1,0 +1,7053 @@
+{
+  "ratings": {
+    "102": {
+      "rating": 1661.209165087646,
+      "rd": 132.41421029608696,
+      "volatility": 0.059972400857306894,
+      "last_played": "2026-03-07",
+      "match_count": 130,
+      "tv_bonus": 5.184980336108439,
+      "tv_bonus_rd": 71.1754041542813,
+      "floor_match_count": 20,
+      "tv_match_count": 110,
+      "recent_results": []
+    },
+    "1638": {
+      "rating": 1532.5525615895792,
+      "rd": 168.73795382140267,
+      "volatility": 0.05998375830457844,
+      "last_played": "2026-03-06",
+      "match_count": 77,
+      "tv_bonus": -1.6832021862472797,
+      "tv_bonus_rd": 144.04949751180237,
+      "floor_match_count": 24,
+      "tv_match_count": 53,
+      "recent_results": []
+    },
+    "127": {
+      "rating": 1639.0826325055903,
+      "rd": 118.63705731610675,
+      "volatility": 0.05994495985978161,
+      "last_played": "2026-05-14",
+      "match_count": 287,
+      "tv_bonus": 67.85959118198735,
+      "tv_bonus_rd": 50.0,
+      "floor_match_count": 20,
+      "tv_match_count": 267,
+      "recent_results": []
+    },
+    "847": {
+      "rating": 1488.8319782958602,
+      "rd": 121.30414470188711,
+      "volatility": 0.05997770787635894,
+      "last_played": "2026-03-06",
+      "match_count": 36,
+      "tv_bonus": -1.1036794018547094,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 25,
+      "tv_match_count": 11,
+      "recent_results": []
+    },
+    "1721": {
+      "rating": 1685.3273795497153,
+      "rd": 110.00635852770952,
+      "volatility": 0.05992406938065266,
+      "last_played": "2026-05-14",
+      "match_count": 277,
+      "tv_bonus": 45.61833496100073,
+      "tv_bonus_rd": 50.0,
+      "floor_match_count": 41,
+      "tv_match_count": 236,
+      "recent_results": []
+    },
+    "629": {
+      "rating": 1499.7775693928193,
+      "rd": 350.0,
+      "volatility": 0.059999998018777194,
+      "last_played": "2022-03-04",
+      "match_count": 6,
+      "tv_bonus": 1.7625841294318274,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 6,
+      "recent_results": []
+    },
+    "99": {
+      "rating": 1469.6954462226336,
+      "rd": 179.4791040037256,
+      "volatility": 0.05998537824723291,
+      "last_played": "2026-03-07",
+      "match_count": 176,
+      "tv_bonus": 0.44492054011256366,
+      "tv_bonus_rd": 95.72926276746104,
+      "floor_match_count": 18,
+      "tv_match_count": 158,
+      "recent_results": []
+    },
+    "120": {
+      "rating": 1591.6636477830027,
+      "rd": 141.72908915972272,
+      "volatility": 0.05997739753063999,
+      "last_played": "2026-03-07",
+      "match_count": 90,
+      "tv_bonus": -0.5229625272401444,
+      "tv_bonus_rd": 138.52355937407734,
+      "floor_match_count": 33,
+      "tv_match_count": 57,
+      "recent_results": []
+    },
+    "96": {
+      "rating": 1448.056086631484,
+      "rd": 199.66118921910856,
+      "volatility": 0.059992351519925595,
+      "last_played": "2026-03-06",
+      "match_count": 38,
+      "tv_bonus": -4.141461554173063,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 12,
+      "tv_match_count": 26,
+      "recent_results": []
+    },
+    "1817": {
+      "rating": 1446.0835404858096,
+      "rd": 311.0078218429409,
+      "volatility": 0.05999724250639851,
+      "last_played": "2025-12-16",
+      "match_count": 64,
+      "tv_bonus": 0.5245856634476495,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 8,
+      "tv_match_count": 56,
+      "recent_results": []
+    },
+    "103": {
+      "rating": 1479.9342969981772,
+      "rd": 185.84223100067788,
+      "volatility": 0.05999413688875148,
+      "last_played": "2026-03-07",
+      "match_count": 11,
+      "tv_bonus": 1.7218295701718862,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 8,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "5223": {
+      "rating": 1631.6451071492304,
+      "rd": 130.3197939125319,
+      "volatility": 0.059965997507074535,
+      "last_played": "2026-03-08",
+      "match_count": 175,
+      "tv_bonus": 20.286140538630413,
+      "tv_bonus_rd": 64.55634096709346,
+      "floor_match_count": 31,
+      "tv_match_count": 144,
+      "recent_results": []
+    },
+    "2401": {
+      "rating": 1628.8026863349703,
+      "rd": 139.91097963175432,
+      "volatility": 0.05996440203780337,
+      "last_played": "2026-03-06",
+      "match_count": 203,
+      "tv_bonus": 33.791713845714796,
+      "tv_bonus_rd": 60.230000000000004,
+      "floor_match_count": 25,
+      "tv_match_count": 178,
+      "recent_results": []
+    },
+    "1794": {
+      "rating": 1647.7607323314835,
+      "rd": 136.35437830236248,
+      "volatility": 0.05997494238157142,
+      "last_played": "2026-03-08",
+      "match_count": 90,
+      "tv_bonus": 12.489912240754249,
+      "tv_bonus_rd": 103.73397542549142,
+      "floor_match_count": 27,
+      "tv_match_count": 63,
+      "recent_results": []
+    },
+    "145": {
+      "rating": 1584.4806693660069,
+      "rd": 142.79612894256226,
+      "volatility": 0.059977270229979826,
+      "last_played": "2026-03-06",
+      "match_count": 129,
+      "tv_bonus": 6.409546882951667,
+      "tv_bonus_rd": 122.33566600873455,
+      "floor_match_count": 37,
+      "tv_match_count": 92,
+      "recent_results": []
+    },
+    "1069": {
+      "rating": 1520.4548550522827,
+      "rd": 167.01028132483003,
+      "volatility": 0.05998135075283868,
+      "last_played": "2026-03-07",
+      "match_count": 193,
+      "tv_bonus": 36.76376151323281,
+      "tv_bonus_rd": 86.24799241362626,
+      "floor_match_count": 16,
+      "tv_match_count": 177,
+      "recent_results": []
+    },
+    "546": {
+      "rating": 1574.8907931403417,
+      "rd": 138.15298689783774,
+      "volatility": 0.059975649680447454,
+      "last_played": "2026-03-07",
+      "match_count": 77,
+      "tv_bonus": -1.2283722406920183,
+      "tv_bonus_rd": 113.6461869404785,
+      "floor_match_count": 25,
+      "tv_match_count": 52,
+      "recent_results": []
+    },
+    "5925": {
+      "rating": 1499.9158743050061,
+      "rd": 350.0,
+      "volatility": 0.05999999933959235,
+      "last_played": "2022-03-04",
+      "match_count": 6,
+      "tv_bonus": -0.14182736380243288,
+      "tv_bonus_rd": 181.03912499999998,
+      "floor_match_count": 0,
+      "tv_match_count": 6,
+      "recent_results": []
+    },
+    "1882": {
+      "rating": 1643.6128773032017,
+      "rd": 140.77619947792104,
+      "volatility": 0.059974987696424516,
+      "last_played": "2026-03-07",
+      "match_count": 103,
+      "tv_bonus": 10.897879862424336,
+      "tv_bonus_rd": 101.95359232864861,
+      "floor_match_count": 36,
+      "tv_match_count": 67,
+      "recent_results": []
+    },
+    "106": {
+      "rating": 1501.2304252059366,
+      "rd": 348.83323660606044,
+      "volatility": 0.0599999991555172,
+      "last_played": "2023-03-04",
+      "match_count": 16,
+      "tv_bonus": 2.0555639779267523,
+      "tv_bonus_rd": 155.35483841561148,
+      "floor_match_count": 0,
+      "tv_match_count": 16,
+      "recent_results": []
+    },
+    "1572": {
+      "rating": 1521.0011328524347,
+      "rd": 166.4553734715077,
+      "volatility": 0.059987196771310876,
+      "last_played": "2026-03-06",
+      "match_count": 29,
+      "tv_bonus": -3.416684322221342,
+      "tv_bonus_rd": 182.34964999999994,
+      "floor_match_count": 20,
+      "tv_match_count": 9,
+      "recent_results": []
+    },
+    "108": {
+      "rating": 1502.9586080267359,
+      "rd": 342.7878848720651,
+      "volatility": 0.059999844262680145,
+      "last_played": "2024-03-02",
+      "match_count": 19,
+      "tv_bonus": 2.427929863803587,
+      "tv_bonus_rd": 171.665,
+      "floor_match_count": 0,
+      "tv_match_count": 19,
+      "recent_results": []
+    },
+    "5832": {
+      "rating": 1499.8880187536536,
+      "rd": 350.0,
+      "volatility": 0.05999999933951924,
+      "last_played": "2022-03-04",
+      "match_count": 6,
+      "tv_bonus": 1.2830002536638117,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 6,
+      "recent_results": []
+    },
+    "1694": {
+      "rating": 1499.978176443626,
+      "rd": 350.0,
+      "volatility": 0.05999999915553351,
+      "last_played": "2021-03-05",
+      "match_count": 2,
+      "tv_bonus": -0.22216816489798508,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "1980": {
+      "rating": 1637.6510903820556,
+      "rd": 146.4100384597069,
+      "volatility": 0.05997848246614505,
+      "last_played": "2026-03-06",
+      "match_count": 77,
+      "tv_bonus": 1.3701169825444492,
+      "tv_bonus_rd": 166.07894181249992,
+      "floor_match_count": 34,
+      "tv_match_count": 43,
+      "recent_results": []
+    },
+    "1169": {
+      "rating": 1547.8089120649076,
+      "rd": 154.23335419113658,
+      "volatility": 0.05997819328029221,
+      "last_played": "2026-03-06",
+      "match_count": 75,
+      "tv_bonus": 2.3813924882118656,
+      "tv_bonus_rd": 111.73969527445499,
+      "floor_match_count": 28,
+      "tv_match_count": 47,
+      "recent_results": []
+    },
+    "1873": {
+      "rating": 1685.9241189276436,
+      "rd": 113.88195761228263,
+      "volatility": 0.05994442655110459,
+      "last_played": "2026-05-14",
+      "match_count": 233,
+      "tv_bonus": 44.71561364933357,
+      "tv_bonus_rd": 50.0,
+      "floor_match_count": 29,
+      "tv_match_count": 204,
+      "recent_results": []
+    },
+    "1728": {
+      "rating": 1491.5977217966984,
+      "rd": 334.86871786325435,
+      "volatility": 0.059999554419101056,
+      "last_played": "2024-11-11",
+      "match_count": 26,
+      "tv_bonus": -3.4325542160940454,
+      "tv_bonus_rd": 171.84549999999996,
+      "floor_match_count": 0,
+      "tv_match_count": 26,
+      "recent_results": []
+    },
+    "1814": {
+      "rating": 1517.2072330362193,
+      "rd": 181.41347840302373,
+      "volatility": 0.059989881800410816,
+      "last_played": "2026-03-06",
+      "match_count": 36,
+      "tv_bonus": -0.5052459800220026,
+      "tv_bonus_rd": 171.475,
+      "floor_match_count": 15,
+      "tv_match_count": 21,
+      "recent_results": []
+    },
+    "1175": {
+      "rating": 1427.6555229233873,
+      "rd": 190.80350154712275,
+      "volatility": 0.05999364688835681,
+      "last_played": "2026-02-14",
+      "match_count": 15,
+      "tv_bonus": -2.1588224330774093,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 8,
+      "tv_match_count": 7,
+      "recent_results": []
+    },
+    "5353": {
+      "rating": 1538.3739662326914,
+      "rd": 170.75805895330706,
+      "volatility": 0.05998364640953583,
+      "last_played": "2026-03-07",
+      "match_count": 70,
+      "tv_bonus": 8.053912787681348,
+      "tv_bonus_rd": 115.03158378537015,
+      "floor_match_count": 18,
+      "tv_match_count": 52,
+      "recent_results": []
+    },
+    "117": {
+      "rating": 1701.2465539961793,
+      "rd": 113.99463157913416,
+      "volatility": 0.0599598083342228,
+      "last_played": "2026-03-08",
+      "match_count": 174,
+      "tv_bonus": 21.496023602870125,
+      "tv_bonus_rd": 59.798977612956975,
+      "floor_match_count": 40,
+      "tv_match_count": 134,
+      "recent_results": []
+    },
+    "1194": {
+      "rating": 1395.9075669224887,
+      "rd": 203.5349326963935,
+      "volatility": 0.059990980613936415,
+      "last_played": "2026-03-06",
+      "match_count": 39,
+      "tv_bonus": -6.386439159964237,
+      "tv_bonus_rd": 182.37672499999994,
+      "floor_match_count": 13,
+      "tv_match_count": 26,
+      "recent_results": []
+    },
+    "451": {
+      "rating": 1548.8340799886246,
+      "rd": 162.57541378097974,
+      "volatility": 0.05998326284237534,
+      "last_played": "2026-03-06",
+      "match_count": 56,
+      "tv_bonus": 7.514734510393932,
+      "tv_bonus_rd": 133.75236490041263,
+      "floor_match_count": 15,
+      "tv_match_count": 41,
+      "recent_results": []
+    },
+    "1083": {
+      "rating": 1569.4475174207685,
+      "rd": 158.27764287251048,
+      "volatility": 0.05998450733013929,
+      "last_played": "2026-03-06",
+      "match_count": 55,
+      "tv_bonus": 3.7565802015436547,
+      "tv_bonus_rd": 182.33112499999996,
+      "floor_match_count": 23,
+      "tv_match_count": 32,
+      "recent_results": []
+    },
+    "269": {
+      "rating": 1668.7574491740338,
+      "rd": 119.82745814493262,
+      "volatility": 0.05994828684139191,
+      "last_played": "2026-05-14",
+      "match_count": 141,
+      "tv_bonus": 16.840789471217004,
+      "tv_bonus_rd": 50.0,
+      "floor_match_count": 30,
+      "tv_match_count": 111,
+      "recent_results": []
+    },
+    "10024": {
+      "rating": 1499.8863659435133,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2022-03-04",
+      "match_count": 4,
+      "tv_bonus": 0.21728811101117507,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 4,
+      "recent_results": []
+    },
+    "123": {
+      "rating": 1473.6642955885143,
+      "rd": 188.55465897004856,
+      "volatility": 0.05998904504021267,
+      "last_played": "2026-03-06",
+      "match_count": 65,
+      "tv_bonus": -7.813375041638414,
+      "tv_bonus_rd": 180.20339723361803,
+      "floor_match_count": 19,
+      "tv_match_count": 46,
+      "recent_results": []
+    },
+    "9640": {
+      "rating": 1497.0779453767539,
+      "rd": 347.5338908382765,
+      "volatility": 0.05999999849176299,
+      "last_played": "2023-11-14",
+      "match_count": 22,
+      "tv_bonus": -0.42578783261499914,
+      "tv_bonus_rd": 172.03549999999996,
+      "floor_match_count": 0,
+      "tv_match_count": 22,
+      "recent_results": []
+    },
+    "1664": {
+      "rating": 1502.67790898864,
+      "rd": 128.18261379279468,
+      "volatility": 0.059981396385255466,
+      "last_played": "2026-02-13",
+      "match_count": 38,
+      "tv_bonus": -5.807350688581928,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 25,
+      "tv_match_count": 13,
+      "recent_results": []
+    },
+    "1735": {
+      "rating": 1542.5361806873473,
+      "rd": 157.2390438700345,
+      "volatility": 0.05998459741155849,
+      "last_played": "2026-03-06",
+      "match_count": 44,
+      "tv_bonus": -0.5609517168509572,
+      "tv_bonus_rd": 168.95468681249992,
+      "floor_match_count": 24,
+      "tv_match_count": 20,
+      "recent_results": []
+    },
+    "98": {
+      "rating": 1602.574035477121,
+      "rd": 127.70118845009605,
+      "volatility": 0.059979673020187974,
+      "last_played": "2026-02-28",
+      "match_count": 48,
+      "tv_bonus": -4.425072494634516,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 25,
+      "tv_match_count": 23,
+      "recent_results": []
+    },
+    "1791": {
+      "rating": 1498.6830114599902,
+      "rd": 349.5806861841797,
+      "volatility": 0.05999999915229708,
+      "last_played": "2023-03-03",
+      "match_count": 10,
+      "tv_bonus": -2.522146462715889,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 10,
+      "recent_results": []
+    },
+    "1763": {
+      "rating": 1457.3936070329905,
+      "rd": 207.42466068256894,
+      "volatility": 0.05999406415746789,
+      "last_played": "2026-03-06",
+      "match_count": 20,
+      "tv_bonus": -1.6409681810629917,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 8,
+      "tv_match_count": 12,
+      "recent_results": []
+    },
+    "2008": {
+      "rating": 1571.8819504011133,
+      "rd": 144.01499393844634,
+      "volatility": 0.059976090602846296,
+      "last_played": "2026-03-06",
+      "match_count": 79,
+      "tv_bonus": 8.352275193478219,
+      "tv_bonus_rd": 111.95048481299146,
+      "floor_match_count": 29,
+      "tv_match_count": 50,
+      "recent_results": []
+    },
+    "1593": {
+      "rating": 1364.9984644017097,
+      "rd": 222.7079743244403,
+      "volatility": 0.05999067798442427,
+      "last_played": "2026-03-06",
+      "match_count": 119,
+      "tv_bonus": 11.925321658257152,
+      "tv_bonus_rd": 128.22740783900818,
+      "floor_match_count": 15,
+      "tv_match_count": 104,
+      "recent_results": []
+    },
+    "240": {
+      "rating": 1487.8127618284857,
+      "rd": 191.25337478250006,
+      "volatility": 0.05999069890773932,
+      "last_played": "2026-03-06",
+      "match_count": 29,
+      "tv_bonus": 1.8701856845241576,
+      "tv_bonus_rd": 171.475,
+      "floor_match_count": 17,
+      "tv_match_count": 12,
+      "recent_results": []
+    },
+    "5481": {
+      "rating": 1500.1477661875758,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2021-03-06",
+      "match_count": 5,
+      "tv_bonus": 3.495932743079578,
+      "tv_bonus_rd": 154.93668749999998,
+      "floor_match_count": 0,
+      "tv_match_count": 5,
+      "recent_results": []
+    },
+    "134": {
+      "rating": 1581.7981075472999,
+      "rd": 166.64794222594892,
+      "volatility": 0.059985843645033524,
+      "last_played": "2026-03-07",
+      "match_count": 55,
+      "tv_bonus": -0.3734085852462965,
+      "tv_bonus_rd": 160.94609774999995,
+      "floor_match_count": 18,
+      "tv_match_count": 37,
+      "recent_results": []
+    },
+    "16846": {
+      "rating": 1595.2456883956988,
+      "rd": 156.0371317966768,
+      "volatility": 0.05998411678182089,
+      "last_played": "2026-03-06",
+      "match_count": 45,
+      "tv_bonus": 5.82600471034648,
+      "tv_bonus_rd": 173.49253874999994,
+      "floor_match_count": 23,
+      "tv_match_count": 22,
+      "recent_results": []
+    },
+    "8396": {
+      "rating": 1605.030467768818,
+      "rd": 150.4715124002238,
+      "volatility": 0.059982499404505944,
+      "last_played": "2026-03-07",
+      "match_count": 66,
+      "tv_bonus": 0.18383206358508808,
+      "tv_bonus_rd": 157.12237672499992,
+      "floor_match_count": 23,
+      "tv_match_count": 43,
+      "recent_results": []
+    },
+    "1665": {
+      "rating": 1483.8332169848297,
+      "rd": 116.49631140470984,
+      "volatility": 0.05997441104369994,
+      "last_played": "2026-03-21",
+      "match_count": 43,
+      "tv_bonus": -1.3831806957439494,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 35,
+      "tv_match_count": 8,
+      "recent_results": []
+    },
+    "2109": {
+      "rating": 1447.2660941414192,
+      "rd": 129.61670939173385,
+      "volatility": 0.05997626735032751,
+      "last_played": "2026-02-24",
+      "match_count": 56,
+      "tv_bonus": -8.485512079784025,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 37,
+      "tv_match_count": 19,
+      "recent_results": []
+    },
+    "838": {
+      "rating": 1617.0842068822908,
+      "rd": 144.42720284335792,
+      "volatility": 0.059984780180299895,
+      "last_played": "2026-03-06",
+      "match_count": 31,
+      "tv_bonus": -0.3037228368683387,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 18,
+      "tv_match_count": 13,
+      "recent_results": []
+    },
+    "450": {
+      "rating": 1531.7606405791566,
+      "rd": 132.0859678878279,
+      "volatility": 0.0599828280389503,
+      "last_played": "2026-01-24",
+      "match_count": 29,
+      "tv_bonus": 0.24022932895746818,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 25,
+      "tv_match_count": 4,
+      "recent_results": []
+    },
+    "1722": {
+      "rating": 1545.1694567860384,
+      "rd": 159.22332245529873,
+      "volatility": 0.0599839133805338,
+      "last_played": "2026-03-07",
+      "match_count": 50,
+      "tv_bonus": -1.4315165500525524,
+      "tv_bonus_rd": 150.14712846390617,
+      "floor_match_count": 18,
+      "tv_match_count": 32,
+      "recent_results": []
+    },
+    "1153": {
+      "rating": 1527.8511742788132,
+      "rd": 207.2560246636932,
+      "volatility": 0.059994530018066955,
+      "last_played": "2026-03-06",
+      "match_count": 16,
+      "tv_bonus": 1.054229442649161,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 7,
+      "tv_match_count": 9,
+      "recent_results": []
+    },
+    "1579": {
+      "rating": 1491.5324712754616,
+      "rd": 347.7954012005022,
+      "volatility": 0.059999954262175435,
+      "last_played": "2024-03-01",
+      "match_count": 8,
+      "tv_bonus": -7.082817665157559,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 8,
+      "recent_results": []
+    },
+    "105": {
+      "rating": 1488.6835174130204,
+      "rd": 340.47137675338433,
+      "volatility": 0.059999692253403576,
+      "last_played": "2025-02-28",
+      "match_count": 11,
+      "tv_bonus": -2.67978817417121,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 11,
+      "recent_results": []
+    },
+    "1637": {
+      "rating": 1665.6313012261735,
+      "rd": 125.26740091631328,
+      "volatility": 0.059961275951424316,
+      "last_played": "2026-03-06",
+      "match_count": 158,
+      "tv_bonus": 7.872128194813259,
+      "tv_bonus_rd": 63.48468466584082,
+      "floor_match_count": 43,
+      "tv_match_count": 115,
+      "recent_results": []
+    },
+    "432": {
+      "rating": 1498.4366156702538,
+      "rd": 349.97512178889417,
+      "volatility": 0.05999999754108463,
+      "last_played": "2022-03-04",
+      "match_count": 14,
+      "tv_bonus": -19.875404361670974,
+      "tv_bonus_rd": 158.44058768264108,
+      "floor_match_count": 0,
+      "tv_match_count": 14,
+      "recent_results": []
+    },
+    "1712": {
+      "rating": 1667.0105033962109,
+      "rd": 120.30785120150337,
+      "volatility": 0.059963858460748885,
+      "last_played": "2026-03-08",
+      "match_count": 114,
+      "tv_bonus": 23.644873264033375,
+      "tv_bonus_rd": 72.2152092459477,
+      "floor_match_count": 35,
+      "tv_match_count": 79,
+      "recent_results": []
+    },
+    "168": {
+      "rating": 1469.6326085383973,
+      "rd": 194.78356457920734,
+      "volatility": 0.0599900538723941,
+      "last_played": "2026-03-06",
+      "match_count": 48,
+      "tv_bonus": -7.517666100781269,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 19,
+      "tv_match_count": 29,
+      "recent_results": []
+    },
+    "5730": {
+      "rating": 1683.1344723771124,
+      "rd": 112.02523306541855,
+      "volatility": 0.059926406469067425,
+      "last_played": "2026-05-14",
+      "match_count": 242,
+      "tv_bonus": 43.89629477281284,
+      "tv_bonus_rd": 50.0,
+      "floor_match_count": 29,
+      "tv_match_count": 213,
+      "recent_results": []
+    },
+    "132": {
+      "rating": 1519.4991603122787,
+      "rd": 185.88301973788782,
+      "volatility": 0.059987145423698075,
+      "last_played": "2026-03-06",
+      "match_count": 60,
+      "tv_bonus": 4.365902998748681,
+      "tv_bonus_rd": 173.17982249999994,
+      "floor_match_count": 25,
+      "tv_match_count": 35,
+      "recent_results": []
+    },
+    "1905": {
+      "rating": 1534.8362090799455,
+      "rd": 155.82433506315388,
+      "volatility": 0.0599789812230613,
+      "last_played": "2026-03-06",
+      "match_count": 95,
+      "tv_bonus": 1.8224911113722753,
+      "tv_bonus_rd": 111.50453333942282,
+      "floor_match_count": 33,
+      "tv_match_count": 62,
+      "recent_results": []
+    },
+    "163": {
+      "rating": 1475.354912678014,
+      "rd": 193.80294225456103,
+      "volatility": 0.05998815426232344,
+      "last_played": "2026-03-06",
+      "match_count": 46,
+      "tv_bonus": -5.582756748698098,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 22,
+      "tv_match_count": 24,
+      "recent_results": []
+    },
+    "111": {
+      "rating": 1492.4457724911206,
+      "rd": 347.8253706008095,
+      "volatility": 0.059999925080609265,
+      "last_played": "2024-03-01",
+      "match_count": 15,
+      "tv_bonus": -8.715244279113348,
+      "tv_bonus_rd": 181.020125,
+      "floor_match_count": 0,
+      "tv_match_count": 15,
+      "recent_results": []
+    },
+    "1074": {
+      "rating": 1628.1519253026174,
+      "rd": 148.4690829964524,
+      "volatility": 0.0599786861276783,
+      "last_played": "2026-03-07",
+      "match_count": 88,
+      "tv_bonus": 5.774191747258529,
+      "tv_bonus_rd": 127.55474199636471,
+      "floor_match_count": 34,
+      "tv_match_count": 54,
+      "recent_results": []
+    },
+    "1257": {
+      "rating": 1379.4445277449418,
+      "rd": 268.37608731636647,
+      "volatility": 0.05999779547481676,
+      "last_played": "2025-12-11",
+      "match_count": 14,
+      "tv_bonus": -15.559385232292462,
+      "tv_bonus_rd": 169.13372499999994,
+      "floor_match_count": 0,
+      "tv_match_count": 14,
+      "recent_results": []
+    },
+    "685": {
+      "rating": 1425.6418432142848,
+      "rd": 312.9582588830696,
+      "volatility": 0.05999946603736548,
+      "last_played": "2025-12-19",
+      "match_count": 8,
+      "tv_bonus": -2.6079568387344354,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 8,
+      "recent_results": []
+    },
+    "1759": {
+      "rating": 1500.4934631373728,
+      "rd": 349.1650367113441,
+      "volatility": 0.059999999339592436,
+      "last_played": "2023-03-03",
+      "match_count": 6,
+      "tv_bonus": -2.3309163554889905,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 6,
+      "recent_results": []
+    },
+    "9751": {
+      "rating": 1500.0077278555743,
+      "rd": 350.0,
+      "volatility": 0.059999999339499864,
+      "last_played": "2021-03-05",
+      "match_count": 2,
+      "tv_bonus": 0.1871509586051443,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "7937": {
+      "rating": 1528.6973999376748,
+      "rd": 169.63380808924612,
+      "volatility": 0.05998738937633097,
+      "last_played": "2026-03-07",
+      "match_count": 51,
+      "tv_bonus": 8.30075898066371,
+      "tv_bonus_rd": 156.49157993124993,
+      "floor_match_count": 14,
+      "tv_match_count": 37,
+      "recent_results": []
+    },
+    "1749": {
+      "rating": 1581.206948757918,
+      "rd": 159.30461202628302,
+      "volatility": 0.059990684910480464,
+      "last_played": "2026-02-28",
+      "match_count": 16,
+      "tv_bonus": -0.9927591292953267,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 12,
+      "tv_match_count": 4,
+      "recent_results": []
+    },
+    "1683": {
+      "rating": 1499.733471049328,
+      "rd": 350.0,
+      "volatility": 0.059999999339547985,
+      "last_played": "2022-03-04",
+      "match_count": 3,
+      "tv_bonus": -2.021785250946866,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "1775": {
+      "rating": 1486.4382773754774,
+      "rd": 185.7617654442688,
+      "volatility": 0.0599867210778341,
+      "last_played": "2026-03-06",
+      "match_count": 45,
+      "tv_bonus": -3.96929329960801,
+      "tv_bonus_rd": 182.60472499999992,
+      "floor_match_count": 27,
+      "tv_match_count": 18,
+      "recent_results": []
+    },
+    "1758": {
+      "rating": 1459.7650130671814,
+      "rd": 332.4880274547369,
+      "volatility": 0.059999208896888645,
+      "last_played": "2025-03-11",
+      "match_count": 27,
+      "tv_bonus": 2.7963701320175502,
+      "tv_bonus_rd": 192.04799999999994,
+      "floor_match_count": 1,
+      "tv_match_count": 26,
+      "recent_results": []
+    },
+    "1180": {
+      "rating": 1499.9285013480933,
+      "rd": 349.98845116469647,
+      "volatility": 0.06,
+      "last_played": "2022-03-04",
+      "match_count": 3,
+      "tv_bonus": -1.4812722685664572,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "144": {
+      "rating": 1493.1709030511447,
+      "rd": 274.0065793677249,
+      "volatility": 0.059997589289673324,
+      "last_played": "2025-03-11",
+      "match_count": 23,
+      "tv_bonus": -0.1911759768990846,
+      "tv_bonus_rd": 192.2,
+      "floor_match_count": 11,
+      "tv_match_count": 12,
+      "recent_results": []
+    },
+    "1612": {
+      "rating": 1655.4463287881274,
+      "rd": 143.49851193553772,
+      "volatility": 0.05997825279594003,
+      "last_played": "2026-03-07",
+      "match_count": 61,
+      "tv_bonus": 7.3310088989605315,
+      "tv_bonus_rd": 149.7893748128124,
+      "floor_match_count": 29,
+      "tv_match_count": 32,
+      "recent_results": []
+    },
+    "1653": {
+      "rating": 1438.3331406334828,
+      "rd": 206.63288126200158,
+      "volatility": 0.05999242964490803,
+      "last_played": "2026-03-06",
+      "match_count": 24,
+      "tv_bonus": -2.9171294691534957,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 14,
+      "tv_match_count": 10,
+      "recent_results": []
+    },
+    "5723": {
+      "rating": 1499.9640006271575,
+      "rd": 350.0,
+      "volatility": 0.059999999339486465,
+      "last_played": "2021-03-05",
+      "match_count": 2,
+      "tv_bonus": -0.8718223408100916,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "436": {
+      "rating": 1499.9637712279407,
+      "rd": 350.0,
+      "volatility": 0.05999999933948644,
+      "last_played": "2021-03-05",
+      "match_count": 1,
+      "tv_bonus": -0.8773778643694986,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "228": {
+      "rating": 1500.016518414518,
+      "rd": 350.0,
+      "volatility": 0.059999998679256816,
+      "last_played": "2021-03-05",
+      "match_count": 2,
+      "tv_bonus": 0.4000381583513861,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "1889": {
+      "rating": 1524.3349197231169,
+      "rd": 161.63123895910945,
+      "volatility": 0.05998179915552283,
+      "last_played": "2026-03-07",
+      "match_count": 82,
+      "tv_bonus": 3.8174061015328764,
+      "tv_bonus_rd": 97.97670007487919,
+      "floor_match_count": 19,
+      "tv_match_count": 63,
+      "recent_results": []
+    },
+    "11989": {
+      "rating": 1499.9097643434366,
+      "rd": 350.0,
+      "volatility": 0.05999999867911168,
+      "last_played": "2021-12-18",
+      "match_count": 6,
+      "tv_bonus": 0.19765511945582692,
+      "tv_bonus_rd": 175.46499999999997,
+      "floor_match_count": 0,
+      "tv_match_count": 6,
+      "recent_results": []
+    },
+    "10021": {
+      "rating": 1445.6326686676393,
+      "rd": 216.21878945960842,
+      "volatility": 0.05999264202288123,
+      "last_played": "2026-03-06",
+      "match_count": 32,
+      "tv_bonus": -3.674831232460973,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 17,
+      "tv_match_count": 15,
+      "recent_results": []
+    },
+    "1150": {
+      "rating": 1500.0065015889063,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2021-03-05",
+      "match_count": 3,
+      "tv_bonus": 0.15745358910274698,
+      "tv_bonus_rd": 171.475,
+      "floor_match_count": 0,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "1717": {
+      "rating": 1500.1488716156316,
+      "rd": 343.0406394222013,
+      "volatility": 0.05999985663210762,
+      "last_played": "2024-03-01",
+      "match_count": 5,
+      "tv_bonus": -1.5831570153850514,
+      "tv_bonus_rd": 171.475,
+      "floor_match_count": 0,
+      "tv_match_count": 5,
+      "recent_results": []
+    },
+    "4933": {
+      "rating": 1430.0721101566046,
+      "rd": 309.8961833255812,
+      "volatility": 0.05999856602840168,
+      "last_played": "2026-03-06",
+      "match_count": 15,
+      "tv_bonus": -5.915638340911978,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 1,
+      "tv_match_count": 14,
+      "recent_results": []
+    },
+    "9040": {
+      "rating": 1499.9191175568951,
+      "rd": 350.0,
+      "volatility": 0.059999998018534374,
+      "last_played": "2022-03-04",
+      "match_count": 4,
+      "tv_bonus": 0.7234459236391055,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 4,
+      "recent_results": []
+    },
+    "506": {
+      "rating": 1554.7725335981922,
+      "rd": 163.55558573764475,
+      "volatility": 0.05998239292564877,
+      "last_played": "2026-03-06",
+      "match_count": 70,
+      "tv_bonus": 4.909151220472128,
+      "tv_bonus_rd": 124.72776467644044,
+      "floor_match_count": 22,
+      "tv_match_count": 48,
+      "recent_results": []
+    },
+    "6297": {
+      "rating": 1500.009631353219,
+      "rd": 350.0,
+      "volatility": 0.059999999339519265,
+      "last_played": "2021-03-05",
+      "match_count": 2,
+      "tv_bonus": 0.23324931091527334,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "12035": {
+      "rating": 1499.9401145590773,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2021-03-05",
+      "match_count": 1,
+      "tv_bonus": -1.4502881901793627,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "1968": {
+      "rating": 1500.2059162838566,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2021-12-22",
+      "match_count": 4,
+      "tv_bonus": 1.8162378421908585,
+      "tv_bonus_rd": 181.45,
+      "floor_match_count": 0,
+      "tv_match_count": 4,
+      "recent_results": []
+    },
+    "90": {
+      "rating": 1400.8603555028644,
+      "rd": 212.126812740192,
+      "volatility": 0.05999065709866716,
+      "last_played": "2026-03-06",
+      "match_count": 56,
+      "tv_bonus": -3.982928382517299,
+      "tv_bonus_rd": 179.22438434641776,
+      "floor_match_count": 17,
+      "tv_match_count": 39,
+      "recent_results": []
+    },
+    "4951": {
+      "rating": 1498.5289093696465,
+      "rd": 345.7026056506322,
+      "volatility": 0.05999991194733364,
+      "last_played": "2024-03-01",
+      "match_count": 12,
+      "tv_bonus": -1.91622609856577,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 12,
+      "recent_results": []
+    },
+    "5699": {
+      "rating": 1472.1258727200948,
+      "rd": 184.32245702066922,
+      "volatility": 0.05998940469382822,
+      "last_played": "2026-03-06",
+      "match_count": 34,
+      "tv_bonus": -7.078860647802908,
+      "tv_bonus_rd": 173.49253874999994,
+      "floor_match_count": 18,
+      "tv_match_count": 16,
+      "recent_results": []
+    },
+    "92": {
+      "rating": 1499.9497879675516,
+      "rd": 350.0,
+      "volatility": 0.05999999933951924,
+      "last_played": "2021-03-05",
+      "match_count": 1,
+      "tv_bonus": -1.2160203973328128,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "10734": {
+      "rating": 1498.6970042435642,
+      "rd": 349.58113117391866,
+      "volatility": 0.06,
+      "last_played": "2023-03-03",
+      "match_count": 8,
+      "tv_bonus": -2.8978036176630413,
+      "tv_bonus_rd": 185.516,
+      "floor_match_count": 0,
+      "tv_match_count": 8,
+      "recent_results": []
+    },
+    "8146": {
+      "rating": 1500.6019739828282,
+      "rd": 349.5835625228355,
+      "volatility": 0.06,
+      "last_played": "2022-12-21",
+      "match_count": 6,
+      "tv_bonus": 0.8176083236532095,
+      "tv_bonus_rd": 181.07,
+      "floor_match_count": 0,
+      "tv_match_count": 6,
+      "recent_results": []
+    },
+    "4931": {
+      "rating": 1449.8323748698895,
+      "rd": 198.04160072352204,
+      "volatility": 0.05998996786202526,
+      "last_played": "2026-03-06",
+      "match_count": 40,
+      "tv_bonus": -3.2938817907150635,
+      "tv_bonus_rd": 173.81632249999993,
+      "floor_match_count": 16,
+      "tv_match_count": 24,
+      "recent_results": []
+    },
+    "1811": {
+      "rating": 1496.9824176265586,
+      "rd": 349.58207965892916,
+      "volatility": 0.05999999933959241,
+      "last_played": "2023-03-03",
+      "match_count": 6,
+      "tv_bonus": -10.006102569796855,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 6,
+      "recent_results": []
+    },
+    "16124": {
+      "rating": 1500.04276323318,
+      "rd": 349.1658392858961,
+      "volatility": 0.05999999867898632,
+      "last_played": "2023-03-03",
+      "match_count": 7,
+      "tv_bonus": 0.8737458406672556,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 7,
+      "recent_results": []
+    },
+    "149": {
+      "rating": 1499.9779843899983,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2021-03-05",
+      "match_count": 2,
+      "tv_bonus": -0.5331676396379079,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "1859": {
+      "rating": 1499.9401494650592,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2021-03-05",
+      "match_count": 1,
+      "tv_bonus": -1.449442847251893,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "6470": {
+      "rating": 1499.927754796282,
+      "rd": 350.0,
+      "volatility": 0.059999999339592325,
+      "last_played": "2021-03-05",
+      "match_count": 1,
+      "tv_bonus": -1.749613330666607,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "135": {
+      "rating": 1499.9859852385985,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2021-03-05",
+      "match_count": 2,
+      "tv_bonus": -0.3394054153386612,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "6811": {
+      "rating": 1499.957471959589,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2021-03-05",
+      "match_count": 1,
+      "tv_bonus": -1.0299317131064827,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "1976": {
+      "rating": 1604.2937842911772,
+      "rd": 149.79443524351584,
+      "volatility": 0.0599812908596821,
+      "last_played": "2026-03-06",
+      "match_count": 57,
+      "tv_bonus": 1.4076942816104592,
+      "tv_bonus_rd": 165.2262930624999,
+      "floor_match_count": 29,
+      "tv_match_count": 28,
+      "recent_results": []
+    },
+    "109": {
+      "rating": 1499.8571299682858,
+      "rd": 350.0,
+      "volatility": 0.059999999339486465,
+      "last_played": "2021-11-26",
+      "match_count": 2,
+      "tv_bonus": -1.8086150906073533,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "867": {
+      "rating": 1501.1916400878229,
+      "rd": 171.31873125863802,
+      "volatility": 0.05999176486711,
+      "last_played": "2026-02-27",
+      "match_count": 16,
+      "tv_bonus": -2.703083685427658,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 10,
+      "tv_match_count": 6,
+      "recent_results": []
+    },
+    "1761": {
+      "rating": 1499.781134793836,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2022-03-04",
+      "match_count": 2,
+      "tv_bonus": -2.624734550315384,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "12004": {
+      "rating": 1499.9574703970734,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2021-03-05",
+      "match_count": 1,
+      "tv_bonus": -1.0299695536585953,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "1886": {
+      "rating": 1579.317434264399,
+      "rd": 158.24976650186218,
+      "volatility": 0.05998054024974068,
+      "last_played": "2026-03-07",
+      "match_count": 73,
+      "tv_bonus": -5.188875827836582,
+      "tv_bonus_rd": 134.0125368513271,
+      "floor_match_count": 29,
+      "tv_match_count": 44,
+      "recent_results": []
+    },
+    "2477": {
+      "rating": 1500.006300473455,
+      "rd": 350.0,
+      "volatility": 0.05999999867898634,
+      "last_played": "2021-03-05",
+      "match_count": 2,
+      "tv_bonus": 0.15258303362133696,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "6574": {
+      "rating": 1499.911229177215,
+      "rd": 350.0,
+      "volatility": 0.05999999933966443,
+      "last_played": "2021-03-05",
+      "match_count": 1,
+      "tv_bonus": -2.149825966652396,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "15526": {
+      "rating": 1622.4796753617402,
+      "rd": 269.77920400311405,
+      "volatility": 0.05999446777757621,
+      "last_played": "2025-12-20",
+      "match_count": 27,
+      "tv_bonus": -1.8014548994777009,
+      "tv_bonus_rd": 176.76649999999995,
+      "floor_match_count": 16,
+      "tv_match_count": 11,
+      "recent_results": []
+    },
+    "9038": {
+      "rating": 1481.1994878648889,
+      "rd": 285.1973547058028,
+      "volatility": 0.05999805753713711,
+      "last_played": "2025-03-11",
+      "match_count": 30,
+      "tv_bonus": -6.816278455245888,
+      "tv_bonus_rd": 182.7,
+      "floor_match_count": 8,
+      "tv_match_count": 22,
+      "recent_results": []
+    },
+    "5086": {
+      "rating": 1499.7556597915527,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2022-03-04",
+      "match_count": 2,
+      "tv_bonus": -2.7794206983562715,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "872": {
+      "rating": 1499.7407673071752,
+      "rd": 350.0,
+      "volatility": 0.05999999933954804,
+      "last_played": "2022-03-04",
+      "match_count": 2,
+      "tv_bonus": -2.6394109734190985,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "5168": {
+      "rating": 1471.6618776728594,
+      "rd": 280.2522452632842,
+      "volatility": 0.05999777004646814,
+      "last_played": "2025-03-11",
+      "match_count": 18,
+      "tv_bonus": -3.038112804603478,
+      "tv_bonus_rd": 173.67499999999998,
+      "floor_match_count": 8,
+      "tv_match_count": 10,
+      "recent_results": []
+    },
+    "14333": {
+      "rating": 1462.7836681887263,
+      "rd": 293.08344384043266,
+      "volatility": 0.059998289027179096,
+      "last_played": "2025-03-11",
+      "match_count": 13,
+      "tv_bonus": -4.583814521662358,
+      "tv_bonus_rd": 192.2,
+      "floor_match_count": 8,
+      "tv_match_count": 5,
+      "recent_results": []
+    },
+    "5226": {
+      "rating": 1458.2221567231447,
+      "rd": 160.8555354432876,
+      "volatility": 0.059990441560803444,
+      "last_played": "2026-03-20",
+      "match_count": 18,
+      "tv_bonus": 0.7312730769228988,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 10,
+      "tv_match_count": 8,
+      "recent_results": []
+    },
+    "1790": {
+      "rating": 1466.387552840455,
+      "rd": 290.81413151967985,
+      "volatility": 0.05999824069043736,
+      "last_played": "2025-03-11",
+      "match_count": 19,
+      "tv_bonus": -3.9342633499354878,
+      "tv_bonus_rd": 182.7,
+      "floor_match_count": 7,
+      "tv_match_count": 12,
+      "recent_results": []
+    },
+    "2009": {
+      "rating": 1444.040777887148,
+      "rd": 301.9288321271873,
+      "volatility": 0.05999845114211751,
+      "last_played": "2025-03-11",
+      "match_count": 14,
+      "tv_bonus": -3.299936297076827,
+      "tv_bonus_rd": 192.2,
+      "floor_match_count": 6,
+      "tv_match_count": 8,
+      "recent_results": []
+    },
+    "1901": {
+      "rating": 1489.3062933001165,
+      "rd": 340.8578967922305,
+      "volatility": 0.05999982806785375,
+      "last_played": "2024-12-18",
+      "match_count": 4,
+      "tv_bonus": -4.653793227981593,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 4,
+      "recent_results": []
+    },
+    "4357": {
+      "rating": 1382.2812330940114,
+      "rd": 234.3054380204489,
+      "volatility": 0.05999434077651528,
+      "last_played": "2026-03-06",
+      "match_count": 27,
+      "tv_bonus": -12.616909329113765,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 12,
+      "tv_match_count": 15,
+      "recent_results": []
+    },
+    "1780": {
+      "rating": 1499.9598264417477,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2022-03-04",
+      "match_count": 3,
+      "tv_bonus": -0.9007592082658629,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "143": {
+      "rating": 1394.134238648083,
+      "rd": 195.95198154911068,
+      "volatility": 0.05999413856537713,
+      "last_played": "2026-01-31",
+      "match_count": 18,
+      "tv_bonus": 2.217491354695019,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 8,
+      "tv_match_count": 10,
+      "recent_results": []
+    },
+    "8242": {
+      "rating": 1499.9637735818947,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2021-03-05",
+      "match_count": 1,
+      "tv_bonus": -0.8773208569775416,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "644": {
+      "rating": 1499.9497540862385,
+      "rd": 350.0,
+      "volatility": 0.05999999933951929,
+      "last_played": "2021-03-05",
+      "match_count": 1,
+      "tv_bonus": -1.2168409251367038,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "9868": {
+      "rating": 1499.817533240623,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2022-03-04",
+      "match_count": 3,
+      "tv_bonus": -1.7503662688346022,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "4431": {
+      "rating": 1477.196326644532,
+      "rd": 155.45792938643748,
+      "volatility": 0.05998789307910976,
+      "last_played": "2026-03-25",
+      "match_count": 18,
+      "tv_bonus": -3.506907791985376,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 15,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "1753": {
+      "rating": 1499.6970590042138,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2022-03-04",
+      "match_count": 2,
+      "tv_bonus": -2.900239350342133,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "4967": {
+      "rating": 1456.2699717248172,
+      "rd": 184.1521579240697,
+      "volatility": 0.05998653905086422,
+      "last_played": "2026-03-07",
+      "match_count": 61,
+      "tv_bonus": 6.516894464486983,
+      "tv_bonus_rd": 130.27327475282024,
+      "floor_match_count": 19,
+      "tv_match_count": 42,
+      "recent_results": []
+    },
+    "839": {
+      "rating": 1499.5720341377362,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2022-03-04",
+      "match_count": 3,
+      "tv_bonus": -3.350963496891803,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "11656": {
+      "rating": 1511.951173179964,
+      "rd": 181.40660347855888,
+      "volatility": 0.05999156231079482,
+      "last_played": "2026-03-06",
+      "match_count": 13,
+      "tv_bonus": -2.733686942405879,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 11,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "15687": {
+      "rating": 1499.9401311594277,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2021-03-05",
+      "match_count": 1,
+      "tv_bonus": -1.4498861677261725,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "11338": {
+      "rating": 1498.830451269384,
+      "rd": 349.5814837929613,
+      "volatility": 0.05999999933951929,
+      "last_played": "2023-03-03",
+      "match_count": 5,
+      "tv_bonus": -1.243184410135615,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 5,
+      "recent_results": []
+    },
+    "14442": {
+      "rating": 1466.955094695614,
+      "rd": 195.26123439848513,
+      "volatility": 0.05999441688990856,
+      "last_played": "2026-01-24",
+      "match_count": 11,
+      "tv_bonus": -1.1581672848668219,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 8,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "6336": {
+      "rating": 1523.121311966686,
+      "rd": 168.66817137295743,
+      "volatility": 0.05998585228876743,
+      "last_played": "2026-03-06",
+      "match_count": 35,
+      "tv_bonus": -0.8923466970608325,
+      "tv_bonus_rd": 161.60724247187494,
+      "floor_match_count": 20,
+      "tv_match_count": 15,
+      "recent_results": []
+    },
+    "1609": {
+      "rating": 1611.089547570683,
+      "rd": 157.07721374148974,
+      "volatility": 0.059986706905628524,
+      "last_played": "2026-02-28",
+      "match_count": 27,
+      "tv_bonus": -0.8694741749668065,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 20,
+      "tv_match_count": 7,
+      "recent_results": []
+    },
+    "1607": {
+      "rating": 1499.453991418654,
+      "rd": 350.0,
+      "volatility": 0.059999999339519265,
+      "last_played": "2021-11-16",
+      "match_count": 4,
+      "tv_bonus": -6.153154822690105,
+      "tv_bonus_rd": 172.03549999999996,
+      "floor_match_count": 0,
+      "tv_match_count": 4,
+      "recent_results": []
+    },
+    "15548": {
+      "rating": 1566.6282337343785,
+      "rd": 163.24458558181993,
+      "volatility": 0.059988219543990445,
+      "last_played": "2026-03-06",
+      "match_count": 34,
+      "tv_bonus": -0.48986013885304747,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 14,
+      "tv_match_count": 20,
+      "recent_results": []
+    },
+    "1981": {
+      "rating": 1515.3407218992854,
+      "rd": 177.90828058436014,
+      "volatility": 0.05998810995460852,
+      "last_played": "2026-03-06",
+      "match_count": 52,
+      "tv_bonus": -13.166066972703995,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 22,
+      "tv_match_count": 30,
+      "recent_results": []
+    },
+    "2092": {
+      "rating": 1499.762268080995,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2022-03-04",
+      "match_count": 2,
+      "tv_bonus": -2.079690416213632,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "1803": {
+      "rating": 1499.9277691582097,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2021-03-05",
+      "match_count": 1,
+      "tv_bonus": -1.7492655176222376,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "11303": {
+      "rating": 1499.9497999898256,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2021-03-05",
+      "match_count": 1,
+      "tv_bonus": -1.2157292453599995,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "166": {
+      "rating": 1454.6807681400705,
+      "rd": 305.30550417865913,
+      "volatility": 0.0599991249737641,
+      "last_played": "2025-12-13",
+      "match_count": 18,
+      "tv_bonus": -5.326613814537694,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 18,
+      "recent_results": []
+    },
+    "1837": {
+      "rating": 1410.3075941703987,
+      "rd": 192.91667615187183,
+      "volatility": 0.059993728521849796,
+      "last_played": "2026-03-07",
+      "match_count": 24,
+      "tv_bonus": -10.72574421730381,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 8,
+      "tv_match_count": 16,
+      "recent_results": []
+    },
+    "14073": {
+      "rating": 1400.2445949420407,
+      "rd": 317.5827351565643,
+      "volatility": 0.05999764535449389,
+      "last_played": "2025-12-17",
+      "match_count": 28,
+      "tv_bonus": -9.563082018083833,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 5,
+      "tv_match_count": 23,
+      "recent_results": []
+    },
+    "1777": {
+      "rating": 1451.415615498253,
+      "rd": 276.3680715825275,
+      "volatility": 0.059998410647699486,
+      "last_played": "2025-12-20",
+      "match_count": 4,
+      "tv_bonus": -4.337549441458124,
+      "tv_bonus_rd": 181.64,
+      "floor_match_count": 0,
+      "tv_match_count": 4,
+      "recent_results": []
+    },
+    "2079": {
+      "rating": 1397.313799406616,
+      "rd": 127.01253354043875,
+      "volatility": 0.05997817946540809,
+      "last_played": "2026-02-27",
+      "match_count": 43,
+      "tv_bonus": 1.673026422847122,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 31,
+      "tv_match_count": 12,
+      "recent_results": []
+    },
+    "20260": {
+      "rating": 1499.6805295107765,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2022-03-04",
+      "match_count": 4,
+      "tv_bonus": -1.9623706915521812,
+      "tv_bonus_rd": 171.475,
+      "floor_match_count": 0,
+      "tv_match_count": 4,
+      "recent_results": []
+    },
+    "4918": {
+      "rating": 1499.7646821228661,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2021-12-16",
+      "match_count": 1,
+      "tv_bonus": -1.4417705248704737,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "9796": {
+      "rating": 1420.5479511524425,
+      "rd": 207.95033656447353,
+      "volatility": 0.05999258293509739,
+      "last_played": "2026-03-06",
+      "match_count": 22,
+      "tv_bonus": -7.235930308622582,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 11,
+      "tv_match_count": 11,
+      "recent_results": []
+    },
+    "1778": {
+      "rating": 1499.8312942784382,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2021-12-17",
+      "match_count": 1,
+      "tv_bonus": -1.0296745153861233,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "10735": {
+      "rating": 1499.831741227126,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2021-12-17",
+      "match_count": 1,
+      "tv_bonus": -1.0269466181300313,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "756": {
+      "rating": 1511.6865416338865,
+      "rd": 283.4260553584374,
+      "volatility": 0.0599986544761151,
+      "last_played": "2025-12-22",
+      "match_count": 3,
+      "tv_bonus": -0.6781824827812347,
+      "tv_bonus_rd": 182.21,
+      "floor_match_count": 0,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "4864": {
+      "rating": 1499.278526488493,
+      "rd": 349.59004471319787,
+      "volatility": 0.06,
+      "last_played": "2022-12-18",
+      "match_count": 5,
+      "tv_bonus": 2.0757202147997607,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 5,
+      "recent_results": []
+    },
+    "4303": {
+      "rating": 1499.64867154023,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2021-12-18",
+      "match_count": 1,
+      "tv_bonus": -2.136054878695966,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "14943": {
+      "rating": 1499.760598438312,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2021-12-19",
+      "match_count": 1,
+      "tv_bonus": -1.4499565969505537,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "11918": {
+      "rating": 1481.1527591373804,
+      "rd": 273.0051541895509,
+      "volatility": 0.05999689510586915,
+      "last_played": "2025-03-11",
+      "match_count": 31,
+      "tv_bonus": 2.850034252630108,
+      "tv_bonus_rd": 175.02041374999988,
+      "floor_match_count": 12,
+      "tv_match_count": 19,
+      "recent_results": []
+    },
+    "2747": {
+      "rating": 1498.6691280135371,
+      "rd": 349.59407259607985,
+      "volatility": 0.06,
+      "last_played": "2022-12-17",
+      "match_count": 3,
+      "tv_bonus": -3.672265066910393,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "12098": {
+      "rating": 1473.7652982725317,
+      "rd": 340.2410204300074,
+      "volatility": 0.05999982719550332,
+      "last_played": "2024-12-16",
+      "match_count": 4,
+      "tv_bonus": -7.008335033168473,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 4,
+      "recent_results": []
+    },
+    "640": {
+      "rating": 1452.928860604537,
+      "rd": 310.78891052482635,
+      "volatility": 0.05999881967141479,
+      "last_played": "2025-12-19",
+      "match_count": 9,
+      "tv_bonus": -9.099608578874543,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 9,
+      "recent_results": []
+    },
+    "20292": {
+      "rating": 1499.6425700873097,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2021-12-21",
+      "match_count": 1,
+      "tv_bonus": -2.1482103727388666,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "735": {
+      "rating": 1498.2258017457643,
+      "rd": 349.5945186048974,
+      "volatility": 0.06,
+      "last_played": "2022-12-16",
+      "match_count": 2,
+      "tv_bonus": -4.281588636044862,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "1769": {
+      "rating": 1602.8790843563681,
+      "rd": 140.81731402383505,
+      "volatility": 0.05998313637131432,
+      "last_played": "2026-03-06",
+      "match_count": 30,
+      "tv_bonus": -2.064347229307028,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 19,
+      "tv_match_count": 11,
+      "recent_results": []
+    },
+    "1899": {
+      "rating": 1397.2363714145051,
+      "rd": 180.99246162871532,
+      "volatility": 0.059993200869179863,
+      "last_played": "2026-03-21",
+      "match_count": 14,
+      "tv_bonus": -2.235814990630221,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 8,
+      "tv_match_count": 6,
+      "recent_results": []
+    },
+    "6479": {
+      "rating": 1463.9984999841042,
+      "rd": 142.61073558930835,
+      "volatility": 0.059982146499897096,
+      "last_played": "2026-02-24",
+      "match_count": 29,
+      "tv_bonus": -0.9088849471787341,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 24,
+      "tv_match_count": 5,
+      "recent_results": []
+    },
+    "87": {
+      "rating": 1500.0463969716639,
+      "rd": 349.1670482482379,
+      "volatility": 0.06,
+      "last_played": "2023-03-03",
+      "match_count": 5,
+      "tv_bonus": 1.392367674804143,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 5,
+      "recent_results": []
+    },
+    "2007": {
+      "rating": 1500.2939955699696,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2022-03-04",
+      "match_count": 3,
+      "tv_bonus": 1.7538483561309794,
+      "tv_bonus_rd": 171.475,
+      "floor_match_count": 0,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "14217": {
+      "rating": 1483.966680106679,
+      "rd": 339.8820073270385,
+      "volatility": 0.059999815217598,
+      "last_played": "2025-02-28",
+      "match_count": 10,
+      "tv_bonus": -0.2749277933430814,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 10,
+      "recent_results": []
+    },
+    "1788": {
+      "rating": 1499.4960443548573,
+      "rd": 349.5808540349801,
+      "volatility": 0.06,
+      "last_played": "2023-03-03",
+      "match_count": 4,
+      "tv_bonus": 0.15155582767919107,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 4,
+      "recent_results": []
+    },
+    "5760": {
+      "rating": 1531.4500511520177,
+      "rd": 166.3908342122115,
+      "volatility": 0.05998409858718904,
+      "last_played": "2026-03-06",
+      "match_count": 45,
+      "tv_bonus": 3.370429633226011,
+      "tv_bonus_rd": 137.67282586983262,
+      "floor_match_count": 17,
+      "tv_match_count": 28,
+      "recent_results": []
+    },
+    "19388": {
+      "rating": 1403.721333210348,
+      "rd": 315.7937907825914,
+      "volatility": 0.059999077733658465,
+      "last_played": "2025-02-28",
+      "match_count": 11,
+      "tv_bonus": -7.059431490747436,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 4,
+      "tv_match_count": 7,
+      "recent_results": []
+    },
+    "12901": {
+      "rating": 1488.048475102753,
+      "rd": 182.30973538580292,
+      "volatility": 0.05998887150034545,
+      "last_played": "2026-03-06",
+      "match_count": 26,
+      "tv_bonus": 1.7744589930306085,
+      "tv_bonus_rd": 160.56518628437493,
+      "floor_match_count": 8,
+      "tv_match_count": 18,
+      "recent_results": []
+    },
+    "1867": {
+      "rating": 1471.6668264542893,
+      "rd": 189.6374514927241,
+      "volatility": 0.059986473964200815,
+      "last_played": "2026-03-06",
+      "match_count": 53,
+      "tv_bonus": -7.004878797910467,
+      "tv_bonus_rd": 149.72931121275965,
+      "floor_match_count": 22,
+      "tv_match_count": 31,
+      "recent_results": []
+    },
+    "1747": {
+      "rating": 1590.7491573076363,
+      "rd": 123.42633609778872,
+      "volatility": 0.05997680575634756,
+      "last_played": "2026-02-07",
+      "match_count": 46,
+      "tv_bonus": -0.9114011178085879,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 34,
+      "tv_match_count": 12,
+      "recent_results": []
+    },
+    "610": {
+      "rating": 1482.71915454594,
+      "rd": 174.67028457549725,
+      "volatility": 0.059991785785389835,
+      "last_played": "2026-02-07",
+      "match_count": 12,
+      "tv_bonus": -0.18744918191095605,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 10,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "4679": {
+      "rating": 1498.9661850378786,
+      "rd": 349.58066108881746,
+      "volatility": 0.06,
+      "last_played": "2023-03-03",
+      "match_count": 3,
+      "tv_bonus": -0.8172203274550647,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "10912": {
+      "rating": 1549.3413776113387,
+      "rd": 163.3996430353315,
+      "volatility": 0.059983359396968444,
+      "last_played": "2026-03-06",
+      "match_count": 53,
+      "tv_bonus": 4.028948014934557,
+      "tv_bonus_rd": 152.2707789911425,
+      "floor_match_count": 22,
+      "tv_match_count": 31,
+      "recent_results": []
+    },
+    "20830": {
+      "rating": 1499.999427109038,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2022-03-04",
+      "match_count": 2,
+      "tv_bonus": -0.003417586299444997,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "1776": {
+      "rating": 1560.1171390305938,
+      "rd": 156.79876409830266,
+      "volatility": 0.059986441748141404,
+      "last_played": "2026-01-24",
+      "match_count": 37,
+      "tv_bonus": 2.8990123175353424,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 26,
+      "tv_match_count": 11,
+      "recent_results": []
+    },
+    "2099": {
+      "rating": 1500.5566824047944,
+      "rd": 348.7514068646607,
+      "volatility": 0.06,
+      "last_played": "2023-03-03",
+      "match_count": 5,
+      "tv_bonus": 0.6526325866594123,
+      "tv_bonus_rd": 171.475,
+      "floor_match_count": 0,
+      "tv_match_count": 5,
+      "recent_results": []
+    },
+    "656": {
+      "rating": 1499.059456227102,
+      "rd": 349.590437251843,
+      "volatility": 0.06,
+      "last_played": "2022-12-18",
+      "match_count": 3,
+      "tv_bonus": -1.2324855783344115,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "1658": {
+      "rating": 1499.1697749063837,
+      "rd": 349.580659756294,
+      "volatility": 0.06,
+      "last_played": "2023-03-03",
+      "match_count": 5,
+      "tv_bonus": -1.067227144306355,
+      "tv_bonus_rd": 185.3165,
+      "floor_match_count": 0,
+      "tv_match_count": 5,
+      "recent_results": []
+    },
+    "5210": {
+      "rating": 1499.8533555468214,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2022-03-04",
+      "match_count": 1,
+      "tv_bonus": -0.874809394345498,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "2681": {
+      "rating": 1427.7458715596604,
+      "rd": 198.37637159436474,
+      "volatility": 0.05999026024828554,
+      "last_played": "2026-03-06",
+      "match_count": 33,
+      "tv_bonus": -2.476995419478045,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 16,
+      "tv_match_count": 17,
+      "recent_results": []
+    },
+    "16098": {
+      "rating": 1499.0671462151688,
+      "rd": 170.66300509989313,
+      "volatility": 0.059986176333132545,
+      "last_played": "2026-03-06",
+      "match_count": 32,
+      "tv_bonus": -3.9774435982705016,
+      "tv_bonus_rd": 166.49907438437492,
+      "floor_match_count": 20,
+      "tv_match_count": 12,
+      "recent_results": []
+    },
+    "491": {
+      "rating": 1498.3718006831582,
+      "rd": 349.58012773582277,
+      "volatility": 0.06,
+      "last_played": "2023-03-03",
+      "match_count": 2,
+      "tv_bonus": -3.1793237719743908,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "2662": {
+      "rating": 1499.1923110380615,
+      "rd": 349.5806694439028,
+      "volatility": 0.06,
+      "last_played": "2023-03-03",
+      "match_count": 2,
+      "tv_bonus": -2.1044656948292815,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "1008": {
+      "rating": 1671.271162355412,
+      "rd": 159.72941233255384,
+      "volatility": 0.05999020439222804,
+      "last_played": "2026-02-28",
+      "match_count": 13,
+      "tv_bonus": -1.0301496667372345,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 12,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "14239": {
+      "rating": 1633.161295612486,
+      "rd": 120.97837472528526,
+      "volatility": 0.0599518733917273,
+      "last_played": "2026-05-14",
+      "match_count": 98,
+      "tv_bonus": 9.016581246015555,
+      "tv_bonus_rd": 50.0,
+      "floor_match_count": 23,
+      "tv_match_count": 75,
+      "recent_results": []
+    },
+    "20734": {
+      "rating": 1499.12920904629,
+      "rd": 349.57963149501535,
+      "volatility": 0.06,
+      "last_played": "2023-03-03",
+      "match_count": 2,
+      "tv_bonus": -2.0569273146921017,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "20959": {
+      "rating": 1499.852676563734,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2022-03-04",
+      "match_count": 1,
+      "tv_bonus": -0.8788598771957704,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "183": {
+      "rating": 1499.1588586295838,
+      "rd": 349.5814616848652,
+      "volatility": 0.06,
+      "last_played": "2023-03-03",
+      "match_count": 2,
+      "tv_bonus": -2.3314523068136523,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "147": {
+      "rating": 1499.7569675256443,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2022-03-04",
+      "match_count": 1,
+      "tv_bonus": -1.4498133905148198,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "5737": {
+      "rating": 1467.5150616296617,
+      "rd": 275.02291152872596,
+      "volatility": 0.05999648018740472,
+      "last_played": "2025-12-22",
+      "match_count": 15,
+      "tv_bonus": -1.148192479759919,
+      "tv_bonus_rd": 177.14649999999997,
+      "floor_match_count": 7,
+      "tv_match_count": 8,
+      "recent_results": []
+    },
+    "13971": {
+      "rating": 1562.8397013602653,
+      "rd": 178.25273870936815,
+      "volatility": 0.05998814499837245,
+      "last_played": "2026-03-06",
+      "match_count": 33,
+      "tv_bonus": -1.4416485408731057,
+      "tv_bonus_rd": 173.89624124999995,
+      "floor_match_count": 19,
+      "tv_match_count": 14,
+      "recent_results": []
+    },
+    "14533": {
+      "rating": 1499.7570728436394,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2022-03-04",
+      "match_count": 1,
+      "tv_bonus": -1.449185114525525,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "5785": {
+      "rating": 1499.796287448272,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2022-03-04",
+      "match_count": 1,
+      "tv_bonus": -1.215249879748877,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "20960": {
+      "rating": 1424.4780373107358,
+      "rd": 217.67167556181712,
+      "volatility": 0.05999435374809435,
+      "last_played": "2026-03-06",
+      "match_count": 18,
+      "tv_bonus": -2.5569346384003646,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 11,
+      "tv_match_count": 7,
+      "recent_results": []
+    },
+    "814": {
+      "rating": 1499.639430532938,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2022-03-04",
+      "match_count": 1,
+      "tv_bonus": -2.150981850802903,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "3546": {
+      "rating": 1413.4500570827572,
+      "rd": 188.27528850855418,
+      "volatility": 0.059992244671808206,
+      "last_played": "2026-02-21",
+      "match_count": 19,
+      "tv_bonus": -3.745939213239067,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 16,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "6007": {
+      "rating": 1499.6398458863075,
+      "rd": 350.0,
+      "volatility": 0.06,
+      "last_played": "2022-03-04",
+      "match_count": 1,
+      "tv_bonus": -2.1485040545141834,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "942": {
+      "rating": 1499.3057678389548,
+      "rd": 345.68565100713414,
+      "volatility": 0.05999991231838375,
+      "last_played": "2024-03-01",
+      "match_count": 6,
+      "tv_bonus": -3.7923141110658527,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 6,
+      "recent_results": []
+    },
+    "2309": {
+      "rating": 1487.7213306585456,
+      "rd": 279.8253112869292,
+      "volatility": 0.05999772733794356,
+      "last_played": "2025-12-22",
+      "match_count": 16,
+      "tv_bonus": -3.5072327380040376,
+      "tv_bonus_rd": 181.07,
+      "floor_match_count": 0,
+      "tv_match_count": 16,
+      "recent_results": []
+    },
+    "16793": {
+      "rating": 1518.7377874503939,
+      "rd": 185.84096698501685,
+      "volatility": 0.05998745792358536,
+      "last_played": "2026-02-24",
+      "match_count": 51,
+      "tv_bonus": 5.802741183378129,
+      "tv_bonus_rd": 178.15690369477915,
+      "floor_match_count": 21,
+      "tv_match_count": 30,
+      "recent_results": []
+    },
+    "12873": {
+      "rating": 1666.0543814094617,
+      "rd": 118.72474786140776,
+      "volatility": 0.05994902550221692,
+      "last_played": "2026-05-14",
+      "match_count": 94,
+      "tv_bonus": 4.957519408241648,
+      "tv_bonus_rd": 50.0,
+      "floor_match_count": 30,
+      "tv_match_count": 64,
+      "recent_results": []
+    },
+    "22264": {
+      "rating": 1499.547924124035,
+      "rd": 349.5939004287189,
+      "volatility": 0.06,
+      "last_played": "2022-12-16",
+      "match_count": 2,
+      "tv_bonus": -0.6860155774204468,
+      "tv_bonus_rd": 180.68999999999997,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "7963": {
+      "rating": 1523.8846578060748,
+      "rd": 167.07723812614998,
+      "volatility": 0.059985866704162456,
+      "last_played": "2026-03-06",
+      "match_count": 33,
+      "tv_bonus": 0.3465909437008826,
+      "tv_bonus_rd": 176.75103874999994,
+      "floor_match_count": 17,
+      "tv_match_count": 16,
+      "recent_results": []
+    },
+    "12624": {
+      "rating": 1498.594774569775,
+      "rd": 349.59448492029,
+      "volatility": 0.06,
+      "last_played": "2022-12-16",
+      "match_count": 1,
+      "tv_bonus": -2.1151361056465894,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "14719": {
+      "rating": 1498.5695386930297,
+      "rd": 349.5943770096947,
+      "volatility": 0.06,
+      "last_played": "2022-12-16",
+      "match_count": 1,
+      "tv_bonus": -2.153122343036893,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "13420": {
+      "rating": 1498.5771024506203,
+      "rd": 349.5922381911759,
+      "volatility": 0.06,
+      "last_played": "2022-12-17",
+      "match_count": 1,
+      "tv_bonus": -2.133524556833346,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "13702": {
+      "rating": 1498.5676629467532,
+      "rd": 349.5900532586428,
+      "volatility": 0.06,
+      "last_played": "2022-12-18",
+      "match_count": 1,
+      "tv_bonus": -2.1394433959823504,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "1599": {
+      "rating": 1450.089831292394,
+      "rd": 314.5375098913828,
+      "volatility": 0.059999419157238394,
+      "last_played": "2025-12-15",
+      "match_count": 4,
+      "tv_bonus": -3.029562641923639,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 4,
+      "recent_results": []
+    },
+    "5124": {
+      "rating": 1486.3173911117597,
+      "rd": 204.39331785928877,
+      "volatility": 0.05999005097009923,
+      "last_played": "2026-03-06",
+      "match_count": 31,
+      "tv_bonus": 4.069277994774082,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 17,
+      "tv_match_count": 14,
+      "recent_results": []
+    },
+    "9809": {
+      "rating": 1445.0957881816587,
+      "rd": 311.16599237980563,
+      "volatility": 0.05999888050696243,
+      "last_played": "2025-12-16",
+      "match_count": 6,
+      "tv_bonus": -1.9984040742716631,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 6,
+      "recent_results": []
+    },
+    "12669": {
+      "rating": 1406.149878820949,
+      "rd": 303.39285852625903,
+      "volatility": 0.059998955799191366,
+      "last_played": "2026-03-06",
+      "match_count": 7,
+      "tv_bonus": -5.364372172958043,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 7,
+      "recent_results": []
+    },
+    "2396": {
+      "rating": 1498.5570029538503,
+      "rd": 349.5835151873626,
+      "volatility": 0.06,
+      "last_played": "2022-12-21",
+      "match_count": 1,
+      "tv_bonus": -2.1306671352098445,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "19960": {
+      "rating": 1500.668555168178,
+      "rd": 348.59777752170993,
+      "volatility": 0.06,
+      "last_played": "2023-03-03",
+      "match_count": 3,
+      "tv_bonus": 1.3613602965173965,
+      "tv_bonus_rd": 171.475,
+      "floor_match_count": 0,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "16839": {
+      "rating": 1753.1706847278929,
+      "rd": 111.98374394906702,
+      "volatility": 0.05991815175672816,
+      "last_played": "2026-05-14",
+      "match_count": 197,
+      "tv_bonus": 45.94626716880901,
+      "tv_bonus_rd": 50.0,
+      "floor_match_count": 22,
+      "tv_match_count": 175,
+      "recent_results": []
+    },
+    "12903": {
+      "rating": 1547.256976065952,
+      "rd": 120.2416821799027,
+      "volatility": 0.05997518076844182,
+      "last_played": "2026-03-07",
+      "match_count": 48,
+      "tv_bonus": 1.7248495257807255,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 35,
+      "tv_match_count": 13,
+      "recent_results": []
+    },
+    "4421": {
+      "rating": 1499.035974930432,
+      "rd": 347.81366639660763,
+      "volatility": 0.05999995586706075,
+      "last_played": "2024-03-01",
+      "match_count": 4,
+      "tv_bonus": 1.2648472633231287,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 4,
+      "recent_results": []
+    },
+    "9877": {
+      "rating": 1529.4584612732663,
+      "rd": 156.22425566667522,
+      "volatility": 0.0599889760759826,
+      "last_played": "2026-02-07",
+      "match_count": 16,
+      "tv_bonus": 0.06390172983995723,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 13,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "9878": {
+      "rating": 1491.326415365273,
+      "rd": 340.4532546877416,
+      "volatility": 0.059999734425704034,
+      "last_played": "2025-02-28",
+      "match_count": 6,
+      "tv_bonus": 0.34985873225556063,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 6,
+      "recent_results": []
+    },
+    "1953": {
+      "rating": 1496.0807067396747,
+      "rd": 189.21613341516752,
+      "volatility": 0.05998955891630345,
+      "last_played": "2026-03-06",
+      "match_count": 35,
+      "tv_bonus": -0.5649805978759905,
+      "tv_bonus_rd": 173.49253874999994,
+      "floor_match_count": 18,
+      "tv_match_count": 17,
+      "recent_results": []
+    },
+    "1136": {
+      "rating": 1515.6227119950825,
+      "rd": 118.70503687907039,
+      "volatility": 0.05997602713651679,
+      "last_played": "2026-03-14",
+      "match_count": 36,
+      "tv_bonus": 3.010191703150432,
+      "tv_bonus_rd": 191.59999999999994,
+      "floor_match_count": 25,
+      "tv_match_count": 11,
+      "recent_results": []
+    },
+    "4318": {
+      "rating": 1378.7915175748078,
+      "rd": 182.90329777429596,
+      "volatility": 0.059993117149095755,
+      "last_played": "2026-03-14",
+      "match_count": 11,
+      "tv_bonus": 0.88145737296748,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 8,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "988": {
+      "rating": 1499.7207845077774,
+      "rd": 349.16480011114373,
+      "volatility": 0.06,
+      "last_played": "2023-03-03",
+      "match_count": 2,
+      "tv_bonus": -0.40636027757388504,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "7872": {
+      "rating": 1500.0945521764854,
+      "rd": 349.16561581338715,
+      "volatility": 0.06,
+      "last_played": "2023-03-03",
+      "match_count": 2,
+      "tv_bonus": 0.14830265969141987,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "15475": {
+      "rating": 1500.6476438069337,
+      "rd": 343.0134344997236,
+      "volatility": 0.05999982704307659,
+      "last_played": "2024-03-01",
+      "match_count": 6,
+      "tv_bonus": 0.20189219240331346,
+      "tv_bonus_rd": 171.475,
+      "floor_match_count": 0,
+      "tv_match_count": 6,
+      "recent_results": []
+    },
+    "6765": {
+      "rating": 1499.7069903803704,
+      "rd": 349.1652776037484,
+      "volatility": 0.06,
+      "last_played": "2023-03-03",
+      "match_count": 2,
+      "tv_bonus": -0.42664205098037566,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "9983": {
+      "rating": 1473.456763570264,
+      "rd": 192.070036060885,
+      "volatility": 0.05998974206205893,
+      "last_played": "2026-03-06",
+      "match_count": 30,
+      "tv_bonus": -2.809068642055116,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 17,
+      "tv_match_count": 13,
+      "recent_results": []
+    },
+    "16679": {
+      "rating": 1500.0026964084104,
+      "rd": 349.16507084661185,
+      "volatility": 0.06,
+      "last_played": "2023-03-03",
+      "match_count": 2,
+      "tv_bonus": 0.0077763823319945136,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "4924": {
+      "rating": 1458.6406681723686,
+      "rd": 301.7885890456447,
+      "volatility": 0.05999843212074114,
+      "last_played": "2025-03-11",
+      "match_count": 13,
+      "tv_bonus": 0.36173258087236193,
+      "tv_bonus_rd": 192.2,
+      "floor_match_count": 6,
+      "tv_match_count": 7,
+      "recent_results": []
+    },
+    "1569": {
+      "rating": 1500.0294852186917,
+      "rd": 345.71363877116386,
+      "volatility": 0.05999991292737729,
+      "last_played": "2024-03-01",
+      "match_count": 3,
+      "tv_bonus": -0.7333731310433449,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "17108": {
+      "rating": 1490.0105372560452,
+      "rd": 322.59586134955515,
+      "volatility": 0.05999944219260006,
+      "last_played": "2025-02-18",
+      "match_count": 5,
+      "tv_bonus": -0.6633278827676314,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 3,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "854": {
+      "rating": 1498.5429346361984,
+      "rd": 315.4922490484748,
+      "volatility": 0.05999933107796927,
+      "last_played": "2026-02-24",
+      "match_count": 4,
+      "tv_bonus": -2.3172214762953365,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 1,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "3040": {
+      "rating": 1495.5302789161165,
+      "rd": 187.44978341241443,
+      "volatility": 0.05998973605176894,
+      "last_played": "2026-03-06",
+      "match_count": 30,
+      "tv_bonus": -3.5180394962129222,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 16,
+      "tv_match_count": 14,
+      "recent_results": []
+    },
+    "1679": {
+      "rating": 1542.8910931131911,
+      "rd": 199.31877543528262,
+      "volatility": 0.05999143257289068,
+      "last_played": "2026-03-06",
+      "match_count": 26,
+      "tv_bonus": -5.8791712648489725,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 17,
+      "tv_match_count": 9,
+      "recent_results": []
+    },
+    "4998": {
+      "rating": 1499.4069145809046,
+      "rd": 349.5799142810824,
+      "volatility": 0.06,
+      "last_played": "2023-03-03",
+      "match_count": 1,
+      "tv_bonus": -0.8714391973738131,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "5011": {
+      "rating": 1463.3760214539814,
+      "rd": 310.2403070716608,
+      "volatility": 0.059999320074797746,
+      "last_played": "2026-03-06",
+      "match_count": 2,
+      "tv_bonus": -2.468166732842813,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "4626": {
+      "rating": 1459.309556440306,
+      "rd": 206.16657820200592,
+      "volatility": 0.059993779736865434,
+      "last_played": "2026-03-06",
+      "match_count": 15,
+      "tv_bonus": -0.1934757163942289,
+      "tv_bonus_rd": 171.475,
+      "floor_match_count": 10,
+      "tv_match_count": 5,
+      "recent_results": []
+    },
+    "4288": {
+      "rating": 1497.804351249574,
+      "rd": 345.7068868220293,
+      "volatility": 0.05999991272419041,
+      "last_played": "2024-03-01",
+      "match_count": 3,
+      "tv_bonus": -1.6966443191770804,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "5292": {
+      "rating": 1498.4544532690447,
+      "rd": 345.71312250565023,
+      "volatility": 0.0599999129455098,
+      "last_played": "2024-03-01",
+      "match_count": 3,
+      "tv_bonus": -1.5790468995200906,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "649": {
+      "rating": 1499.011837723557,
+      "rd": 349.581413693663,
+      "volatility": 0.06,
+      "last_played": "2023-03-03",
+      "match_count": 1,
+      "tv_bonus": -1.4538285702997265,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "525": {
+      "rating": 1499.2994015995635,
+      "rd": 349.5806596398074,
+      "volatility": 0.06,
+      "last_played": "2023-03-03",
+      "match_count": 1,
+      "tv_bonus": -1.0300790435448948,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "7943": {
+      "rating": 1504.3049151228317,
+      "rd": 323.8429182350597,
+      "volatility": 0.05999947534457356,
+      "last_played": "2025-02-28",
+      "match_count": 7,
+      "tv_bonus": -4.099438411678637,
+      "tv_bonus_rd": 171.475,
+      "floor_match_count": 0,
+      "tv_match_count": 7,
+      "recent_results": []
+    },
+    "11992": {
+      "rating": 1499.2979669156605,
+      "rd": 349.5806604784464,
+      "volatility": 0.06,
+      "last_played": "2023-03-03",
+      "match_count": 1,
+      "tv_bonus": -1.032188792394109,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "5667": {
+      "rating": 1443.9421546523522,
+      "rd": 311.1635671958961,
+      "volatility": 0.059999327837051565,
+      "last_played": "2026-03-06",
+      "match_count": 3,
+      "tv_bonus": -4.356152652070831,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "22845": {
+      "rating": 1522.3839170409954,
+      "rd": 198.37061500141306,
+      "volatility": 0.05999417103084377,
+      "last_played": "2026-03-06",
+      "match_count": 10,
+      "tv_bonus": 0.6635043625873069,
+      "tv_bonus_rd": 171.475,
+      "floor_match_count": 5,
+      "tv_match_count": 5,
+      "recent_results": []
+    },
+    "9493": {
+      "rating": 1495.9572590811845,
+      "rd": 345.6826765234444,
+      "volatility": 0.05999991272212143,
+      "last_played": "2024-03-01",
+      "match_count": 3,
+      "tv_bonus": -2.119119012131819,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "2404": {
+      "rating": 1545.7490833614952,
+      "rd": 118.31776334248629,
+      "volatility": 0.05997807638758461,
+      "last_played": "2026-03-14",
+      "match_count": 32,
+      "tv_bonus": -1.0328138228658963,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 26,
+      "tv_match_count": 6,
+      "recent_results": []
+    },
+    "10119": {
+      "rating": 1589.4630731231962,
+      "rd": 161.50484666008091,
+      "volatility": 0.059986470716901434,
+      "last_played": "2026-03-07",
+      "match_count": 31,
+      "tv_bonus": 0.9794936856353686,
+      "tv_bonus_rd": 163.09124999999997,
+      "floor_match_count": 22,
+      "tv_match_count": 9,
+      "recent_results": []
+    },
+    "1196": {
+      "rating": 1499.1724285355199,
+      "rd": 349.58065835802375,
+      "volatility": 0.06,
+      "last_played": "2023-03-03",
+      "match_count": 1,
+      "tv_bonus": -1.2167642329505388,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "1738": {
+      "rating": 1496.5946358506565,
+      "rd": 347.81743179870546,
+      "volatility": 0.05999995599436616,
+      "last_played": "2024-03-01",
+      "match_count": 2,
+      "tv_bonus": -1.9012989068362323,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "23346": {
+      "rating": 1446.0199143467717,
+      "rd": 310.57805851263805,
+      "volatility": 0.05999907163995194,
+      "last_played": "2025-12-14",
+      "match_count": 8,
+      "tv_bonus": -3.058423111456236,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 8,
+      "recent_results": []
+    },
+    "865": {
+      "rating": 1491.1952213094537,
+      "rd": 348.8150421992666,
+      "volatility": 0.06,
+      "last_played": "2023-12-16",
+      "match_count": 4,
+      "tv_bonus": -5.392488356037668,
+      "tv_bonus_rd": 169.51372499999997,
+      "floor_match_count": 0,
+      "tv_match_count": 4,
+      "recent_results": []
+    },
+    "23440": {
+      "rating": 1501.1245496567149,
+      "rd": 344.5843143716146,
+      "volatility": 0.0599998956694282,
+      "last_played": "2024-12-20",
+      "match_count": 2,
+      "tv_bonus": -1.4516692624614582,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "14552": {
+      "rating": 1498.9882542915752,
+      "rd": 348.0363638584198,
+      "volatility": 0.06,
+      "last_played": "2023-12-17",
+      "match_count": 2,
+      "tv_bonus": -0.6397181543095241,
+      "tv_bonus_rd": 180.68999999999997,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "23451": {
+      "rating": 1497.772363105263,
+      "rd": 348.8148829318581,
+      "volatility": 0.06,
+      "last_played": "2023-12-16",
+      "match_count": 1,
+      "tv_bonus": -1.4057903536498204,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "24779": {
+      "rating": 1496.5685833202208,
+      "rd": 348.8093129598854,
+      "volatility": 0.06,
+      "last_played": "2023-12-17",
+      "match_count": 1,
+      "tv_bonus": -2.157186301657687,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "161": {
+      "rating": 1496.6529701188,
+      "rd": 348.8097516464566,
+      "volatility": 0.06,
+      "last_played": "2023-12-17",
+      "match_count": 1,
+      "tv_bonus": -2.104130027804646,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "12956": {
+      "rating": 1416.1978631611578,
+      "rd": 314.17137161521543,
+      "volatility": 0.05999731595963336,
+      "last_played": "2025-12-12",
+      "match_count": 15,
+      "tv_bonus": -2.151107868231793,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 8,
+      "tv_match_count": 7,
+      "recent_results": []
+    },
+    "11664": {
+      "rating": 1426.4724802288124,
+      "rd": 305.55730283386566,
+      "volatility": 0.05999935117420669,
+      "last_played": "2025-12-12",
+      "match_count": 3,
+      "tv_bonus": -2.186414058869862,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "9825": {
+      "rating": 1496.5617191913584,
+      "rd": 348.7989177734431,
+      "volatility": 0.06,
+      "last_played": "2023-12-19",
+      "match_count": 1,
+      "tv_bonus": -2.1450107864824735,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "14453": {
+      "rating": 1485.2896643084398,
+      "rd": 340.180175746846,
+      "volatility": 0.05999981923860785,
+      "last_played": "2024-12-20",
+      "match_count": 3,
+      "tv_bonus": -1.308758771355177,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "8036": {
+      "rating": 1665.2560449538657,
+      "rd": 133.8088115992735,
+      "volatility": 0.059972744154504244,
+      "last_played": "2026-03-07",
+      "match_count": 64,
+      "tv_bonus": -7.860603210174756,
+      "tv_bonus_rd": 135.82670792428965,
+      "floor_match_count": 41,
+      "tv_match_count": 23,
+      "recent_results": []
+    },
+    "1854": {
+      "rating": 1496.413701023897,
+      "rd": 348.800569971829,
+      "volatility": 0.06,
+      "last_played": "2023-12-19",
+      "match_count": 1,
+      "tv_bonus": -2.2373421682968906,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "1650": {
+      "rating": 1485.0064070530912,
+      "rd": 179.70385891095418,
+      "volatility": 0.05998929300821023,
+      "last_played": "2026-03-06",
+      "match_count": 27,
+      "tv_bonus": 4.792187334265814,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 12,
+      "tv_match_count": 15,
+      "recent_results": []
+    },
+    "19725": {
+      "rating": 1386.7406832567751,
+      "rd": 271.53886774467907,
+      "volatility": 0.05999786490846892,
+      "last_played": "2025-12-13",
+      "match_count": 5,
+      "tv_bonus": -5.238456282827691,
+      "tv_bonus_rd": 169.52322499999994,
+      "floor_match_count": 0,
+      "tv_match_count": 5,
+      "recent_results": []
+    },
+    "22788": {
+      "rating": 1496.6238167027425,
+      "rd": 348.7942688900594,
+      "volatility": 0.06,
+      "last_played": "2023-12-20",
+      "match_count": 1,
+      "tv_bonus": -2.098214136833713,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "11622": {
+      "rating": 1492.0902176661202,
+      "rd": 179.88008867950543,
+      "volatility": 0.059988746965075855,
+      "last_played": "2026-03-06",
+      "match_count": 29,
+      "tv_bonus": -2.1218684961335414,
+      "tv_bonus_rd": 171.475,
+      "floor_match_count": 21,
+      "tv_match_count": 8,
+      "recent_results": []
+    },
+    "683": {
+      "rating": 1498.3546458569108,
+      "rd": 348.793699573829,
+      "volatility": 0.06,
+      "last_played": "2023-12-20",
+      "match_count": 1,
+      "tv_bonus": -1.0225498998730063,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "9466": {
+      "rating": 1453.7059989728723,
+      "rd": 306.4052910258976,
+      "volatility": 0.059999072973986496,
+      "last_played": "2025-12-16",
+      "match_count": 3,
+      "tv_bonus": -4.656881393182694,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "4314": {
+      "rating": 1440.4749249984668,
+      "rd": 320.49071630301154,
+      "volatility": 0.059998992666573894,
+      "last_played": "2025-03-11",
+      "match_count": 9,
+      "tv_bonus": 2.0066662485044264,
+      "tv_bonus_rd": 192.2,
+      "floor_match_count": 3,
+      "tv_match_count": 6,
+      "recent_results": []
+    },
+    "18469": {
+      "rating": 1464.9377241421957,
+      "rd": 331.278412201138,
+      "volatility": 0.059999459744562694,
+      "last_played": "2025-02-18",
+      "match_count": 6,
+      "tv_bonus": 2.7825307443793816,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 2,
+      "tv_match_count": 4,
+      "recent_results": []
+    },
+    "25189": {
+      "rating": 1459.3396048480338,
+      "rd": 296.7088524328223,
+      "volatility": 0.05999828913546802,
+      "last_played": "2025-03-11",
+      "match_count": 12,
+      "tv_bonus": 1.9065237526287073,
+      "tv_bonus_rd": 192.2,
+      "floor_match_count": 7,
+      "tv_match_count": 5,
+      "recent_results": []
+    },
+    "5046": {
+      "rating": 1430.503942141675,
+      "rd": 178.69319109258052,
+      "volatility": 0.0599927342213869,
+      "last_played": "2026-03-21",
+      "match_count": 11,
+      "tv_bonus": 1.3282613643046868,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 8,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "5675": {
+      "rating": 1502.9412737178827,
+      "rd": 343.61552056944475,
+      "volatility": 0.05999986884858599,
+      "last_played": "2024-03-01",
+      "match_count": 3,
+      "tv_bonus": 1.1234444199416096,
+      "tv_bonus_rd": 171.475,
+      "floor_match_count": 0,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "9513": {
+      "rating": 1485.9641733355793,
+      "rd": 131.8082522470107,
+      "volatility": 0.05998082685274635,
+      "last_played": "2026-02-21",
+      "match_count": 34,
+      "tv_bonus": -3.0507238286051535,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 31,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "549": {
+      "rating": 1412.597980481235,
+      "rd": 190.2897096193235,
+      "volatility": 0.059993720005105125,
+      "last_played": "2026-02-07",
+      "match_count": 10,
+      "tv_bonus": -0.02088286340521095,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 8,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "6775": {
+      "rating": 1523.7915724293002,
+      "rd": 162.94510315442471,
+      "volatility": 0.05999017750471897,
+      "last_played": "2026-02-14",
+      "match_count": 14,
+      "tv_bonus": -0.1676407923811436,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 12,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "2150": {
+      "rating": 1551.7217053431195,
+      "rd": 160.55103645061004,
+      "volatility": 0.059983695441898036,
+      "last_played": "2026-03-06",
+      "match_count": 34,
+      "tv_bonus": -0.5731860805304714,
+      "tv_bonus_rd": 151.49712234203116,
+      "floor_match_count": 21,
+      "tv_match_count": 13,
+      "recent_results": []
+    },
+    "12675": {
+      "rating": 1499.9388888609196,
+      "rd": 345.6982669040056,
+      "volatility": 0.05999991224831433,
+      "last_played": "2024-03-01",
+      "match_count": 2,
+      "tv_bonus": -0.004697887863115091,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "22773": {
+      "rating": 1568.2991986680304,
+      "rd": 128.7439205496854,
+      "volatility": 0.05997943328488438,
+      "last_played": "2026-01-31",
+      "match_count": 34,
+      "tv_bonus": -0.7093608824870645,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 31,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "21322": {
+      "rating": 1552.5570447236455,
+      "rd": 114.55054226888106,
+      "volatility": 0.05997428408634152,
+      "last_played": "2026-03-21",
+      "match_count": 29,
+      "tv_bonus": -1.7661622987506282,
+      "tv_bonus_rd": 192.99999999999994,
+      "floor_match_count": 26,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "11402": {
+      "rating": 1497.1445332365001,
+      "rd": 347.79358050570545,
+      "volatility": 0.0599999555519146,
+      "last_played": "2024-03-01",
+      "match_count": 1,
+      "tv_bonus": -1.034022391203318,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "1199": {
+      "rating": 1432.2896950726292,
+      "rd": 132.4246518767272,
+      "volatility": 0.05998276214031679,
+      "last_played": "2026-01-23",
+      "match_count": 26,
+      "tv_bonus": -1.037960138499685,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 25,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "18502": {
+      "rating": 1497.530853187827,
+      "rd": 347.8140538355459,
+      "volatility": 0.05999995588211912,
+      "last_played": "2024-03-01",
+      "match_count": 1,
+      "tv_bonus": -0.897933694924275,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "15684": {
+      "rating": 1482.3073774775753,
+      "rd": 201.77052274136776,
+      "volatility": 0.05999245801910129,
+      "last_played": "2026-02-24",
+      "match_count": 20,
+      "tv_bonus": -0.5901163072406252,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 17,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "11306": {
+      "rating": 1552.5010489269896,
+      "rd": 164.4553267482426,
+      "volatility": 0.059990344534668096,
+      "last_played": "2026-02-14",
+      "match_count": 13,
+      "tv_bonus": -1.1984769137482285,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 12,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "9029": {
+      "rating": 1491.7904563240645,
+      "rd": 193.01400447458076,
+      "volatility": 0.0599906899097669,
+      "last_played": "2026-03-06",
+      "match_count": 24,
+      "tv_bonus": 2.1076024628801133,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 17,
+      "tv_match_count": 7,
+      "recent_results": []
+    },
+    "17623": {
+      "rating": 1497.273012190199,
+      "rd": 347.79475643593423,
+      "volatility": 0.05999995555464457,
+      "last_played": "2024-03-01",
+      "match_count": 1,
+      "tv_bonus": -0.9875985366923979,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "19881": {
+      "rating": 1533.4852198706537,
+      "rd": 171.50906430034652,
+      "volatility": 0.059986752974008954,
+      "last_played": "2026-03-06",
+      "match_count": 30,
+      "tv_bonus": -0.5530325647791134,
+      "tv_bonus_rd": 161.48497747187488,
+      "floor_match_count": 19,
+      "tv_match_count": 11,
+      "recent_results": []
+    },
+    "23810": {
+      "rating": 1497.5960031015675,
+      "rd": 347.81367330405834,
+      "volatility": 0.059999955866341326,
+      "last_played": "2024-03-01",
+      "match_count": 1,
+      "tv_bonus": -0.8742005248416715,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "20563": {
+      "rating": 1496.5433868347825,
+      "rd": 347.82995252082344,
+      "volatility": 0.05999995634042586,
+      "last_played": "2024-03-01",
+      "match_count": 1,
+      "tv_bonus": -1.2610992304467508,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "12823": {
+      "rating": 1486.7354617757517,
+      "rd": 189.73265484455231,
+      "volatility": 0.0599906025011538,
+      "last_played": "2026-03-07",
+      "match_count": 22,
+      "tv_bonus": 5.795423142624808,
+      "tv_bonus_rd": 163.09124999999997,
+      "floor_match_count": 13,
+      "tv_match_count": 9,
+      "recent_results": []
+    },
+    "1660": {
+      "rating": 1497.1358912746405,
+      "rd": 347.82920905806435,
+      "volatility": 0.05999995622491626,
+      "last_played": "2024-03-01",
+      "match_count": 1,
+      "tv_bonus": -1.0449141171370042,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "16844": {
+      "rating": 1497.5498027755166,
+      "rd": 347.8291675416408,
+      "volatility": 0.05999995616452165,
+      "last_played": "2024-03-01",
+      "match_count": 1,
+      "tv_bonus": -0.8938948954598971,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "11969": {
+      "rating": 1476.6262309610906,
+      "rd": 311.35366138367795,
+      "volatility": 0.05999886092835649,
+      "last_played": "2025-03-11",
+      "match_count": 7,
+      "tv_bonus": -2.209673725741324,
+      "tv_bonus_rd": 192.2,
+      "floor_match_count": 5,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "22800": {
+      "rating": 1496.6135815250807,
+      "rd": 347.8137394244713,
+      "volatility": 0.059999956021753086,
+      "last_played": "2024-03-01",
+      "match_count": 1,
+      "tv_bonus": -1.2314493358978287,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "20491": {
+      "rating": 1395.043001598406,
+      "rd": 310.6739373551387,
+      "volatility": 0.059998927805292715,
+      "last_played": "2025-12-15",
+      "match_count": 5,
+      "tv_bonus": -6.722581933133574,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 5,
+      "recent_results": []
+    },
+    "2130": {
+      "rating": 1487.9415903890024,
+      "rd": 276.2116457756616,
+      "volatility": 0.059998363497566765,
+      "last_played": "2025-12-23",
+      "match_count": 3,
+      "tv_bonus": -1.4630147373667985,
+      "tv_bonus_rd": 181.82999999999998,
+      "floor_match_count": 0,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "9783": {
+      "rating": 1494.5235140342074,
+      "rd": 187.11706566127236,
+      "volatility": 0.05998887956012368,
+      "last_played": "2026-03-06",
+      "match_count": 26,
+      "tv_bonus": -3.766652127289092,
+      "tv_bonus_rd": 168.65261056249994,
+      "floor_match_count": 18,
+      "tv_match_count": 8,
+      "recent_results": []
+    },
+    "22623": {
+      "rating": 1429.302019576172,
+      "rd": 304.8256681236853,
+      "volatility": 0.0599991216230131,
+      "last_played": "2025-12-17",
+      "match_count": 2,
+      "tv_bonus": -2.3546946830864077,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "2085": {
+      "rating": 1497.217628835856,
+      "rd": 177.88161493988156,
+      "volatility": 0.05998972447975032,
+      "last_played": "2026-03-07",
+      "match_count": 21,
+      "tv_bonus": 4.236900282966099,
+      "tv_bonus_rd": 154.94618749999995,
+      "floor_match_count": 13,
+      "tv_match_count": 8,
+      "recent_results": []
+    },
+    "6682": {
+      "rating": 1554.2898678663773,
+      "rd": 172.52858037581655,
+      "volatility": 0.05998883134831382,
+      "last_played": "2026-03-06",
+      "match_count": 24,
+      "tv_bonus": -0.09157453167764995,
+      "tv_bonus_rd": 171.475,
+      "floor_match_count": 18,
+      "tv_match_count": 6,
+      "recent_results": []
+    },
+    "24618": {
+      "rating": 1485.5067546057971,
+      "rd": 340.6305798332066,
+      "volatility": 0.05999982738610185,
+      "last_played": "2024-12-17",
+      "match_count": 1,
+      "tv_bonus": -1.334307384690896,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "13557": {
+      "rating": 1490.1185414608467,
+      "rd": 333.0215676440876,
+      "volatility": 0.05999967060837331,
+      "last_played": "2024-12-21",
+      "match_count": 2,
+      "tv_bonus": -0.9997987668343595,
+      "tv_bonus_rd": 180.88,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "17040": {
+      "rating": 1476.890840110624,
+      "rd": 340.79279904902063,
+      "volatility": 0.05999983916172947,
+      "last_played": "2024-12-19",
+      "match_count": 1,
+      "tv_bonus": -2.1386293271703978,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "14303": {
+      "rating": 1554.7149078829232,
+      "rd": 184.41845027999918,
+      "volatility": 0.059991306324148855,
+      "last_played": "2026-03-06",
+      "match_count": 16,
+      "tv_bonus": 3.084405358475501,
+      "tv_bonus_rd": 162.90124999999998,
+      "floor_match_count": 8,
+      "tv_match_count": 8,
+      "recent_results": []
+    },
+    "18687": {
+      "rating": 1487.641089584466,
+      "rd": 340.63402810351516,
+      "volatility": 0.05999982589660358,
+      "last_played": "2024-12-20",
+      "match_count": 1,
+      "tv_bonus": -1.1317244761179557,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "13272": {
+      "rating": 1437.984012333423,
+      "rd": 267.37496442061826,
+      "volatility": 0.05999738138631981,
+      "last_played": "2025-12-18",
+      "match_count": 6,
+      "tv_bonus": -2.2457450095801974,
+      "tv_bonus_rd": 170.47322499999996,
+      "floor_match_count": 0,
+      "tv_match_count": 6,
+      "recent_results": []
+    },
+    "22799": {
+      "rating": 1489.5202306554932,
+      "rd": 195.67744189219377,
+      "volatility": 0.059991550761185675,
+      "last_played": "2026-03-06",
+      "match_count": 20,
+      "tv_bonus": -1.1838885979162235,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 19,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "25249": {
+      "rating": 1459.1021384392116,
+      "rd": 196.62302489545112,
+      "volatility": 0.059992309880808704,
+      "last_played": "2026-03-06",
+      "match_count": 17,
+      "tv_bonus": 0.1279458126887173,
+      "tv_bonus_rd": 171.475,
+      "floor_match_count": 13,
+      "tv_match_count": 4,
+      "recent_results": []
+    },
+    "20631": {
+      "rating": 1371.8037394922708,
+      "rd": 237.96731843300287,
+      "volatility": 0.059994716568289,
+      "last_played": "2026-03-06",
+      "match_count": 15,
+      "tv_bonus": 0.359081724750642,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 12,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "9514": {
+      "rating": 1475.6143491062264,
+      "rd": 206.09057602759367,
+      "volatility": 0.05999224992026636,
+      "last_played": "2026-03-06",
+      "match_count": 19,
+      "tv_bonus": 0.3622058137069015,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 15,
+      "tv_match_count": 4,
+      "recent_results": []
+    },
+    "8563": {
+      "rating": 1541.8952798585528,
+      "rd": 185.19170166327083,
+      "volatility": 0.059989524342217694,
+      "last_played": "2026-03-06",
+      "match_count": 26,
+      "tv_bonus": 7.102715975141816,
+      "tv_bonus_rd": 157.4506813468749,
+      "floor_match_count": 15,
+      "tv_match_count": 11,
+      "recent_results": []
+    },
+    "2474": {
+      "rating": 1493.6461019025928,
+      "rd": 190.8105684804139,
+      "volatility": 0.05999124984199922,
+      "last_played": "2026-03-06",
+      "match_count": 19,
+      "tv_bonus": -1.4966810006284679,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 17,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "11611": {
+      "rating": 1393.9349401871532,
+      "rd": 197.1151612777588,
+      "volatility": 0.059991452085427915,
+      "last_played": "2026-03-06",
+      "match_count": 20,
+      "tv_bonus": -4.720820887314101,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 17,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "16681": {
+      "rating": 1607.2094595256026,
+      "rd": 168.66089139119362,
+      "volatility": 0.05998636047296899,
+      "last_played": "2026-03-06",
+      "match_count": 30,
+      "tv_bonus": 4.171537005627811,
+      "tv_bonus_rd": 151.10537060453117,
+      "floor_match_count": 19,
+      "tv_match_count": 11,
+      "recent_results": []
+    },
+    "7144": {
+      "rating": 1506.6387384364405,
+      "rd": 185.14878181547664,
+      "volatility": 0.059990115330817516,
+      "last_played": "2026-03-06",
+      "match_count": 22,
+      "tv_bonus": -3.9657553369059486,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 19,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "11335": {
+      "rating": 1332.87501057835,
+      "rd": 232.40057883098623,
+      "volatility": 0.05999493523978877,
+      "last_played": "2026-03-06",
+      "match_count": 12,
+      "tv_bonus": -2.363433829236759,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 10,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "27941": {
+      "rating": 1541.6655317429959,
+      "rd": 169.87479121698706,
+      "volatility": 0.059988453621592455,
+      "last_played": "2026-03-06",
+      "match_count": 23,
+      "tv_bonus": -1.0500630538316245,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 20,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "4922": {
+      "rating": 1454.351335849472,
+      "rd": 164.91792055174983,
+      "volatility": 0.0599892134990244,
+      "last_played": "2026-02-24",
+      "match_count": 19,
+      "tv_bonus": 0.7341179477463995,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 16,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "4061": {
+      "rating": 1417.8824417137573,
+      "rd": 224.96161865707472,
+      "volatility": 0.05999468670741943,
+      "last_played": "2026-02-24",
+      "match_count": 13,
+      "tv_bonus": -1.2796839200175745,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 12,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "5797": {
+      "rating": 1505.6382045281293,
+      "rd": 188.9499125964861,
+      "volatility": 0.05999076421125025,
+      "last_played": "2026-03-06",
+      "match_count": 21,
+      "tv_bonus": 3.7561189443703067,
+      "tv_bonus_rd": 171.475,
+      "floor_match_count": 15,
+      "tv_match_count": 6,
+      "recent_results": []
+    },
+    "2069": {
+      "rating": 1430.068173754691,
+      "rd": 204.68601151525084,
+      "volatility": 0.0599923718284726,
+      "last_played": "2026-03-07",
+      "match_count": 18,
+      "tv_bonus": 1.7275874672999527,
+      "tv_bonus_rd": 163.09124999999997,
+      "floor_match_count": 12,
+      "tv_match_count": 6,
+      "recent_results": []
+    },
+    "7070": {
+      "rating": 1304.5391644878048,
+      "rd": 243.24997488753496,
+      "volatility": 0.05999561810832936,
+      "last_played": "2026-03-06",
+      "match_count": 12,
+      "tv_bonus": -2.4783478052573207,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 10,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "4297": {
+      "rating": 1335.3715378127372,
+      "rd": 223.85410831186624,
+      "volatility": 0.05999430140907064,
+      "last_played": "2026-03-06",
+      "match_count": 15,
+      "tv_bonus": -2.2935605570373467,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 13,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "21931": {
+      "rating": 1364.2475801183691,
+      "rd": 239.61344135182893,
+      "volatility": 0.059994913866215124,
+      "last_played": "2026-03-06",
+      "match_count": 14,
+      "tv_bonus": -1.4602269754478734,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 12,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "1678": {
+      "rating": 1414.5274282097287,
+      "rd": 296.8917601708162,
+      "volatility": 0.0599980594821972,
+      "last_played": "2026-03-06",
+      "match_count": 7,
+      "tv_bonus": -1.7221341519400657,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 4,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "19869": {
+      "rating": 1481.068338525892,
+      "rd": 323.43735726792625,
+      "volatility": 0.05999946130203283,
+      "last_played": "2025-02-18",
+      "match_count": 3,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 3,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "4615": {
+      "rating": 1487.984446995361,
+      "rd": 340.6508226684092,
+      "volatility": 0.05999982597987566,
+      "last_played": "2025-02-18",
+      "match_count": 1,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 1,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "2390": {
+      "rating": 1446.8370164387104,
+      "rd": 201.54662994203804,
+      "volatility": 0.059993065055436945,
+      "last_played": "2026-03-06",
+      "match_count": 13,
+      "tv_bonus": -0.11701794876738825,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 9,
+      "tv_match_count": 4,
+      "recent_results": []
+    },
+    "2110": {
+      "rating": 1553.6869404272682,
+      "rd": 172.86112855863638,
+      "volatility": 0.05999006937363765,
+      "last_played": "2026-03-06",
+      "match_count": 18,
+      "tv_bonus": 2.8105521858135907,
+      "tv_bonus_rd": 162.90124999999998,
+      "floor_match_count": 11,
+      "tv_match_count": 7,
+      "recent_results": []
+    },
+    "14803": {
+      "rating": 1507.9549431361088,
+      "rd": 329.5911220631805,
+      "volatility": 0.05999961359583068,
+      "last_played": "2025-02-28",
+      "match_count": 2,
+      "tv_bonus": 0.9044484906999222,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "1024": {
+      "rating": 1506.1507690477383,
+      "rd": 330.2068083769892,
+      "volatility": 0.05999962218712038,
+      "last_played": "2025-02-28",
+      "match_count": 2,
+      "tv_bonus": 0.6090430090593362,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "8284": {
+      "rating": 1615.0862558591416,
+      "rd": 233.95215281676496,
+      "volatility": 0.05999663081927972,
+      "last_played": "2025-12-30",
+      "match_count": 6,
+      "tv_bonus": 2.9028584583348405,
+      "tv_bonus_rd": 166.10654999999994,
+      "floor_match_count": 0,
+      "tv_match_count": 6,
+      "recent_results": []
+    },
+    "1744": {
+      "rating": 1476.9267479249909,
+      "rd": 306.93938868695926,
+      "volatility": 0.05999890578008102,
+      "last_played": "2026-03-06",
+      "match_count": 3,
+      "tv_bonus": -0.0544278885111239,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "20718": {
+      "rating": 1611.3978198290167,
+      "rd": 135.11274890047497,
+      "volatility": 0.059979333720140464,
+      "last_played": "2026-02-24",
+      "match_count": 31,
+      "tv_bonus": -0.4242879482796391,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 29,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "4743": {
+      "rating": 1482.407753750655,
+      "rd": 339.67398164472036,
+      "volatility": 0.059999812444458275,
+      "last_played": "2025-02-28",
+      "match_count": 1,
+      "tv_bonus": -1.5441471357439445,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "5002": {
+      "rating": 1487.61230446297,
+      "rd": 338.63825025728335,
+      "volatility": 0.059999789176637064,
+      "last_played": "2025-02-28",
+      "match_count": 1,
+      "tv_bonus": -1.0393469382450047,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "1636": {
+      "rating": 1474.249424280518,
+      "rd": 339.153048427639,
+      "volatility": 0.059999812443956205,
+      "last_played": "2025-02-28",
+      "match_count": 1,
+      "tv_bonus": -2.211209700740804,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "4806": {
+      "rating": 1485.2356357502608,
+      "rd": 339.5224273429084,
+      "volatility": 0.05999980717518435,
+      "last_played": "2025-02-28",
+      "match_count": 1,
+      "tv_bonus": -1.2877712296526667,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "11408": {
+      "rating": 1578.2139721630488,
+      "rd": 133.12775492575335,
+      "volatility": 0.05997751803588284,
+      "last_played": "2026-03-06",
+      "match_count": 33,
+      "tv_bonus": -1.4797695817085708,
+      "tv_bonus_rd": 162.90124999999998,
+      "floor_match_count": 28,
+      "tv_match_count": 5,
+      "recent_results": []
+    },
+    "5646": {
+      "rating": 1485.9846444498592,
+      "rd": 340.5303658060063,
+      "volatility": 0.05999982516696602,
+      "last_played": "2025-02-28",
+      "match_count": 1,
+      "tv_bonus": -1.2802230345982377,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "4321": {
+      "rating": 1486.1086378487266,
+      "rd": 339.2788596611636,
+      "volatility": 0.05999980201662385,
+      "last_played": "2025-02-28",
+      "match_count": 1,
+      "tv_bonus": -1.1968650747859966,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "14528": {
+      "rating": 1610.2045688987705,
+      "rd": 134.62057810507451,
+      "volatility": 0.05998178633975123,
+      "last_played": "2026-02-24",
+      "match_count": 26,
+      "tv_bonus": -1.2559520009913356,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 25,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "17168": {
+      "rating": 1569.1858910716392,
+      "rd": 171.6918785097684,
+      "volatility": 0.059991309263522995,
+      "last_played": "2026-01-24",
+      "match_count": 12,
+      "tv_bonus": -1.8908161488951403,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 11,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "5184": {
+      "rating": 1485.8006936883205,
+      "rd": 340.78172836695285,
+      "volatility": 0.0599998299487285,
+      "last_played": "2025-02-28",
+      "match_count": 1,
+      "tv_bonus": -1.3125513904586397,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "16727": {
+      "rating": 1588.6808752359475,
+      "rd": 156.77925155026665,
+      "volatility": 0.05998696430129134,
+      "last_played": "2026-03-06",
+      "match_count": 19,
+      "tv_bonus": 2.897653909260154,
+      "tv_bonus_rd": 145.59712580671865,
+      "floor_match_count": 10,
+      "tv_match_count": 9,
+      "recent_results": []
+    },
+    "16805": {
+      "rating": 1535.6873444883763,
+      "rd": 261.70837116479237,
+      "volatility": 0.05999778752769994,
+      "last_played": "2026-03-06",
+      "match_count": 4,
+      "tv_bonus": 1.9081011098231784,
+      "tv_bonus_rd": 171.475,
+      "floor_match_count": 0,
+      "tv_match_count": 4,
+      "recent_results": []
+    },
+    "836": {
+      "rating": 1495.1312456164712,
+      "rd": 185.57689101035663,
+      "volatility": 0.059991532937289364,
+      "last_played": "2026-03-06",
+      "match_count": 12,
+      "tv_bonus": 1.5609263970983358,
+      "tv_bonus_rd": 169.84237749999994,
+      "floor_match_count": 7,
+      "tv_match_count": 5,
+      "recent_results": []
+    },
+    "1971": {
+      "rating": 1539.2512852396837,
+      "rd": 178.36798479826658,
+      "volatility": 0.05999047050600285,
+      "last_played": "2026-03-06",
+      "match_count": 14,
+      "tv_bonus": 0.3354863765392948,
+      "tv_bonus_rd": 171.475,
+      "floor_match_count": 10,
+      "tv_match_count": 4,
+      "recent_results": []
+    },
+    "8060": {
+      "rating": 1536.5042035202634,
+      "rd": 289.39636742474494,
+      "volatility": 0.05999879644890895,
+      "last_played": "2025-12-21",
+      "match_count": 2,
+      "tv_bonus": 0.981603115021745,
+      "tv_bonus_rd": 182.01999999999998,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "19349": {
+      "rating": 1515.7196331547507,
+      "rd": 289.1739113289269,
+      "volatility": 0.05999881906201298,
+      "last_played": "2025-12-23",
+      "match_count": 2,
+      "tv_bonus": 0.22645427871949186,
+      "tv_bonus_rd": 182.21,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "2048": {
+      "rating": 1461.256444609914,
+      "rd": 312.23416032194905,
+      "volatility": 0.05999935996632463,
+      "last_played": "2025-12-16",
+      "match_count": 1,
+      "tv_bonus": -0.9890622203351827,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "19994": {
+      "rating": 1320.4295143403742,
+      "rd": 191.60993194978215,
+      "volatility": 0.05999324863925804,
+      "last_played": "2026-01-24",
+      "match_count": 10,
+      "tv_bonus": -0.8797970152810227,
+      "tv_bonus_rd": 188.04999999999995,
+      "floor_match_count": 8,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "23160": {
+      "rating": 1495.1494376794783,
+      "rd": 286.95818463986245,
+      "volatility": 0.05999891667343151,
+      "last_played": "2025-12-20",
+      "match_count": 2,
+      "tv_bonus": -0.36599803588154267,
+      "tv_bonus_rd": 180.88,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "29516": {
+      "rating": 1473.0904144112249,
+      "rd": 282.74990490058616,
+      "volatility": 0.059998791956093596,
+      "last_played": "2025-12-22",
+      "match_count": 2,
+      "tv_bonus": -1.0953819215592147,
+      "tv_bonus_rd": 181.26,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "21315": {
+      "rating": 1459.305542385703,
+      "rd": 304.2770968731653,
+      "volatility": 0.05999923122690976,
+      "last_played": "2025-12-18",
+      "match_count": 1,
+      "tv_bonus": -0.9519737381849948,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "4571": {
+      "rating": 1436.5623003455705,
+      "rd": 311.98502718417956,
+      "volatility": 0.059999424131676735,
+      "last_played": "2025-12-18",
+      "match_count": 1,
+      "tv_bonus": -1.5650914260851962,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "16692": {
+      "rating": 1458.5964092364527,
+      "rd": 155.46579195802474,
+      "volatility": 0.05998738074917497,
+      "last_played": "2026-03-25",
+      "match_count": 16,
+      "tv_bonus": -2.0613862278448556,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 15,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "9430": {
+      "rating": 1477.1051156106344,
+      "rd": 305.075379579408,
+      "volatility": 0.059999213736320396,
+      "last_played": "2025-12-19",
+      "match_count": 1,
+      "tv_bonus": -0.5081021588928245,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "12957": {
+      "rating": 1418.4993510313595,
+      "rd": 312.04064782722725,
+      "volatility": 0.059999496019592556,
+      "last_played": "2025-12-19",
+      "match_count": 1,
+      "tv_bonus": -2.063977722647012,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "24379": {
+      "rating": 1501.1094741422583,
+      "rd": 131.15821982823033,
+      "volatility": 0.05998203344106695,
+      "last_played": "2026-01-23",
+      "match_count": 25,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 25,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "22672": {
+      "rating": 1425.9417503546788,
+      "rd": 132.27672368697705,
+      "volatility": 0.059982158726942236,
+      "last_played": "2026-01-23",
+      "match_count": 25,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 25,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "29517": {
+      "rating": 1573.8138965534324,
+      "rd": 156.25082243741133,
+      "volatility": 0.05998894830674738,
+      "last_played": "2026-01-24",
+      "match_count": 14,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 14,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "5009": {
+      "rating": 1600.0808676873237,
+      "rd": 163.66180580304595,
+      "volatility": 0.05999011460541865,
+      "last_played": "2026-01-24",
+      "match_count": 13,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 13,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "29518": {
+      "rating": 1419.0335718305294,
+      "rd": 179.6390989573307,
+      "volatility": 0.05999267126090157,
+      "last_played": "2026-01-23",
+      "match_count": 10,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 10,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "10075": {
+      "rating": 1455.0021730747985,
+      "rd": 129.45598124197306,
+      "volatility": 0.05998106558003681,
+      "last_played": "2026-01-30",
+      "match_count": 25,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 25,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "314": {
+      "rating": 1462.3248015259826,
+      "rd": 130.32327435902084,
+      "volatility": 0.05998225246454665,
+      "last_played": "2026-01-30",
+      "match_count": 25,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 25,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "11432": {
+      "rating": 1497.499475063492,
+      "rd": 122.11090280819688,
+      "volatility": 0.05997837076748754,
+      "last_played": "2026-01-31",
+      "match_count": 29,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 29,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "18769": {
+      "rating": 1449.5802337292441,
+      "rd": 176.3011024945375,
+      "volatility": 0.05999202529914257,
+      "last_played": "2026-01-31",
+      "match_count": 10,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 10,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "129": {
+      "rating": 1471.809088226789,
+      "rd": 170.09738316515083,
+      "volatility": 0.059991030885658984,
+      "last_played": "2026-01-31",
+      "match_count": 11,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 11,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "29519": {
+      "rating": 1469.3236551777757,
+      "rd": 163.83048836207897,
+      "volatility": 0.05999040522006073,
+      "last_played": "2026-01-31",
+      "match_count": 12,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 12,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "10010": {
+      "rating": 1428.8172909076998,
+      "rd": 174.23787596175674,
+      "volatility": 0.05999232763110639,
+      "last_played": "2026-01-30",
+      "match_count": 10,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 10,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "10137": {
+      "rating": 1339.945405211279,
+      "rd": 175.6046845525698,
+      "volatility": 0.05999204108476575,
+      "last_played": "2026-01-30",
+      "match_count": 10,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 10,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "11615": {
+      "rating": 1490.6435413859474,
+      "rd": 121.9542051734498,
+      "volatility": 0.059978479772801116,
+      "last_played": "2026-02-07",
+      "match_count": 28,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 28,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "4677": {
+      "rating": 1486.97765117857,
+      "rd": 129.3769003648613,
+      "volatility": 0.059978279998071864,
+      "last_played": "2026-03-06",
+      "match_count": 30,
+      "tv_bonus": 3.3200002345363497,
+      "tv_bonus_rd": 162.90124999999998,
+      "floor_match_count": 26,
+      "tv_match_count": 4,
+      "recent_results": []
+    },
+    "22856": {
+      "rating": 1533.658366309376,
+      "rd": 152.61899869776704,
+      "volatility": 0.05998609128553718,
+      "last_played": "2026-03-06",
+      "match_count": 20,
+      "tv_bonus": 0.4436341565198315,
+      "tv_bonus_rd": 171.475,
+      "floor_match_count": 17,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "29520": {
+      "rating": 1361.5532740521862,
+      "rd": 128.11950591613126,
+      "volatility": 0.059981549259188714,
+      "last_played": "2026-02-06",
+      "match_count": 26,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 26,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "29521": {
+      "rating": 1434.1965189225118,
+      "rd": 172.52205561058827,
+      "volatility": 0.05999194233677437,
+      "last_played": "2026-02-06",
+      "match_count": 10,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 10,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "10611": {
+      "rating": 1561.2563554438993,
+      "rd": 161.52854877982412,
+      "volatility": 0.05998992120318357,
+      "last_played": "2026-02-07",
+      "match_count": 12,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 12,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "12006": {
+      "rating": 1488.4850599429437,
+      "rd": 198.4866751003188,
+      "volatility": 0.05999372501921709,
+      "last_played": "2026-03-06",
+      "match_count": 10,
+      "tv_bonus": 0.9454334881570559,
+      "tv_bonus_rd": 171.475,
+      "floor_match_count": 7,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "27385": {
+      "rating": 1388.3280537603332,
+      "rd": 221.28465211572458,
+      "volatility": 0.05999552299518133,
+      "last_played": "2026-03-06",
+      "match_count": 8,
+      "tv_bonus": 0.8891454548039284,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 6,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "20840": {
+      "rating": 1475.7139690097022,
+      "rd": 209.14008167557088,
+      "volatility": 0.05999469429177708,
+      "last_played": "2026-03-06",
+      "match_count": 8,
+      "tv_bonus": 0.11262331983322516,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 6,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "4932": {
+      "rating": 1485.9869864069108,
+      "rd": 193.71796056653264,
+      "volatility": 0.059993090059397305,
+      "last_played": "2026-03-06",
+      "match_count": 11,
+      "tv_bonus": 0.9277129371441984,
+      "tv_bonus_rd": 171.475,
+      "floor_match_count": 8,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "28039": {
+      "rating": 1387.1272167801221,
+      "rd": 223.47437541882917,
+      "volatility": 0.05999556012558594,
+      "last_played": "2026-03-06",
+      "match_count": 7,
+      "tv_bonus": -1.444602090217796,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 6,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "21139": {
+      "rating": 1386.823987883972,
+      "rd": 235.96442629723416,
+      "volatility": 0.059996298296925286,
+      "last_played": "2026-03-06",
+      "match_count": 6,
+      "tv_bonus": -0.6704792431493156,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 5,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "8926": {
+      "rating": 1445.2232444566828,
+      "rd": 214.4127847032632,
+      "volatility": 0.059994711777181554,
+      "last_played": "2026-03-06",
+      "match_count": 8,
+      "tv_bonus": -0.44181588877094,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 7,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "5727": {
+      "rating": 1464.1745910478337,
+      "rd": 199.52635951161332,
+      "volatility": 0.05999356372994884,
+      "last_played": "2026-03-06",
+      "match_count": 9,
+      "tv_bonus": -0.9285075806018684,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 8,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "11904": {
+      "rating": 1387.5590956345197,
+      "rd": 254.07316901760754,
+      "volatility": 0.05999745490685145,
+      "last_played": "2026-03-06",
+      "match_count": 4,
+      "tv_bonus": -2.250189999096013,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 3,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "2061": {
+      "rating": 1547.887628022228,
+      "rd": 104.38046313308254,
+      "volatility": 0.05996639766208563,
+      "last_played": "2026-03-21",
+      "match_count": 39,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 39,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "23368": {
+      "rating": 1453.7734173493038,
+      "rd": 215.69742185291554,
+      "volatility": 0.05999509283555306,
+      "last_played": "2026-03-06",
+      "match_count": 8,
+      "tv_bonus": 0.6496170621213226,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 6,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "2112": {
+      "rating": 1521.216942020258,
+      "rd": 105.78588920352264,
+      "volatility": 0.059966735916766045,
+      "last_played": "2026-03-14",
+      "match_count": 40,
+      "tv_bonus": -1.2042472473538801,
+      "tv_bonus_rd": 191.59999999999994,
+      "floor_match_count": 39,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "23601": {
+      "rating": 1459.3136865267186,
+      "rd": 214.03477560206434,
+      "volatility": 0.05999532619521396,
+      "last_played": "2026-03-06",
+      "match_count": 8,
+      "tv_bonus": 0.9746738817902609,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 6,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "14452": {
+      "rating": 1457.7928625476125,
+      "rd": 211.48730093753693,
+      "volatility": 0.059994826059712625,
+      "last_played": "2026-03-06",
+      "match_count": 9,
+      "tv_bonus": 2.3221756221541052,
+      "tv_bonus_rd": 171.475,
+      "floor_match_count": 6,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "27945": {
+      "rating": 1569.8275590879948,
+      "rd": 125.08799283382824,
+      "volatility": 0.059980109611408934,
+      "last_played": "2026-02-14",
+      "match_count": 26,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 26,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "25290": {
+      "rating": 1617.4948323689985,
+      "rd": 125.52574488788916,
+      "volatility": 0.05997919929274929,
+      "last_played": "2026-02-14",
+      "match_count": 27,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 27,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "1131": {
+      "rating": 1363.8554540515222,
+      "rd": 130.79696387708424,
+      "volatility": 0.059981522602964764,
+      "last_played": "2026-02-13",
+      "match_count": 25,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 25,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "22119": {
+      "rating": 1381.6629888293323,
+      "rd": 129.16815405721294,
+      "volatility": 0.059981141651218296,
+      "last_played": "2026-02-13",
+      "match_count": 25,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 25,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "1207": {
+      "rating": 1438.4893183252568,
+      "rd": 193.2516966368697,
+      "volatility": 0.059993872047378584,
+      "last_played": "2026-02-14",
+      "match_count": 8,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 8,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "116": {
+      "rating": 1525.7276677399386,
+      "rd": 169.42912479208474,
+      "volatility": 0.059991085446642306,
+      "last_played": "2026-02-14",
+      "match_count": 11,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 11,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "8752": {
+      "rating": 1342.5307678285455,
+      "rd": 173.94828629731737,
+      "volatility": 0.059992259775024856,
+      "last_played": "2026-02-13",
+      "match_count": 10,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 10,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "124": {
+      "rating": 1383.3863863197273,
+      "rd": 127.47375308505218,
+      "volatility": 0.05998135375163569,
+      "last_played": "2026-02-20",
+      "match_count": 25,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 25,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "5776": {
+      "rating": 1475.8024198666037,
+      "rd": 119.8258040761252,
+      "volatility": 0.05997702106533879,
+      "last_played": "2026-02-21",
+      "match_count": 28,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 28,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "3555": {
+      "rating": 1496.6794419331727,
+      "rd": 123.71169207722764,
+      "volatility": 0.05997957630588803,
+      "last_played": "2026-02-21",
+      "match_count": 26,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 26,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "16663": {
+      "rating": 1407.821461588283,
+      "rd": 125.30986550334744,
+      "volatility": 0.05998038654439298,
+      "last_played": "2026-02-20",
+      "match_count": 25,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 25,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "22100": {
+      "rating": 1514.4454223150876,
+      "rd": 158.487931772582,
+      "volatility": 0.05998881972087544,
+      "last_played": "2026-03-06",
+      "match_count": 13,
+      "tv_bonus": 2.0121671688904503,
+      "tv_bonus_rd": 171.475,
+      "floor_match_count": 10,
+      "tv_match_count": 3,
+      "recent_results": []
+    },
+    "12799": {
+      "rating": 1575.3927882769474,
+      "rd": 173.6848903076619,
+      "volatility": 0.05999159045988275,
+      "last_played": "2026-02-21",
+      "match_count": 10,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 10,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "25600": {
+      "rating": 1683.624093296515,
+      "rd": 159.79268680003938,
+      "volatility": 0.059989105023736576,
+      "last_played": "2026-02-21",
+      "match_count": 14,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 14,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "2469": {
+      "rating": 1399.9121793365632,
+      "rd": 171.7089188895047,
+      "volatility": 0.05999155071772848,
+      "last_played": "2026-02-20",
+      "match_count": 10,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 10,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "5419": {
+      "rating": 1425.4210686117547,
+      "rd": 172.03916985563043,
+      "volatility": 0.05999254466711364,
+      "last_played": "2026-02-20",
+      "match_count": 10,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 10,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "7926": {
+      "rating": 1487.8085581036855,
+      "rd": 130.57431058362667,
+      "volatility": 0.05998129313824643,
+      "last_played": "2026-02-28",
+      "match_count": 23,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 23,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "5222": {
+      "rating": 1466.4507448902305,
+      "rd": 121.24134103572158,
+      "volatility": 0.059977617951389194,
+      "last_played": "2026-02-28",
+      "match_count": 27,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 27,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "27135": {
+      "rating": 1285.8471783950097,
+      "rd": 129.21397656877022,
+      "volatility": 0.059981378146661136,
+      "last_played": "2026-02-27",
+      "match_count": 25,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 25,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "20225": {
+      "rating": 1404.2458297566204,
+      "rd": 196.12459627469008,
+      "volatility": 0.059994220769696814,
+      "last_played": "2026-02-28",
+      "match_count": 8,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 8,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "29524": {
+      "rating": 1370.1893676405775,
+      "rd": 169.9181298565835,
+      "volatility": 0.059991177958329166,
+      "last_played": "2026-02-27",
+      "match_count": 10,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 10,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "427": {
+      "rating": 1597.8727064515176,
+      "rd": 117.82264374955508,
+      "volatility": 0.059976882677154335,
+      "last_played": "2026-03-07",
+      "match_count": 27,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 27,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "29525": {
+      "rating": 1431.450890846204,
+      "rd": 120.61749339785554,
+      "volatility": 0.05997922311365022,
+      "last_played": "2026-03-06",
+      "match_count": 25,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 25,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "8056": {
+      "rating": 1429.6972634334109,
+      "rd": 118.58508559396115,
+      "volatility": 0.059977446973430264,
+      "last_played": "2026-03-07",
+      "match_count": 27,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 27,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "11987": {
+      "rating": 1540.6356892413423,
+      "rd": 139.03351698029763,
+      "volatility": 0.059985683279047027,
+      "last_played": "2026-03-07",
+      "match_count": 18,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 18,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "24452": {
+      "rating": 1551.1605939282686,
+      "rd": 156.13820060465932,
+      "volatility": 0.05998978182969155,
+      "last_played": "2026-03-07",
+      "match_count": 12,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 12,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "107": {
+      "rating": 1405.2741908606881,
+      "rd": 165.25376945940675,
+      "volatility": 0.05999172674714708,
+      "last_played": "2026-03-06",
+      "match_count": 10,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 10,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "19438": {
+      "rating": 1446.3318457087785,
+      "rd": 165.04377968373325,
+      "volatility": 0.05999110645115524,
+      "last_played": "2026-03-06",
+      "match_count": 10,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 10,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "23410": {
+      "rating": 1486.0986958346753,
+      "rd": 153.20144646906786,
+      "volatility": 0.05998889565621218,
+      "last_played": "2026-03-07",
+      "match_count": 12,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 12,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "11245": {
+      "rating": 1507.2599659420414,
+      "rd": 241.8116456418958,
+      "volatility": 0.05999700902164938,
+      "last_played": "2026-03-06",
+      "match_count": 4,
+      "tv_bonus": 0.46515531440485614,
+      "tv_bonus_rd": 162.90124999999998,
+      "floor_match_count": 0,
+      "tv_match_count": 4,
+      "recent_results": []
+    },
+    "5033": {
+      "rating": 1475.7493691444363,
+      "rd": 281.13863242282827,
+      "volatility": 0.059998730840568636,
+      "last_played": "2026-03-06",
+      "match_count": 2,
+      "tv_bonus": -0.3888464332312407,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "9851": {
+      "rating": 1488.9763210200433,
+      "rd": 288.54081930881836,
+      "volatility": 0.05999880381776135,
+      "last_played": "2026-03-06",
+      "match_count": 2,
+      "tv_bonus": 0.03834122423927644,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "29527": {
+      "rating": 1463.6774019518684,
+      "rd": 284.17704200849096,
+      "volatility": 0.05999881361337726,
+      "last_played": "2026-03-06",
+      "match_count": 2,
+      "tv_bonus": -0.8069812534631648,
+      "tv_bonus_rd": 180.5,
+      "floor_match_count": 0,
+      "tv_match_count": 2,
+      "recent_results": []
+    },
+    "9870": {
+      "rating": 1465.460317158597,
+      "rd": 308.9314817244019,
+      "volatility": 0.05999929602295944,
+      "last_played": "2026-03-06",
+      "match_count": 1,
+      "tv_bonus": -0.9585065910787425,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "29347": {
+      "rating": 1441.272349578572,
+      "rd": 309.20631614734623,
+      "volatility": 0.05999936176163613,
+      "last_played": "2026-03-06",
+      "match_count": 1,
+      "tv_bonus": -1.6300300325725419,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "24753": {
+      "rating": 1453.827039613672,
+      "rd": 320.0603381779932,
+      "volatility": 0.059999511164036755,
+      "last_played": "2026-03-06",
+      "match_count": 1,
+      "tv_bonus": -1.430918570109537,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "15642": {
+      "rating": 1463.4688738273726,
+      "rd": 309.8654527037788,
+      "volatility": 0.05999931552020319,
+      "last_played": "2026-03-06",
+      "match_count": 1,
+      "tv_bonus": -1.020500287693097,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "29528": {
+      "rating": 1451.2421095006546,
+      "rd": 310.38270011660785,
+      "volatility": 0.0599993524738194,
+      "last_played": "2026-03-06",
+      "match_count": 1,
+      "tv_bonus": -1.3678079770488725,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "11426": {
+      "rating": 1635.1446128233783,
+      "rd": 133.22371269357885,
+      "volatility": 0.059982863578952064,
+      "last_played": "2026-03-14",
+      "match_count": 20,
+      "tv_bonus": -2.0912308548631957,
+      "tv_bonus_rd": 191.59999999999997,
+      "floor_match_count": 19,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "6151": {
+      "rating": 1460.183812792314,
+      "rd": 152.18202879300458,
+      "volatility": 0.059986992896744355,
+      "last_played": "2026-03-25",
+      "match_count": 16,
+      "tv_bonus": -0.7312962971062537,
+      "tv_bonus_rd": 193.79999999999998,
+      "floor_match_count": 15,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "25172": {
+      "rating": 1468.7177895096925,
+      "rd": 309.0003404788331,
+      "volatility": 0.05999929136558252,
+      "last_played": "2026-03-06",
+      "match_count": 1,
+      "tv_bonus": -0.8601736892992182,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "8600": {
+      "rating": 1466.3916463779005,
+      "rd": 308.0659048363039,
+      "volatility": 0.05999927983036805,
+      "last_played": "2026-03-06",
+      "match_count": 1,
+      "tv_bonus": -0.9259089145836145,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "2106": {
+      "rating": 1457.5584364919323,
+      "rd": 308.0283995172752,
+      "volatility": 0.059999297408580676,
+      "last_played": "2026-03-06",
+      "match_count": 1,
+      "tv_bonus": -1.162152272546103,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "29526": {
+      "rating": 1433.5280485184792,
+      "rd": 289.93068756424975,
+      "volatility": 0.059999075074683855,
+      "last_played": "2026-03-06",
+      "match_count": 1,
+      "tv_bonus": -1.3571845521218273,
+      "tv_bonus_rd": 190.0,
+      "floor_match_count": 0,
+      "tv_match_count": 1,
+      "recent_results": []
+    },
+    "9852": {
+      "rating": 1378.603649932243,
+      "rd": 119.9127199916166,
+      "volatility": 0.05997679898954684,
+      "last_played": "2026-03-13",
+      "match_count": 25,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 25,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "18918": {
+      "rating": 1395.4858425776229,
+      "rd": 121.82030068512103,
+      "volatility": 0.05997905877584362,
+      "last_played": "2026-03-13",
+      "match_count": 25,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 25,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "29529": {
+      "rating": 1517.898994138569,
+      "rd": 167.22015181539754,
+      "volatility": 0.059991735382405445,
+      "last_played": "2026-03-14",
+      "match_count": 10,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 10,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "1745": {
+      "rating": 1466.686042270514,
+      "rd": 186.1395996632033,
+      "volatility": 0.05999411153339979,
+      "last_played": "2026-03-14",
+      "match_count": 8,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 8,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "20697": {
+      "rating": 1308.6953057993717,
+      "rd": 165.49291830249558,
+      "volatility": 0.0599910690524659,
+      "last_played": "2026-03-13",
+      "match_count": 10,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 10,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "8586": {
+      "rating": 1367.5412970866741,
+      "rd": 169.84819850035996,
+      "volatility": 0.05999149351843672,
+      "last_played": "2026-03-13",
+      "match_count": 10,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 10,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "5444": {
+      "rating": 1549.6673386563123,
+      "rd": 144.6422772956209,
+      "volatility": 0.05998681328608445,
+      "last_played": "2026-03-14",
+      "match_count": 14,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 14,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "29530": {
+      "rating": 1471.1422919655508,
+      "rd": 116.78001317172928,
+      "volatility": 0.0599779069100393,
+      "last_played": "2026-03-20",
+      "match_count": 25,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 25,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "29531": {
+      "rating": 1467.8100858520627,
+      "rd": 116.65641996612402,
+      "volatility": 0.05997675626755611,
+      "last_played": "2026-03-20",
+      "match_count": 25,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 25,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "28675": {
+      "rating": 1646.6330716667285,
+      "rd": 130.03387666857245,
+      "volatility": 0.0599818065416762,
+      "last_played": "2026-03-21",
+      "match_count": 19,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 19,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "18780": {
+      "rating": 1485.1460287556588,
+      "rd": 165.80134582468528,
+      "volatility": 0.05999133978274271,
+      "last_played": "2026-03-21",
+      "match_count": 10,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 10,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "754": {
+      "rating": 1657.1231823871817,
+      "rd": 144.07182410723183,
+      "volatility": 0.05998651723156973,
+      "last_played": "2026-03-21",
+      "match_count": 14,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 14,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "29532": {
+      "rating": 1288.2940146712813,
+      "rd": 169.30306724090653,
+      "volatility": 0.05999107766905236,
+      "last_played": "2026-03-20",
+      "match_count": 10,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 10,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "626": {
+      "rating": 1486.6026627982383,
+      "rd": 155.27682970935982,
+      "volatility": 0.05998783206866889,
+      "last_played": "2026-03-25",
+      "match_count": 15,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 15,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "5506": {
+      "rating": 1480.2416484632467,
+      "rd": 155.43950136056802,
+      "volatility": 0.05998787392699658,
+      "last_played": "2026-03-25",
+      "match_count": 15,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 15,
+      "tv_match_count": 0,
+      "recent_results": []
+    },
+    "17047": {
+      "rating": 1464.2013162344283,
+      "rd": 155.42816379529927,
+      "volatility": 0.05998787102016969,
+      "last_played": "2026-03-25",
+      "match_count": 15,
+      "tv_bonus": 0.0,
+      "tv_bonus_rd": 200.0,
+      "floor_match_count": 15,
+      "tv_match_count": 0,
+      "recent_results": []
+    }
+  },
+  "player_baselines": {
+    "102": {
+      "avg_3_darts": 100.39772741668514
+    },
+    "1638": {
+      "avg_3_darts": 91.3516484408425
+    },
+    "127": {
+      "avg_3_darts": 96.81728429053635
+    },
+    "847": {
+      "avg_3_darts": 84.47316449080485
+    },
+    "1721": {
+      "avg_3_darts": 100.40237214044474
+    },
+    "629": {
+      "avg_3_darts": 89.1577512
+    },
+    "99": {
+      "avg_3_darts": 89.38387827812495
+    },
+    "120": {
+      "avg_3_darts": 90.14719236325693
+    },
+    "96": {
+      "avg_3_darts": 89.58201876421904
+    },
+    "1817": {
+      "avg_3_darts": 89.49355885060504
+    },
+    "103": {
+      "avg_3_darts": 88.35002766763803
+    },
+    "5223": {
+      "avg_3_darts": 94.37221721471141
+    },
+    "2401": {
+      "avg_3_darts": 95.80025913314195
+    },
+    "1794": {
+      "avg_3_darts": 96.27879593948444
+    },
+    "145": {
+      "avg_3_darts": 93.91643611938187
+    },
+    "1069": {
+      "avg_3_darts": 92.70698988132727
+    },
+    "546": {
+      "avg_3_darts": 90.60166898644759
+    },
+    "5925": {
+      "avg_3_darts": 95.84214970000002
+    },
+    "1882": {
+      "avg_3_darts": 94.65367685403183
+    },
+    "106": {
+      "avg_3_darts": 94.39471023052309
+    },
+    "1572": {
+      "avg_3_darts": 91.48597654425146
+    },
+    "108": {
+      "avg_3_darts": 91.9643244345639
+    },
+    "5832": {
+      "avg_3_darts": 88.41514410000002
+    },
+    "1694": {
+      "avg_3_darts": 83.468
+    },
+    "1980": {
+      "avg_3_darts": 94.63360853890762
+    },
+    "1169": {
+      "avg_3_darts": 95.32554545309729
+    },
+    "1873": {
+      "avg_3_darts": 96.15029674333816
+    },
+    "1728": {
+      "avg_3_darts": 90.12943185368722
+    },
+    "1814": {
+      "avg_3_darts": 90.16221044723284
+    },
+    "1175": {
+      "avg_3_darts": 85.11623779839161
+    },
+    "5353": {
+      "avg_3_darts": 90.33353770570312
+    },
+    "117": {
+      "avg_3_darts": 94.56991033062398
+    },
+    "1194": {
+      "avg_3_darts": 88.04505288132233
+    },
+    "451": {
+      "avg_3_darts": 91.87249971987248
+    },
+    "1083": {
+      "avg_3_darts": 94.4039566160387
+    },
+    "269": {
+      "avg_3_darts": 97.16854100034247
+    },
+    "10024": {
+      "avg_3_darts": 89.21399000000001
+    },
+    "123": {
+      "avg_3_darts": 89.8795262477919
+    },
+    "9640": {
+      "avg_3_darts": 87.92316836275779
+    },
+    "1664": {
+      "avg_3_darts": 85.0684098018539
+    },
+    "1735": {
+      "avg_3_darts": 91.29735669963583
+    },
+    "98": {
+      "avg_3_darts": 89.01016533185516
+    },
+    "1791": {
+      "avg_3_darts": 92.90689275778003
+    },
+    "1763": {
+      "avg_3_darts": 92.55414549412892
+    },
+    "2008": {
+      "avg_3_darts": 95.02872783436136
+    },
+    "1593": {
+      "avg_3_darts": 88.35478210705953
+    },
+    "240": {
+      "avg_3_darts": 90.1608963035529
+    },
+    "5481": {
+      "avg_3_darts": 92.91598900000002
+    },
+    "134": {
+      "avg_3_darts": 91.79701198033639
+    },
+    "16846": {
+      "avg_3_darts": 91.21501196136997
+    },
+    "8396": {
+      "avg_3_darts": 93.40703071172332
+    },
+    "1665": {
+      "avg_3_darts": 89.91834430046504
+    },
+    "2109": {
+      "avg_3_darts": 86.24432570454458
+    },
+    "838": {
+      "avg_3_darts": 91.8022925373392
+    },
+    "450": {
+      "avg_3_darts": 88.35348678674991
+    },
+    "1722": {
+      "avg_3_darts": 92.0984056043489
+    },
+    "1153": {
+      "avg_3_darts": 92.470780743
+    },
+    "1579": {
+      "avg_3_darts": 87.18731603
+    },
+    "105": {
+      "avg_3_darts": 88.07629041060602
+    },
+    "1637": {
+      "avg_3_darts": 96.9898985261178
+    },
+    "432": {
+      "avg_3_darts": 83.98891077775203
+    },
+    "1712": {
+      "avg_3_darts": 97.10352019326714
+    },
+    "168": {
+      "avg_3_darts": 92.09069633504916
+    },
+    "5730": {
+      "avg_3_darts": 101.37876393445484
+    },
+    "132": {
+      "avg_3_darts": 95.49566884674533
+    },
+    "1905": {
+      "avg_3_darts": 93.37197493209207
+    },
+    "163": {
+      "avg_3_darts": 91.76734614468603
+    },
+    "111": {
+      "avg_3_darts": 87.38565534763737
+    },
+    "1074": {
+      "avg_3_darts": 96.65961227744245
+    },
+    "1257": {
+      "avg_3_darts": 83.36628098294275
+    },
+    "685": {
+      "avg_3_darts": 93.67133705300002
+    },
+    "1759": {
+      "avg_3_darts": 82.0876963
+    },
+    "9751": {
+      "avg_3_darts": 96.04100000000001
+    },
+    "7937": {
+      "avg_3_darts": 91.51723337233577
+    },
+    "1749": {
+      "avg_3_darts": 85.60618794875579
+    },
+    "1683": {
+      "avg_3_darts": 88.44330000000001
+    },
+    "1775": {
+      "avg_3_darts": 91.41915315038865
+    },
+    "1758": {
+      "avg_3_darts": 91.85727272198099
+    },
+    "1180": {
+      "avg_3_darts": 92.8235
+    },
+    "144": {
+      "avg_3_darts": 89.69810099964394
+    },
+    "1612": {
+      "avg_3_darts": 95.69503836217447
+    },
+    "1653": {
+      "avg_3_darts": 85.55618656306495
+    },
+    "5723": {
+      "avg_3_darts": 77.71000000000001
+    },
+    "436": {
+      "avg_3_darts": 92.65
+    },
+    "228": {
+      "avg_3_darts": 84.459
+    },
+    "1889": {
+      "avg_3_darts": 91.70343224445458
+    },
+    "11989": {
+      "avg_3_darts": 87.0016831
+    },
+    "10021": {
+      "avg_3_darts": 89.74706894838972
+    },
+    "1150": {
+      "avg_3_darts": 92.79830000000001
+    },
+    "1717": {
+      "avg_3_darts": 86.730901
+    },
+    "4933": {
+      "avg_3_darts": 88.1738462259277
+    },
+    "9040": {
+      "avg_3_darts": 91.09794000000001
+    },
+    "506": {
+      "avg_3_darts": 93.3772512267445
+    },
+    "6297": {
+      "avg_3_darts": 90.21000000000001
+    },
+    "12035": {
+      "avg_3_darts": 86.71
+    },
+    "1968": {
+      "avg_3_darts": 81.42023999999999
+    },
+    "90": {
+      "avg_3_darts": 86.68252163603863
+    },
+    "4951": {
+      "avg_3_darts": 85.18994512009391
+    },
+    "5699": {
+      "avg_3_darts": 89.74283345983673
+    },
+    "92": {
+      "avg_3_darts": 80.89
+    },
+    "10734": {
+      "avg_3_darts": 89.49198792300004
+    },
+    "8146": {
+      "avg_3_darts": 89.701847
+    },
+    "4931": {
+      "avg_3_darts": 89.06639527731711
+    },
+    "1811": {
+      "avg_3_darts": 88.1836482
+    },
+    "16124": {
+      "avg_3_darts": 83.48308129000002
+    },
+    "149": {
+      "avg_3_darts": 91.573
+    },
+    "1859": {
+      "avg_3_darts": 92.38
+    },
+    "6470": {
+      "avg_3_darts": 80.45
+    },
+    "135": {
+      "avg_3_darts": 78.653
+    },
+    "6811": {
+      "avg_3_darts": 85.38
+    },
+    "1976": {
+      "avg_3_darts": 93.11622663926748
+    },
+    "109": {
+      "avg_3_darts": 92.476
+    },
+    "867": {
+      "avg_3_darts": 85.2360962529561
+    },
+    "1761": {
+      "avg_3_darts": 91.256
+    },
+    "12004": {
+      "avg_3_darts": 86.56
+    },
+    "1886": {
+      "avg_3_darts": 91.40718519580386
+    },
+    "2477": {
+      "avg_3_darts": 88.566
+    },
+    "6574": {
+      "avg_3_darts": 72.0
+    },
+    "15526": {
+      "avg_3_darts": 84.91481544980256
+    },
+    "9038": {
+      "avg_3_darts": 85.96689734807647
+    },
+    "5086": {
+      "avg_3_darts": 85.15700000000001
+    },
+    "872": {
+      "avg_3_darts": 92.87000000000002
+    },
+    "5168": {
+      "avg_3_darts": 89.31337424545075
+    },
+    "14333": {
+      "avg_3_darts": 85.5169069243138
+    },
+    "5226": {
+      "avg_3_darts": 83.51837703548019
+    },
+    "1790": {
+      "avg_3_darts": 90.07314165696863
+    },
+    "2009": {
+      "avg_3_darts": 84.36758557398073
+    },
+    "1901": {
+      "avg_3_darts": 92.98593000000001
+    },
+    "4357": {
+      "avg_3_darts": 88.88172558600745
+    },
+    "1780": {
+      "avg_3_darts": 95.78540000000001
+    },
+    "143": {
+      "avg_3_darts": 85.06037531363928
+    },
+    "8242": {
+      "avg_3_darts": 92.68
+    },
+    "644": {
+      "avg_3_darts": 84.19
+    },
+    "9868": {
+      "avg_3_darts": 81.7041
+    },
+    "4431": {
+      "avg_3_darts": 90.8139
+    },
+    "1753": {
+      "avg_3_darts": 85.984
+    },
+    "4967": {
+      "avg_3_darts": 86.27715707910254
+    },
+    "839": {
+      "avg_3_darts": 85.54520000000001
+    },
+    "11656": {
+      "avg_3_darts": 91.1676028
+    },
+    "15687": {
+      "avg_3_darts": 81.14
+    },
+    "11338": {
+      "avg_3_darts": 85.18824500000001
+    },
+    "14442": {
+      "avg_3_darts": 87.79874120501302
+    },
+    "6336": {
+      "avg_3_darts": 91.40994659613143
+    },
+    "1609": {
+      "avg_3_darts": 88.85052676519284
+    },
+    "1607": {
+      "avg_3_darts": 82.23786000000001
+    },
+    "15548": {
+      "avg_3_darts": 92.2438167263624
+    },
+    "1981": {
+      "avg_3_darts": 89.49388308700799
+    },
+    "2092": {
+      "avg_3_darts": 77.865
+    },
+    "1803": {
+      "avg_3_darts": 88.22
+    },
+    "11303": {
+      "avg_3_darts": 91.48
+    },
+    "166": {
+      "avg_3_darts": 89.98265668491466
+    },
+    "1837": {
+      "avg_3_darts": 84.2589892297675
+    },
+    "14073": {
+      "avg_3_darts": 90.21862490994701
+    },
+    "1777": {
+      "avg_3_darts": 83.41257000000002
+    },
+    "2079": {
+      "avg_3_darts": 80.21971598179023
+    },
+    "20260": {
+      "avg_3_darts": 86.72850999999999
+    },
+    "4918": {
+      "avg_3_darts": 86.54
+    },
+    "9796": {
+      "avg_3_darts": 89.65752038905899
+    },
+    "1778": {
+      "avg_3_darts": 81.61
+    },
+    "10735": {
+      "avg_3_darts": 86.8
+    },
+    "756": {
+      "avg_3_darts": 80.5843
+    },
+    "4864": {
+      "avg_3_darts": 93.47523900000002
+    },
+    "4303": {
+      "avg_3_darts": 83.36
+    },
+    "14943": {
+      "avg_3_darts": 79.36
+    },
+    "11918": {
+      "avg_3_darts": 88.50363616758932
+    },
+    "2747": {
+      "avg_3_darts": 89.03210000000001
+    },
+    "12098": {
+      "avg_3_darts": 87.30506
+    },
+    "640": {
+      "avg_3_darts": 85.6337771114
+    },
+    "20292": {
+      "avg_3_darts": 75.17
+    },
+    "735": {
+      "avg_3_darts": 78.704
+    },
+    "1769": {
+      "avg_3_darts": 89.05139810152579
+    },
+    "1899": {
+      "avg_3_darts": 85.22139314279872
+    },
+    "6479": {
+      "avg_3_darts": 87.56911105828354
+    },
+    "87": {
+      "avg_3_darts": 88.14523200000002
+    },
+    "2007": {
+      "avg_3_darts": 88.0361
+    },
+    "14217": {
+      "avg_3_darts": 88.72319264557
+    },
+    "1788": {
+      "avg_3_darts": 83.42680000000001
+    },
+    "5760": {
+      "avg_3_darts": 94.46247573392738
+    },
+    "19388": {
+      "avg_3_darts": 77.249087766702
+    },
+    "12901": {
+      "avg_3_darts": 89.13682158548586
+    },
+    "1867": {
+      "avg_3_darts": 88.75241653357105
+    },
+    "1747": {
+      "avg_3_darts": 89.68839924819596
+    },
+    "610": {
+      "avg_3_darts": 87.1382999288954
+    },
+    "4679": {
+      "avg_3_darts": 93.0953
+    },
+    "10912": {
+      "avg_3_darts": 90.17546739605639
+    },
+    "20830": {
+      "avg_3_darts": 73.66
+    },
+    "1776": {
+      "avg_3_darts": 86.04166375648245
+    },
+    "2099": {
+      "avg_3_darts": 82.24710500000003
+    },
+    "656": {
+      "avg_3_darts": 87.03150000000001
+    },
+    "1658": {
+      "avg_3_darts": 81.078063
+    },
+    "5210": {
+      "avg_3_darts": 81.83
+    },
+    "2681": {
+      "avg_3_darts": 88.45901936177142
+    },
+    "16098": {
+      "avg_3_darts": 91.83309664546086
+    },
+    "491": {
+      "avg_3_darts": 86.959
+    },
+    "2662": {
+      "avg_3_darts": 90.066
+    },
+    "1008": {
+      "avg_3_darts": 85.39765897421933
+    },
+    "14239": {
+      "avg_3_darts": 93.56449524457784
+    },
+    "20734": {
+      "avg_3_darts": 85.41300000000001
+    },
+    "20959": {
+      "avg_3_darts": 73.82
+    },
+    "183": {
+      "avg_3_darts": 78.787
+    },
+    "147": {
+      "avg_3_darts": 78.46
+    },
+    "5737": {
+      "avg_3_darts": 89.27670056390176
+    },
+    "13971": {
+      "avg_3_darts": 92.4371940076668
+    },
+    "14533": {
+      "avg_3_darts": 88.65
+    },
+    "5785": {
+      "avg_3_darts": 78.04
+    },
+    "20960": {
+      "avg_3_darts": 82.58119944192981
+    },
+    "814": {
+      "avg_3_darts": 85.0
+    },
+    "3546": {
+      "avg_3_darts": 85.20341297480017
+    },
+    "6007": {
+      "avg_3_darts": 77.66
+    },
+    "942": {
+      "avg_3_darts": 86.73141680000002
+    },
+    "2309": {
+      "avg_3_darts": 86.32443668059301
+    },
+    "16793": {
+      "avg_3_darts": 92.75594934621952
+    },
+    "12873": {
+      "avg_3_darts": 97.31554154721417
+    },
+    "22264": {
+      "avg_3_darts": 76.45800000000001
+    },
+    "7963": {
+      "avg_3_darts": 92.05827357589634
+    },
+    "12624": {
+      "avg_3_darts": 78.23
+    },
+    "14719": {
+      "avg_3_darts": 78.43
+    },
+    "13420": {
+      "avg_3_darts": 83.25
+    },
+    "13702": {
+      "avg_3_darts": 80.51
+    },
+    "1599": {
+      "avg_3_darts": 88.05109999999999
+    },
+    "5124": {
+      "avg_3_darts": 90.41815380806034
+    },
+    "9809": {
+      "avg_3_darts": 85.50668600000002
+    },
+    "12669": {
+      "avg_3_darts": 86.6953734
+    },
+    "2396": {
+      "avg_3_darts": 77.73
+    },
+    "19960": {
+      "avg_3_darts": 89.36300000000001
+    },
+    "16839": {
+      "avg_3_darts": 101.47195659776459
+    },
+    "12903": {
+      "avg_3_darts": 87.2318313787582
+    },
+    "4421": {
+      "avg_3_darts": 78.36403
+    },
+    "9877": {
+      "avg_3_darts": 81.4938390798401
+    },
+    "9878": {
+      "avg_3_darts": 86.19595510000002
+    },
+    "1953": {
+      "avg_3_darts": 91.25932890059612
+    },
+    "1136": {
+      "avg_3_darts": 89.73526555093925
+    },
+    "4318": {
+      "avg_3_darts": 83.19290049957202
+    },
+    "988": {
+      "avg_3_darts": 83.10600000000001
+    },
+    "7872": {
+      "avg_3_darts": 77.636
+    },
+    "15475": {
+      "avg_3_darts": 90.39946010000003
+    },
+    "6765": {
+      "avg_3_darts": 89.625
+    },
+    "9983": {
+      "avg_3_darts": 88.78707843138868
+    },
+    "16679": {
+      "avg_3_darts": 80.68200000000002
+    },
+    "4924": {
+      "avg_3_darts": 85.50331713706535
+    },
+    "1569": {
+      "avg_3_darts": 92.06110000000001
+    },
+    "17108": {
+      "avg_3_darts": 94.91461400000003
+    },
+    "854": {
+      "avg_3_darts": 87.1895
+    },
+    "3040": {
+      "avg_3_darts": 90.2022798744194
+    },
+    "1679": {
+      "avg_3_darts": 89.16713518755937
+    },
+    "4998": {
+      "avg_3_darts": 77.68
+    },
+    "5011": {
+      "avg_3_darts": 89.43
+    },
+    "4626": {
+      "avg_3_darts": 83.41404590000002
+    },
+    "4288": {
+      "avg_3_darts": 87.52400000000002
+    },
+    "5292": {
+      "avg_3_darts": 87.6988
+    },
+    "649": {
+      "avg_3_darts": 87.61
+    },
+    "525": {
+      "avg_3_darts": 82.91
+    },
+    "7943": {
+      "avg_3_darts": 86.17636833000003
+    },
+    "11992": {
+      "avg_3_darts": 84.09
+    },
+    "5667": {
+      "avg_3_darts": 80.733
+    },
+    "22845": {
+      "avg_3_darts": 90.12085013000001
+    },
+    "9493": {
+      "avg_3_darts": 81.17560000000002
+    },
+    "2404": {
+      "avg_3_darts": 89.25218523270637
+    },
+    "10119": {
+      "avg_3_darts": 90.73358628274406
+    },
+    "1196": {
+      "avg_3_darts": 80.54
+    },
+    "1738": {
+      "avg_3_darts": 83.70200000000001
+    },
+    "23346": {
+      "avg_3_darts": 95.09889432800003
+    },
+    "865": {
+      "avg_3_darts": 89.57689
+    },
+    "23440": {
+      "avg_3_darts": 75.59
+    },
+    "14552": {
+      "avg_3_darts": 90.285
+    },
+    "23451": {
+      "avg_3_darts": 87.38
+    },
+    "24779": {
+      "avg_3_darts": 75.89
+    },
+    "161": {
+      "avg_3_darts": 73.2
+    },
+    "12956": {
+      "avg_3_darts": 87.2399024376307
+    },
+    "11664": {
+      "avg_3_darts": 95.266
+    },
+    "9825": {
+      "avg_3_darts": 78.27
+    },
+    "14453": {
+      "avg_3_darts": 89.40289999999999
+    },
+    "8036": {
+      "avg_3_darts": 96.17072029907838
+    },
+    "1854": {
+      "avg_3_darts": 83.65
+    },
+    "1650": {
+      "avg_3_darts": 91.68016711491813
+    },
+    "19725": {
+      "avg_3_darts": 90.90616200000001
+    },
+    "22788": {
+      "avg_3_darts": 82.0
+    },
+    "11622": {
+      "avg_3_darts": 89.23461517564587
+    },
+    "683": {
+      "avg_3_darts": 78.47
+    },
+    "9466": {
+      "avg_3_darts": 85.05190000000002
+    },
+    "4314": {
+      "avg_3_darts": 85.45021258340002
+    },
+    "18469": {
+      "avg_3_darts": 85.71754710000002
+    },
+    "25189": {
+      "avg_3_darts": 89.3841947826003
+    },
+    "5046": {
+      "avg_3_darts": 89.89353052945702
+    },
+    "5675": {
+      "avg_3_darts": 82.19550000000001
+    },
+    "9513": {
+      "avg_3_darts": 86.61512674967088
+    },
+    "549": {
+      "avg_3_darts": 81.16628499609
+    },
+    "6775": {
+      "avg_3_darts": 84.83287146081778
+    },
+    "2150": {
+      "avg_3_darts": 91.98085642657139
+    },
+    "12675": {
+      "avg_3_darts": 79.28699999999999
+    },
+    "22773": {
+      "avg_3_darts": 90.11569724102179
+    },
+    "21322": {
+      "avg_3_darts": 87.26018638402631
+    },
+    "11402": {
+      "avg_3_darts": 97.38
+    },
+    "1199": {
+      "avg_3_darts": 83.81389100701962
+    },
+    "18502": {
+      "avg_3_darts": 81.33
+    },
+    "15684": {
+      "avg_3_darts": 85.66618206547325
+    },
+    "11306": {
+      "avg_3_darts": 85.14592511861167
+    },
+    "9029": {
+      "avg_3_darts": 90.3879516169447
+    },
+    "17623": {
+      "avg_3_darts": 81.12
+    },
+    "19881": {
+      "avg_3_darts": 92.40316546948073
+    },
+    "23810": {
+      "avg_3_darts": 77.05
+    },
+    "20563": {
+      "avg_3_darts": 80.68
+    },
+    "12823": {
+      "avg_3_darts": 86.48331498921992
+    },
+    "1660": {
+      "avg_3_darts": 89.78
+    },
+    "16844": {
+      "avg_3_darts": 86.02
+    },
+    "11969": {
+      "avg_3_darts": 87.36830845000001
+    },
+    "22800": {
+      "avg_3_darts": 81.54
+    },
+    "20491": {
+      "avg_3_darts": 85.74550900000001
+    },
+    "2130": {
+      "avg_3_darts": 82.52680000000001
+    },
+    "9783": {
+      "avg_3_darts": 89.03033962922787
+    },
+    "22623": {
+      "avg_3_darts": 79.749
+    },
+    "2085": {
+      "avg_3_darts": 87.88920695264002
+    },
+    "6682": {
+      "avg_3_darts": 84.86287706989512
+    },
+    "24618": {
+      "avg_3_darts": 82.88
+    },
+    "13557": {
+      "avg_3_darts": 84.28
+    },
+    "17040": {
+      "avg_3_darts": 97.92
+    },
+    "14303": {
+      "avg_3_darts": 82.3771133
+    },
+    "18687": {
+      "avg_3_darts": 95.9
+    },
+    "13272": {
+      "avg_3_darts": 86.92919860000002
+    },
+    "22799": {
+      "avg_3_darts": 88.80353670746001
+    },
+    "25249": {
+      "avg_3_darts": 88.74690165500002
+    },
+    "20631": {
+      "avg_3_darts": 87.30553144198002
+    },
+    "9514": {
+      "avg_3_darts": 85.54573673360002
+    },
+    "8563": {
+      "avg_3_darts": 89.09207705254249
+    },
+    "2474": {
+      "avg_3_darts": 88.30869123000004
+    },
+    "11611": {
+      "avg_3_darts": 82.6939329531223
+    },
+    "16681": {
+      "avg_3_darts": 96.05140042183379
+    },
+    "7144": {
+      "avg_3_darts": 87.52262094680299
+    },
+    "11335": {
+      "avg_3_darts": 76.17030390000002
+    },
+    "27941": {
+      "avg_3_darts": 90.29555479280705
+    },
+    "4922": {
+      "avg_3_darts": 86.13330177149429
+    },
+    "4061": {
+      "avg_3_darts": 86.801313652
+    },
+    "5797": {
+      "avg_3_darts": 90.14982525240002
+    },
+    "2069": {
+      "avg_3_darts": 87.14014460548
+    },
+    "7070": {
+      "avg_3_darts": 85.36750984000001
+    },
+    "4297": {
+      "avg_3_darts": 83.83456100187003
+    },
+    "21931": {
+      "avg_3_darts": 87.19236386799999
+    },
+    "1678": {
+      "avg_3_darts": 88.81033117999999
+    },
+    "19869": {
+      "avg_3_darts": 82.7918
+    },
+    "4615": {
+      "avg_3_darts": 80.25
+    },
+    "2390": {
+      "avg_3_darts": 90.48831761371301
+    },
+    "2110": {
+      "avg_3_darts": 95.95509300000002
+    },
+    "14803": {
+      "avg_3_darts": 90.92500000000001
+    },
+    "1024": {
+      "avg_3_darts": 82.778
+    },
+    "8284": {
+      "avg_3_darts": 92.05126860000001
+    },
+    "1744": {
+      "avg_3_darts": 92.01100000000001
+    },
+    "20718": {
+      "avg_3_darts": 92.09453261815088
+    },
+    "4743": {
+      "avg_3_darts": 85.29
+    },
+    "5002": {
+      "avg_3_darts": 83.49
+    },
+    "1636": {
+      "avg_3_darts": 77.25
+    },
+    "4806": {
+      "avg_3_darts": 90.34
+    },
+    "11408": {
+      "avg_3_darts": 90.62368506112914
+    },
+    "5646": {
+      "avg_3_darts": 86.36
+    },
+    "4321": {
+      "avg_3_darts": 77.02
+    },
+    "14528": {
+      "avg_3_darts": 93.5415711289777
+    },
+    "17168": {
+      "avg_3_darts": 86.3498132904503
+    },
+    "5184": {
+      "avg_3_darts": 82.21
+    },
+    "16727": {
+      "avg_3_darts": 90.49593293597522
+    },
+    "16805": {
+      "avg_3_darts": 81.33
+    },
+    "836": {
+      "avg_3_darts": 88.87814
+    },
+    "1971": {
+      "avg_3_darts": 94.514458
+    },
+    "8060": {
+      "avg_3_darts": 87.403
+    },
+    "19349": {
+      "avg_3_darts": 89.318
+    },
+    "2048": {
+      "avg_3_darts": 82.61
+    },
+    "19994": {
+      "avg_3_darts": 84.24996580485002
+    },
+    "23160": {
+      "avg_3_darts": 87.471
+    },
+    "29516": {
+      "avg_3_darts": 81.062
+    },
+    "21315": {
+      "avg_3_darts": 84.4
+    },
+    "4571": {
+      "avg_3_darts": 84.93
+    },
+    "16692": {
+      "avg_3_darts": 80.85
+    },
+    "9430": {
+      "avg_3_darts": 80.73
+    },
+    "12957": {
+      "avg_3_darts": 89.12
+    },
+    "24379": {
+      "avg_3_darts": 86.00083818949636
+    },
+    "22672": {
+      "avg_3_darts": 80.3488935199284
+    },
+    "29517": {
+      "avg_3_darts": 83.45983478757438
+    },
+    "5009": {
+      "avg_3_darts": 89.33312517888338
+    },
+    "29518": {
+      "avg_3_darts": 79.43820706859
+    },
+    "10075": {
+      "avg_3_darts": 87.15247589963292
+    },
+    "314": {
+      "avg_3_darts": 85.50819642306058
+    },
+    "11432": {
+      "avg_3_darts": 86.02194594168033
+    },
+    "18769": {
+      "avg_3_darts": 82.56378807355001
+    },
+    "129": {
+      "avg_3_darts": 82.294010033449
+    },
+    "29519": {
+      "avg_3_darts": 83.79777359036763
+    },
+    "10010": {
+      "avg_3_darts": 86.32908242748003
+    },
+    "10137": {
+      "avg_3_darts": 81.60615587553
+    },
+    "11615": {
+      "avg_3_darts": 84.00575573168959
+    },
+    "4677": {
+      "avg_3_darts": 82.90773088827635
+    },
+    "22856": {
+      "avg_3_darts": 89.70905900842473
+    },
+    "29520": {
+      "avg_3_darts": 78.15006518356587
+    },
+    "29521": {
+      "avg_3_darts": 80.89867103984001
+    },
+    "10611": {
+      "avg_3_darts": 89.40268335953292
+    },
+    "28039": {
+      "avg_3_darts": 79.38400000000001
+    },
+    "5727": {
+      "avg_3_darts": 88.669
+    },
+    "23368": {
+      "avg_3_darts": 80.70100000000001
+    },
+    "2061": {
+      "avg_3_darts": 89.4066566341936
+    },
+    "2112": {
+      "avg_3_darts": 87.01450285501382
+    },
+    "27945": {
+      "avg_3_darts": 88.15032321635944
+    },
+    "25290": {
+      "avg_3_darts": 88.82217168471756
+    },
+    "1131": {
+      "avg_3_darts": 80.01333526422474
+    },
+    "22119": {
+      "avg_3_darts": 81.01259905699486
+    },
+    "4932": {
+      "avg_3_darts": 92.3923
+    },
+    "12006": {
+      "avg_3_darts": 87.269
+    },
+    "1207": {
+      "avg_3_darts": 77.814754928
+    },
+    "116": {
+      "avg_3_darts": 87.99066926971
+    },
+    "8752": {
+      "avg_3_darts": 78.39661584335
+    },
+    "23601": {
+      "avg_3_darts": 98.02
+    },
+    "124": {
+      "avg_3_darts": 76.21170719570844
+    },
+    "5776": {
+      "avg_3_darts": 78.41841979876722
+    },
+    "3555": {
+      "avg_3_darts": 84.00639486177698
+    },
+    "16663": {
+      "avg_3_darts": 78.60525419004885
+    },
+    "22100": {
+      "avg_3_darts": 87.31557841347315
+    },
+    "12799": {
+      "avg_3_darts": 84.24904421718001
+    },
+    "25600": {
+      "avg_3_darts": 89.53187467719714
+    },
+    "2469": {
+      "avg_3_darts": 86.69196916785002
+    },
+    "5419": {
+      "avg_3_darts": 81.73262100745002
+    },
+    "7926": {
+      "avg_3_darts": 81.98189140800208
+    },
+    "5222": {
+      "avg_3_darts": 81.26774679714148
+    },
+    "27135": {
+      "avg_3_darts": 76.27106003305107
+    },
+    "20225": {
+      "avg_3_darts": 81.39504231500001
+    },
+    "29524": {
+      "avg_3_darts": 81.7761270292
+    },
+    "427": {
+      "avg_3_darts": 88.36808051426044
+    },
+    "29525": {
+      "avg_3_darts": 80.50898692954237
+    },
+    "8056": {
+      "avg_3_darts": 83.65727602645634
+    },
+    "11987": {
+      "avg_3_darts": 85.60335551339405
+    },
+    "24452": {
+      "avg_3_darts": 86.86699114288652
+    },
+    "107": {
+      "avg_3_darts": 79.43319177394002
+    },
+    "19438": {
+      "avg_3_darts": 77.49425707079001
+    },
+    "23410": {
+      "avg_3_darts": 91.19041395808023
+    },
+    "11245": {
+      "avg_3_darts": 90.7
+    },
+    "20840": {
+      "avg_3_darts": 99.56
+    },
+    "29526": {
+      "avg_3_darts": 78.92
+    },
+    "11426": {
+      "avg_3_darts": 91.52186563000052
+    },
+    "9852": {
+      "avg_3_darts": 80.14468473301818
+    },
+    "18918": {
+      "avg_3_darts": 82.35439597000808
+    },
+    "29529": {
+      "avg_3_darts": 96.47355708400002
+    },
+    "1745": {
+      "avg_3_darts": 82.88389025800002
+    },
+    "20697": {
+      "avg_3_darts": 74.74096823982
+    },
+    "8586": {
+      "avg_3_darts": 76.2774975
+    },
+    "5444": {
+      "avg_3_darts": 87.2732611716308
+    },
+    "29530": {
+      "avg_3_darts": 82.74643798887148
+    },
+    "29531": {
+      "avg_3_darts": 83.64006592847771
+    },
+    "28675": {
+      "avg_3_darts": 90.39977379347734
+    },
+    "18780": {
+      "avg_3_darts": 83.79960818634002
+    },
+    "754": {
+      "avg_3_darts": 87.77442183648938
+    },
+    "29532": {
+      "avg_3_darts": 78.96273862311003
+    }
+  },
+  "venue_effects": {},
+  "last_training_date": "2026-05-14",
+  "config": {
+    "initial_rating": 1500.0,
+    "initial_rd": 350.0,
+    "initial_volatility": 0.06,
+    "rd_decay_per_day": 0.4,
+    "use_match_length_weighting": true,
+    "use_venue_effects": true,
+    "use_performance_adjustment": true,
+    "use_margin_scoring": true,
+    "margin_weight": 0.7,
+    "use_rating_periods": true,
+    "rating_period_days": 5,
+    "use_surface_ratings": true,
+    "use_recency_weighting": true,
+    "recency_half_life_days": 180.0,
+    "use_form_adjustment": false,
+    "form_weight": 0.3,
+    "form_window": 5
+  },
+  "probability_calibrator": {
+    "X_thresholds_": [
+      0.10861127377728343,
+      0.23285029041274208,
+      0.23322163815655048,
+      0.2699446999256862,
+      0.27201059947411643,
+      0.2919025400555361,
+      0.2919195364309768,
+      0.4213929151198791,
+      0.42152284518195987,
+      0.5012458216083182,
+      0.5014479268212306,
+      0.5016408737750375,
+      0.5287230463551261,
+      0.5287449795284687,
+      0.5379243301685116,
+      0.5379773549153034,
+      0.5639234603069883,
+      0.5641588215563867,
+      0.5849603911981537,
+      0.5850262969017015,
+      0.5953428933024676,
+      0.595366201810758,
+      0.605919499116253,
+      0.6059507652000327,
+      0.6569200272890716,
+      0.6571488337624501,
+      0.6722668918975673,
+      0.6731731916894026,
+      0.6976331074094535,
+      0.6977647463286429,
+      0.7123404945654357,
+      0.7129226252280251,
+      0.7189913804894613,
+      0.7192672518316017,
+      0.7513051691406994,
+      0.7531229217877208,
+      0.7722506853223852,
+      0.7782166302420915,
+      0.7856924473299928,
+      0.7880642069652833,
+      0.8542114715051441
+    ],
+    "y_thresholds_": [
+      0.05263157894736842,
+      0.05263157894736842,
+      0.25,
+      0.25,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.40069686411149824,
+      0.40069686411149824,
+      0.48623853211009166,
+      0.48623853211009166,
+      0.5,
+      0.5141065830721003,
+      0.5141065830721003,
+      0.5428571428571428,
+      0.5428571428571428,
+      0.5428571428571429,
+      0.5428571428571429,
+      0.5675675675675675,
+      0.5675675675675675,
+      0.5694444444444444,
+      0.5694444444444444,
+      0.6078431372549019,
+      0.6078431372549019,
+      0.6577777777777778,
+      0.6577777777777778,
+      0.6976744186046512,
+      0.6976744186046512,
+      0.7037037037037037,
+      0.7037037037037037,
+      0.7674418604651163,
+      0.7674418604651163,
+      0.8,
+      0.8,
+      0.8125,
+      0.8125,
+      0.85,
+      0.85,
+      0.8571428571428571,
+      0.8571428571428571,
+      0.99,
+      0.99
+    ],
+    "X_min_": 0.10861127377728343,
+    "X_max_": 0.8542114715051441,
+    "y_min": 0.01,
+    "y_max": 0.99
+  },
+  "calibration_stats": {
+    "n_samples": 2655,
+    "pre_calibration_ece": 0.018283663149008648,
+    "post_calibration_ece": 6.403013182683413e-05,
+    "ece_improvement": 0.018219633017181814,
+    "raw_accuracy": 0.5709981167608287,
+    "calibrated_accuracy": 0.575894538606403,
+    "raw_brier": 0.2388994409533977,
+    "calibrated_brier": 0.23590279013302867,
+    "raw_log_loss": 0.6698834749050152,
+    "calibrated_log_loss": 0.6621967151243291,
+    "raw_35": 0.40069686411149824,
+    "raw_40": 0.40069686411149824,
+    "raw_50": 0.48623853211009166,
+    "raw_60": 0.6078431372549019,
+    "raw_65": 0.6577777777777778,
+    "raw_70": 0.7674418604651163,
+    "raw_75": 0.8125
+  }
+}

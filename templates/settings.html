@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Settings - Darts Value Betting{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card standalone">
+            <h2>Betting Settings</h2>
+            <form method="POST" action="{{ url_for('auth.user_settings') }}">
+                <div class="form-group">
+                    <label for="bankroll">Bankroll (units)</label>
+                    <input type="number" id="bankroll" name="bankroll" class="form-control"
+                           value="{{ current_user.bankroll }}" min="0" step="0.01">
+                    <small class="form-hint">Your total betting bankroll in units</small>
+                </div>
+                <div class="form-group">
+                    <label for="kelly_fraction">Kelly Fraction</label>
+                    <input type="range" id="kelly_fraction" name="kelly_fraction" class="form-range"
+                           min="0.05" max="1.0" step="0.05" value="{{ current_user.kelly_fraction }}">
+                    <div class="d-flex justify-content-between" style="font-size: 0.8rem; color: #607d8b;">
+                        <span>Conservative (1/20)</span>
+                        <span id="kelly-display" class="fw-bold">{{ '%.0f' | format(current_user.kelly_fraction * 100) }}% Kelly</span>
+                        <span>Full Kelly</span>
+                    </div>
+                    <small class="form-hint">Quarter-Kelly (25%) is recommended for most bettors</small>
+                </div>
+                <button type="submit" class="btn btn-primary">Save Settings</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+    const slider = document.getElementById('kelly_fraction');
+    const display = document.getElementById('kelly-display');
+    slider.addEventListener('input', function() {
+        display.textContent = Math.round(this.value * 100) + '% Kelly';
+    });
+</script>
+{% endblock %}

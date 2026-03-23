@@ -1,0 +1,64 @@
+================================================================================
+CHANGES MADE TO WEB APP
+================================================================================
+
+CHANGES COMPLETED:
+
+1. MULTI-LEAGUE SELECTION
+   - Replaced single league dropdown with multi-select
+   - Now loads ALL leagues from database dynamically
+   - Uses Select2 library for better multi-select UX
+   - Can select multiple leagues (currently uses first selected)
+   - Shows helpful text: "Hold Ctrl (Cmd on Mac) to select multiple"
+
+2. SHOW ONLY GLICKO-2 WIN PROBABILITY
+   - Removed Elo predictions from display
+   - Removed Unified predictions from display
+   - Only shows Glicko-2 (76.9% accuracy - best model)
+   - Simplified "Win Probabilities" section
+   - Only shows Glicko-2 ratings in "Player Ratings" section
+
+3. REMOVED ALL EMOJIS
+   - Removed from HTML templates (page title)
+   - Removed from QUICK_START.md (8 emojis)
+   - Removed from WEB_APP_README.md (1 emoji)
+   - Removed from SUMMARY.txt (10 emojis)
+   - Clean, professional appearance throughout
+
+FILES MODIFIED:
+  - app.py (added leagues loading, passed to template)
+  - templates/index.html (multi-select leagues, Select2 library, removed emoji)
+  - static/js/app.js (Select2 initialization, only show Glicko-2)
+  - static/css/style.css (Select2 styling)
+  - QUICK_START.md (removed emojis)
+  - WEB_APP_README.md (removed emojis)
+  - SUMMARY.txt (removed emojis)
+
+LEAGUES NOW AVAILABLE:
+  The app dynamically loads all leagues from your database.
+  Example leagues in your data:
+  - MODUS Super Series
+  - PDC World Darts Championship
+  - PDC Premier League Darts
+  - PDC World Matchplay
+  - PDC World Grand Prix
+  - And many more...
+
+HOW TO USE:
+  1. Start app: python app.py
+  2. Open: http://localhost:5000
+  3. Select players
+  4. Click on league dropdown - all leagues will appear
+  5. Select one or more leagues
+  6. Configure format
+  7. Click "Predict Match"
+  8. See ONLY Glicko-2 predictions (cleanest, most accurate)
+
+TECHNICAL NOTES:
+  - Select2 library added for better multi-select UX
+  - Currently uses first selected league for prediction
+  - Future enhancement could average predictions across all selected leagues
+  - All emojis removed for professional appearance
+
+APP IS READY TO USE!
+================================================================================

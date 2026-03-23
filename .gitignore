@@ -1,0 +1,42 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Data — SQLite DB is ephemeral, raw data not needed
+data/app.db
+data/raw/
+
+# Temp model/data files
+data/models/glicko2_test.json
+data/processed/elo_history.parquet
+data/nb_assessment_data.csv
+
+# Logs
+*.log
+
+# Windows artifacts
+nul
+
+# API example dumps
+wdc_*.json
+darts_leagues.json
+
+# Claude Code
+.claude/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

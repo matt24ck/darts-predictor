@@ -1,0 +1,256 @@
+{% extends "base.html" %}
+{% block title %}Daily Tips - {{ match_date }} - Darts Value Betting{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1 class="text-white mb-0"><i class="bi bi-list-check"></i> Daily Tips</h1>
+    <div class="d-flex gap-2 align-items-center">
+        <a href="{{ url_for('tips_page', match_date=(match_date | replace('-','') | int - 1) if false else '') }}"
+           class="btn btn-outline-light btn-sm" id="prev-day">
+            <i class="bi bi-chevron-left"></i>
+        </a>
+        <input type="date" id="date-picker" class="form-control form-control-sm" style="width: auto;"
+               value="{{ match_date }}">
+        <a href="#" class="btn btn-outline-light btn-sm" id="next-day">
+            <i class="bi bi-chevron-right"></i>
+        </a>
+        {% if current_user.is_authenticated %}
+        <button class="btn btn-warning btn-sm" id="run-pipeline-btn" title="Run daily pipeline">
+            <i class="bi bi-arrow-clockwise"></i> Run Pipeline
+        </button>
+        {% endif %}
+    </div>
+</div>
+
+<!-- Running Totals Banner -->
+<div class="card standalone mb-4" style="background: linear-gradient(135deg, #1565c0 0%, #0d47a1 100%); color: white;">
+    <div class="row text-center">
+        <div class="col-md-3 col-6 mb-2">
+            <small style="opacity: 0.8;">Total Model Bets</small>
+            <div class="fw-bold fs-5">{{ global_stats.total_bets or 0 }}</div>
+        </div>
+        <div class="col-md-3 col-6 mb-2">
+            <small style="opacity: 0.8;">Win Rate</small>
+            <div class="fw-bold fs-5">{{ '%.1f' | format((global_stats.win_rate or 0) * 100) }}%</div>
+        </div>
+        <div class="col-md-3 col-6 mb-2">
+            <small style="opacity: 0.8;">ROI</small>
+            <div class="fw-bold fs-5">{{ '%+.1f' | format(global_stats.roi or 0) }}%</div>
+        </div>
+        <div class="col-md-3 col-6 mb-2">
+            <small style="opacity: 0.8;">Cumulative P&L</small>
+            <div class="fw-bold fs-5">{{ '%+.2f' | format(global_stats.total_pnl or 0) }} units</div>
+        </div>
+    </div>
+</div>
+
+<!-- Daily Summary -->
+{% if daily_summary and daily_summary.total_bets > 0 %}
+<div class="card standalone mb-4">
+    <div class="d-flex justify-content-between align-items-center flex-wrap gap-3">
+        <div>
+            <strong>{{ match_date }}</strong> &mdash;
+            {{ matches | length }} match{{ 'es' if matches | length != 1 else '' }},
+            {{ daily_summary.value_bets }} value bet{{ 's' if daily_summary.value_bets != 1 else '' }}
+        </div>
+        <div class="d-flex gap-4">
+            <span>Staked: <strong>{{ daily_summary.total_staked }}</strong> units</span>
+            <span>P&L:
+                <strong class="{% if daily_summary.total_pnl > 0 %}text-success{% elif daily_summary.total_pnl < 0 %}text-danger{% endif %}">
+                    {{ '%+.2f' | format(daily_summary.total_pnl) }}
+                </strong>
+            </span>
+            <span>
+                {% if daily_summary.settled > 0 %}
+                {{ daily_summary.wins }}W {{ daily_summary.losses }}L
+                {% endif %}
+                {% if daily_summary.pending > 0 %}
+                <span class="badge bg-warning text-dark">{{ daily_summary.pending }} pending</span>
+                {% endif %}
+            </span>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+<!-- Match Cards -->
+{% if matches %}
+{% for match in matches %}
+<div class="card standalone mb-3" style="border-left: 4px solid {% if match.auto_bets %}#27ae60{% elif match.status == 'completed' %}#607d8b{% else %}#b0bec5{% endif %};">
+    <div class="d-flex justify-content-between align-items-start mb-2">
+        <div>
+            <span class="text-muted" style="font-size: 0.85rem;">
+                {{ match.league_name or 'PDC' }}
+                {% if match.best_of_sets and match.is_set_format %}
+                &mdash; Best of {{ match.best_of_sets }} sets
+                {% elif match.best_of_legs %}
+                &mdash; Best of {{ match.best_of_legs }} legs
+                {% endif %}
+            </span>
+            <h5 class="mb-0 mt-1">{{ match.home_player_name }} vs {{ match.away_player_name }}</h5>
+        </div>
+        <div>
+            {% if match.status == 'completed' %}
+            <span class="badge bg-secondary">Completed {{ match.home_score }}-{{ match.away_score }}</span>
+            {% elif match.status == 'scheduled' %}
+            <span class="badge bg-primary">Scheduled</span>
+            {% endif %}
+        </div>
+    </div>
+
+    <!-- Predictions + Odds + Edge Table -->
+    {% if match.predictions %}
+    <div class="table-responsive">
+        <table class="table table-sm mb-2" style="font-size: 0.9rem;">
+            <thead>
+                <tr class="text-muted">
+                    <th>Selection</th>
+                    <th>Model</th>
+                    <th>Best Odds</th>
+                    <th>Implied</th>
+                    <th>Edge</th>
+                    <th>Bet</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for pred in match.predictions if pred.prediction_type == 'match_winner' %}
+                {% set odds_data = match.best_odds.get(pred.selection, {}) %}
+                {% set best_odds = odds_data.get('best_odds', 0) %}
+                {% set implied = (1.0 / best_odds * 100) if best_odds > 0 else 0 %}
+                {% set edge = (pred.model_probability - 1.0/best_odds) * 100 if best_odds > 0 else 0 %}
+                {% set has_bet = match.auto_bets | selectattr('prediction_id', 'equalto', pred.id) | list %}
+                <tr>
+                    <td class="fw-bold">
+                        {{ pred.market_description or pred.selection }}
+                    </td>
+                    <td>
+                        <span class="fw-bold">{{ '%.1f' | format(pred.model_probability * 100) }}%</span>
+                    </td>
+                    <td>
+                        {% if best_odds > 0 %}
+                        {{ '%.2f' | format(best_odds) }}
+                        <small class="text-muted">({{ odds_data.get('bookmaker', '') }})</small>
+                        {% else %}
+                        <span class="text-muted">-</span>
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if best_odds > 0 %}{{ '%.1f' | format(implied) }}%{% else %}-{% endif %}
+                    </td>
+                    <td>
+                        {% if best_odds > 0 %}
+                        <span class="fw-bold {% if edge > 3 %}text-success{% elif edge > 0 %}text-warning{% else %}text-danger{% endif %}">
+                            {{ '%+.1f' | format(edge) }}%
+                        </span>
+                        {% else %}-{% endif %}
+                    </td>
+                    <td>
+                        {% if has_bet %}
+                        {% set bet = has_bet[0] %}
+                        <span class="badge bg-success">{{ '%.2f' | format(bet.actual_stake or bet.recommended_stake) }}u @ {{ '%.2f' | format(bet.decimal_odds) }}</span>
+                        {% if bet.result == 'win' %}
+                        <span class="badge bg-success">+{{ '%.2f' | format(bet.pnl) }}</span>
+                        {% elif bet.result == 'loss' %}
+                        <span class="badge bg-danger">{{ '%.2f' | format(bet.pnl) }}</span>
+                        {% elif bet.result == 'pending' %}
+                        <span class="badge bg-warning text-dark">Pending</span>
+                        {% endif %}
+                        {% elif edge > 3 %}
+                        <span class="text-muted">No odds at time</span>
+                        {% else %}
+                        <span class="text-muted">-</span>
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    {% else %}
+    <p class="text-muted mb-0"><small>Predictions not yet generated for this match.</small></p>
+    {% endif %}
+
+    <!-- Odds Comparison (collapsed) -->
+    {% if match.all_odds %}
+    <details class="mt-2">
+        <summary class="text-muted" style="cursor: pointer; font-size: 0.85rem;">
+            View all bookmaker odds ({{ match.all_odds | length }} prices)
+        </summary>
+        <div class="table-responsive mt-2">
+            <table class="table table-sm" style="font-size: 0.8rem;">
+                <thead><tr><th>Bookmaker</th><th>Home</th><th>Away</th></tr></thead>
+                <tbody>
+                {% set seen = [] %}
+                {% for odds in match.all_odds if odds.selection == 'home' %}
+                <tr>
+                    <td>{{ odds.bookmaker }}</td>
+                    <td>{{ '%.2f' | format(odds.decimal_odds) }}</td>
+                    <td>
+                        {% for a in match.all_odds if a.selection == 'away' and a.bookmaker == odds.bookmaker %}
+                        {{ '%.2f' | format(a.decimal_odds) }}
+                        {% endfor %}
+                    </td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </details>
+    {% endif %}
+</div>
+{% endfor %}
+
+{% else %}
+<div class="card standalone text-center py-5">
+    <i class="bi bi-calendar-x" style="font-size: 3rem; color: #607d8b;"></i>
+    <p class="mt-3 text-muted">No matches tracked for {{ match_date }}.</p>
+    {% if current_user.is_authenticated %}
+    <p>
+        <button class="btn btn-primary btn-sm" id="run-pipeline-btn2">
+            <i class="bi bi-arrow-clockwise"></i> Run Pipeline to Discover Matches
+        </button>
+    </p>
+    {% endif %}
+</div>
+{% endif %}
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+    // Date picker navigation
+    document.getElementById('date-picker').addEventListener('change', function() {
+        window.location.href = '/tips/' + this.value;
+    });
+
+    // Previous/next day
+    const currentDate = new Date('{{ match_date }}');
+    document.getElementById('prev-day').href = '/tips/' + formatDate(new Date(currentDate.getTime() - 86400000));
+    document.getElementById('next-day').href = '/tips/' + formatDate(new Date(currentDate.getTime() + 86400000));
+
+    function formatDate(d) {
+        return d.toISOString().split('T')[0];
+    }
+
+    // Run pipeline button
+    document.querySelectorAll('[id^="run-pipeline"]').forEach(btn => {
+        btn.addEventListener('click', async function() {
+            this.disabled = true;
+            this.innerHTML = '<i class="bi bi-hourglass-split"></i> Running...';
+            try {
+                const resp = await fetch('/api/admin/run-pipeline', { method: 'POST' });
+                const data = await resp.json();
+                if (resp.ok) {
+                    alert(`Pipeline complete!\n${data.matches_discovered} matches found\n${data.predictions_made} predictions\n${data.bets_placed} bets placed\n${data.bets_settled} settled`);
+                    location.reload();
+                } else {
+                    alert('Pipeline error: ' + JSON.stringify(data));
+                }
+            } catch(e) {
+                alert('Error: ' + e.message);
+            }
+            this.disabled = false;
+            this.innerHTML = '<i class="bi bi-arrow-clockwise"></i> Run Pipeline';
+        });
+    });
+</script>
+{% endblock %}
